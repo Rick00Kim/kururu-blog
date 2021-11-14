@@ -1,0 +1,199 @@
+baseURL = "http://example.org/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "KURURU Blog"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "FeelIt"
+
+[languages]
+  [languages.en]
+    weight = 1
+    # language code
+    languageCode = "en"
+    # language name
+    languageName = "English"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    # default amount of posts in each pages
+    paginate = 12
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 5
+
+    [languages.en.params]
+      # site description
+      description = "About FeelIt Theme"
+      # site keywords
+      keywords = ["Theme", "Hugo"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "FeelIt"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "UAL0NNJWXE"
+          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+
+      # About page config
+      [languages.en.params.about]
+        # whether to enable profile on about page
+        # depends on .Site.Params.home.profile.enable
+        enable = true
+        # whether to enable param layout
+        param = true
+        # title for param layout
+        paramTitle = "Personal Information"
+        # description of your status
+        [[languages.en.params.about.status]]
+          faIcon = "fas fa-building"
+          title = "Company"
+          desc = "Recurit"
+        [[languages.en.params.about.status]]
+          faIcon = "fas fa-briefcase fa-fw"
+          title = "Occupation"
+          desc = "System engineer"
+        [[languages.en.params.about.status]]
+          title = "Location"
+          faIcon = "fas fa-map-marker-alt"
+          desc = "Japan"
+        # description of your parameter
+        [[languages.en.params.about.parameter]]
+          language = "JAVA"
+          level = "90"
+        [[languages.en.params.about.parameter]]
+          language = "Python"
+          level = "80"
+        [[languages.en.params.about.parameter]]
+          language = "Javascript"
+          level = "70"
+        [[languages.en.params.about.parameter]]
+          language = "ReactJS"
+          level = "70"
+      # Home page config
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/avatar.webp"
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "Happy programmer"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.en.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+          # display image-preview
+          imagePreview = true
+
+[params]
+  # FeelIt theme version
+  version = "1.0.X"
+  defaultTheme = "dark"
+  gitRepo = "https://github.com/Rick00Kim"
+
+  # Footer config
+  [params.footer]
+    enable = false
+
+  [params.social]
+    GitHub = "Rick00Kim"
+    Linkedin = "kuhyun-kim-160b9a161"
+    Email = "dreamx119@gmail.com"
+
+# Markup related configuration in Hugo
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+# Author config
+[author]
+  name = "Rick_Kim"
+  email = "dreamx119@gmail.com"
+  link = ""
