@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - KURURU Blog</title>
-        <link>https://rick00kim.github.io/posts/</link>
+        <link>https://rick00kim.github.io/kururu-blog/posts/</link>
         <description>All Posts | KURURU Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/posts/" rel="self" type="application/rss+xml" /><item>
     <title>BLOG 이행작업</title>
-    <link>https://rick00kim.github.io/posts/first_migrate/</link>
-    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/posts/first_migrate/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/posts/first_migrate/</link>
+    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/first_migrate/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/first_migrate.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/first_migrate.jpg" referrerpolicy="no-referrer">
             </div>GOAL 현재 Public share 중인 Notion page를 Hugo를 이용한 static website로 이행를 진행 CONTENTS 이행 현Blog내 게시물을 Hugo content형식으로 변경 변경전 Blog: Notion site 변경]]></description>
 </item>
 </channel>
