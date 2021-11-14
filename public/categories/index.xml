@@ -1,13 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - KURURU Blog</title>
-        <link>https://rick00kim.github.io/kururu-blog/categories/</link>
+        <link>https://rick00kim.github.io/categories/</link>
         <description>Categories - Category - KURURU Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/categories/" rel="self" type="application/rss+xml" /><item>
     <title>documentation</title>
-    <link>https://rick00kim.github.io/kururu-blog/categories/documentation/</link>
-    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/categories/documentation/</guid>
+    <link>https://rick00kim.github.io/categories/documentation/</link>
+    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/categories/documentation/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
