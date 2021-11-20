@@ -135,6 +135,9 @@ theme = "FeelIt"
           language = "JAVA"
           level = "90"
         [[languages.en.params.about.parameter]]
+          language = "Bash"
+          level = "90"
+        [[languages.en.params.about.parameter]]
           language = "Python"
           level = "80"
         [[languages.en.params.about.parameter]]
