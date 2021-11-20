@@ -51,14 +51,6 @@ theme = "FeelIt"
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
@@ -117,7 +109,6 @@ theme = "FeelIt"
         param = true
         # title for param layout
         paramTitle = "SKILLS"
-        # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
           title = "Company"
@@ -194,3 +185,9 @@ theme = "FeelIt"
 [markup]
   [markup.highlight]
     noClasses = false
+
+# Author config
+[author]
+  name = "Rick_Kim"
+  email = "dreamx119@gmail.com"
+  link = ""
