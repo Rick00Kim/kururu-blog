@@ -30,7 +30,7 @@ theme = "FeelIt"
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
         name = "Posts"
-        url = "kururu-blog/posts/"
+        url = "posts/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
@@ -39,7 +39,7 @@ theme = "FeelIt"
         pre = ""
         post = ""
         name = "Tags"
-        url = "kururu-blog/tags/"
+        url = "tags/"
         title = ""
         weight = 2
       [[languages.en.menu.main]]
@@ -47,7 +47,7 @@ theme = "FeelIt"
         pre = ""
         post = ""
         name = "Categories"
-        url = "kururu-blog/categories/"
+        url = "categories/"
         title = ""
         weight = 3
       [[languages.en.menu.main]]
@@ -55,7 +55,7 @@ theme = "FeelIt"
         pre = ""
         post = ""
         name = "Docs"
-        url = "kururu-blog/categories/documentation/"
+        url = "categories/documentation/"
         title = ""
         weight = 4
       [[languages.en.menu.main]]
@@ -63,7 +63,7 @@ theme = "FeelIt"
         pre = ""
         post = ""
         name = "About"
-        url = "kururu-blog/about/"
+        url = "about/"
         title = ""
         weight = 5
 
