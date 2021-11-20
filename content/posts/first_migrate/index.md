@@ -8,7 +8,7 @@ description: ""
 license: ""
 images: []
 
-tags: ["etc"]
+tags: ["etc", "TODO"]
 categories: ["documentation"]
 featuredImage: "first_migrate.jpg"
 featuredImagePreview: "first_migrate.webp"
@@ -52,6 +52,7 @@ featuredImagePreview: "first_migrate.webp"
 - Devops
 - Backend
 - Fronend
+- TODO
 - etc
 
 ##### Categories
@@ -69,6 +70,7 @@ featuredImagePreview: "first_migrate.webp"
 ## TODO
 
 - Template내 기본 Layout에 가독성이 떨어지는 부분이 있기때문에, Custom CSS작성이 필요
+- Document Search plugin 사용법
 
 ## REFERENCES
 
@@ -76,3 +78,4 @@ featuredImagePreview: "first_migrate.webp"
 - [FeelIt in Hugo](https://themes.gohugo.io/themes/feelit/)
 - [Demo page](https://feelit.khusika.com/)
 - [GitHub pages](https://docs.github.com/en/pages)
+- [Algolia](https://www.algolia.com/)

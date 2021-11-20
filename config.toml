@@ -116,7 +116,7 @@ theme = "FeelIt"
         # whether to enable param layout
         param = true
         # title for param layout
-        paramTitle = "Personal Information"
+        paramTitle = "SKILLS"
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
@@ -194,9 +194,3 @@ theme = "FeelIt"
 [markup]
   [markup.highlight]
     noClasses = false
-
-# Author config
-[author]
-  name = "Rick_Kim"
-  email = "dreamx119@gmail.com"
-  link = ""
