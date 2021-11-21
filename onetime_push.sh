@@ -1,8 +1,9 @@
 #!/bin/bash
 
-while getopts "c:" arg; do
+while getopts "c:a:" arg; do
   case $arg in
     c) COMMIT_MESSAGE=$OPTARG ;;
+    a) ADD_COMMENT=$OPTARG ;;
   esac
 done
 
@@ -27,7 +28,7 @@ git add .
 
 # Commit
 # Default message [Modify kururu-blog ]
-git commit -m "$COMMIT_MESSAGE"
+git commit -m "$COMMIT_MESSAGE ($ADD_COMMENT)"
 
 # Push main
 git push origin main
