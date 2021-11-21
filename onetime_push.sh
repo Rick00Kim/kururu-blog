@@ -27,8 +27,8 @@ hugo
 git add .
 
 # Commit
-# Default message [Modify kururu-blog ]
-git commit -m "$COMMIT_MESSAGE ($ADD_COMMENT)"
+# Default message [Modify kururu-blog]
+git commit -m "$COMMIT_MESSAGE $ADD_COMMENT"
 
 # Push main
 git push origin main
