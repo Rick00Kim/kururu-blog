@@ -17,7 +17,7 @@
 <meta name="application-name" content="FeelIt">
 <meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://rick00kim.github.io/kururu-blog/posts/projects/register_account_book/" /><link rel="prev" href="https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/" /><link rel="stylesheet" href="/kururu-blog/css/page.min.css"><link rel="stylesheet" href="/kururu-blog/css/home.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://rick00kim.github.io/kururu-blog/posts/projects/register_account_book/" /><link rel="prev" href="https://rick00kim.github.io/kururu-blog/posts/devops/linux_start_pack/" /><link rel="stylesheet" href="/kururu-blog/css/page.min.css"><link rel="stylesheet" href="/kururu-blog/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/projects\/register_account_book\/"
-        },"genre": "posts","keywords": "projects","wordcount":  999 ,
+        },"genre": "posts","keywords": "projects","wordcount":  997 ,
         "url": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/projects\/register_account_book\/","datePublished": "2021-09-10T10:00:23+09:00","dateModified": "2021-09-20T17:45:33+09:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Rick_Kim"},"author": {
@@ -98,8 +98,8 @@
 </div><main class="main">
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single" data-toc="disable"><div class="featured-image"><img
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="featured-image"><img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"
         data-src="make_some_noise.jpg"
@@ -108,7 +108,7 @@
         alt="/kururu-blog/posts/projects/register_account_book/make_some_noise.jpg"
         title="Slack App을 이용해 사내출퇴근관리시스템내 일부 조작" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">Slack App과 사내출퇴근서비스를 연동</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="/kururu-blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-category">published in <a href="/kururu-blog/categories/private_projects/"><i class="far fa-folder fa-fw"></i>private_projects</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-09-10">2021-09-10</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;999 words</span>&nbsp;
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-09-10">2021-09-10</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;997 words</span>&nbsp;
                     <span><i class="far fa-clock fa-fw"></i>&nbsp;2 minutes</span>&nbsp;</div>
             </div>
             
@@ -121,12 +121,16 @@
   <ul>
     <li>
       <ul>
-        <li></li>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#background">BACKGROUND</a>
       <ul>
-        <li></li>
+        <li><a href="#사내-행정관리시스템의-동작환경-설명-출퇴근관리">사내 행정관리시스템의 동작환경 설명 (출퇴근관리)</a></li>
       </ul>
     </li>
     <li><a href="#goal">GOAL</a></li>
@@ -135,7 +139,8 @@
     <li><a href="#specs">SPECS</a></li>
     <li><a href="#flow">FLOW</a>
       <ul>
-        <li></li>
+        <li><a href="#slack-command-실행시-사전등록된-slack-user가-아닌경우">Slack command 실행시 (사전등록된 Slack user가 아닌경우)</a></li>
+        <li><a href="#slack-command-실행시-사전등록된-slack-user일경우">Slack command 실행시 (사전등록된 Slack user일경우)</a></li>
       </ul>
     </li>
     <li><a href="#conclusion">CONCLUSION</a></li>
@@ -152,7 +157,7 @@
 <li>Mobile이용이 불가하기때문에 매번 Web에 접속해야하는 불편함 발생</li>
 <li>사원이 이용하는 비업무용 Slack workspace가 존재함</li>
 </ul>
-<h4 id="사내-행정관리시스템의-동작환경-설명-출퇴근관리">사내 행정관리시스템의 동작환경 설명 (출퇴근관리)</h4>
+<h3 id="사내-행정관리시스템의-동작환경-설명-출퇴근관리">사내 행정관리시스템의 동작환경 설명 (출퇴근관리)</h3>
 <ol>
 <li>해당 행정관리시스템 page로 이동</li>
 <li>할당받은 계정정보로 Login</li>
@@ -189,10 +194,12 @@
 <h2 id="specs">SPECS</h2>
 <ul>
 <li>
-<p>Server<br>
-Heroku의 free mode 이용<br>
--&gt; Slack이용중인 사원수가 20명 미만이므로 대량 Traffic이 발생하지 않음<br>
--&gt; 고사양 Server를 이용할 이유가 없기때문에 Heroku의 free project를 채용</p>
+<dl>
+<dt>Server</dt>
+<dt>Heroku의 free mode 이용</dt>
+<dd>Slack이용중인 사원수가 20명 미만이므로 대량 Traffic이 발생하지 않음</dd>
+<dd>고사양 Server를 이용할 이유가 없기때문에 Heroku의 free project를 채용</dd>
+</dl>
 </li>
 <li>
 <p>Language &amp; Framework</p>
@@ -210,7 +217,7 @@ Heroku의 free mode 이용<br>
 </li>
 </ul>
 <h2 id="flow">FLOW</h2>
-<h4 id="slack-command-실행시-사전등록된-slack-user가-아닌경우">Slack command 실행시 (사전등록된 Slack user가 아닌경우)</h4>
+<h3 id="slack-command-실행시-사전등록된-slack-user가-아닌경우">Slack command 실행시 (사전등록된 Slack user가 아닌경우)</h3>
 <ol>
 <li>행정관리시스템의 Login 정보입력 form을 출력
 <ul>
@@ -241,7 +248,7 @@ Heroku의 free mode 이용<br>
 </ul>
 </li>
 </ol>
-<h4 id="slack-command-실행시-사전등록된-slack-user일경우">Slack command 실행시 (사전등록된 Slack user일경우)</h4>
+<h3 id="slack-command-실행시-사전등록된-slack-user일경우">Slack command 실행시 (사전등록된 Slack user일경우)</h3>
 <ol>
 <li>출퇴근관리 등록form을 출력
 <ul>
@@ -298,7 +305,7 @@ Date형식이 잘못 입력되었을 경우 에러 Response 반환<br>
                 </span></div><div class="post-info-line"><div class="post-info-mod">
                 <span>Updated on 2021-09-20</span>
             </div><div class="post-info-mod"></div>
-        </div></div><div class="post-nav"><a href="/kururu-blog/posts/etc/first_migrate/" class="prev" rel="prev" title="BLOG 이행작업"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
+        </div></div><div class="post-nav"><a href="/kururu-blog/posts/devops/linux_start_pack/" class="prev" rel="prev" title="[Linux] 초기개발도구 환경설정"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
 </div></article></div>
             </main>
             <footer class="footer"></footer>
