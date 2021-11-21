@@ -8,6 +8,9 @@ categories: ["private_projects"]
 featuredImage: "make_some_noise.jpg"
 featuredImagePreview: "make_some_noise.webp"
 description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 조작"
+
+toc:
+  auto: false
 ---
 
 <!--more-->
@@ -22,7 +25,7 @@ description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 �
 - Mobile이용이 불가하기때문에 매번 Web에 접속해야하는 불편함 발생
 - 사원이 이용하는 비업무용 Slack workspace가 존재함
 
-#### 사내 행정관리시스템의 동작환경 설명 (출퇴근관리)
+### 사내 행정관리시스템의 동작환경 설명 (출퇴근관리)
 
 1. 해당 행정관리시스템 page로 이동
 2. 할당받은 계정정보로 Login
@@ -50,10 +53,10 @@ description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 �
 
 ## SPECS
 
-- Server \
-  Heroku의 free mode 이용 \
-  -> Slack이용중인 사원수가 20명 미만이므로 대량 Traffic이 발생하지 않음 \
-  -> 고사양 Server를 이용할 이유가 없기때문에 Heroku의 free project를 채용
+- Server
+  Heroku의 free mode 이용
+  : Slack이용중인 사원수가 20명 미만이므로 대량 Traffic이 발생하지 않음
+  : 고사양 Server를 이용할 이유가 없기때문에 Heroku의 free project를 채용
 
 - Language & Framework
   - Python 3.8.2
@@ -65,7 +68,7 @@ description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 �
 
 ## FLOW
 
-#### Slack command 실행시 (사전등록된 Slack user가 아닌경우)
+### Slack command 실행시 (사전등록된 Slack user가 아닌경우)
 
 1. 행정관리시스템의 Login 정보입력 form을 출력
    - 필요 Data: Member ID, User ID, Start Time \
@@ -76,7 +79,7 @@ description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 �
    - 출퇴근관리 Slack room에 성공 Message를 전송 \
      ![Success message for registering user information](register_account_book_2.png)
 
-#### Slack command 실행시 (사전등록된 Slack user일경우)
+### Slack command 실행시 (사전등록된 Slack user일경우)
 
 1. 출퇴근관리 등록form을 출력
    - 필요 Data: Target Month(yyyyMM), Password, Add specific data(미지원) \

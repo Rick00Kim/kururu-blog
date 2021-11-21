@@ -5,11 +5,14 @@ lastmod: 2021-09-14T17:45:33+09:00
 
 draft: true
 
-tags: ["Devops", "Backend", "Fronend", "Devops", "TODO", "projects", "etc"]
+tags: ["Devops", "Backend", "Fronend", "TODO", "projects", "etc"]
 categories: ["documentation", "issues", "tech", "news", "private_projects"]
 featuredImage: "template.jpg"
 featuredImagePreview: "template.webp"
 description: "Description"
+
+toc:
+  auto: false
 ---
 
 <!--more-->

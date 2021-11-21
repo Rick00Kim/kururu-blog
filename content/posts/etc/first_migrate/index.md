@@ -8,6 +8,9 @@ categories: ["documentation"]
 featuredImage: "first_migrate.jpg"
 featuredImagePreview: "first_migrate.webp"
 description: "Hugo를 이용한 static website로 이행 진행"
+
+toc:
+  auto: false
 ---
 
 <!--more-->
@@ -29,7 +32,7 @@ description: "Hugo를 이용한 static website로 이행 진행"
 
 ### Hugo Project 구성
 
-#### Menu sumary
+#### Menu summary
 
 - Post \
   전체 post확인

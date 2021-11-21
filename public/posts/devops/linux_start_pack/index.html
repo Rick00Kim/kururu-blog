@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[Linux] 초기개발도구 환경설정 - KURURU Blog</title><meta name="description" content="Linux 환경내 초기개발도구 설치"><meta property="og:title" content="[Linux] 초기개발도구 환경설정" />
+<meta property="og:description" content="Linux 환경내 초기개발도구 설치" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rick00kim.github.io/kururu-blog/posts/devops/linux_start_pack/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-25T10:00:23+09:00" />
+<meta property="article:modified_time" content="2021-08-25T10:00:23+09:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Linux] 초기개발도구 환경설정"/>
+<meta name="twitter:description" content="Linux 환경내 초기개발도구 설치"/>
+<meta name="application-name" content="FeelIt">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://rick00kim.github.io/kururu-blog/posts/devops/linux_start_pack/" /><link rel="prev" href="https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/" /><link rel="next" href="https://rick00kim.github.io/kururu-blog/posts/projects/register_account_book/" /><link rel="stylesheet" href="/kururu-blog/css/page.min.css"><link rel="stylesheet" href="/kururu-blog/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[Linux] 초기개발도구 환경설정",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/devops\/linux_start_pack\/"
+        },"genre": "posts","keywords": "Devops","wordcount":  840 ,
+        "url": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/devops\/linux_start_pack\/","datePublished": "2021-08-25T10:00:23+09:00","dateModified": "2021-08-25T10:00:23+09:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Rick_Kim"},"author": {
+                "@type": "Person",
+                "name": "Rick_Kim"
+            },"description": "Linux 환경내 초기개발도구 설치"
+    }
+    </script></head><body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/kururu-blog/" title="KURURU Blog">KURURU Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/kururu-blog/posts/"> Posts </a><a class="menu-item" href="/kururu-blog/tags/"> Tags </a><a class="menu-item" href="/kururu-blog/categories/"> Categories </a><a class="menu-item" href="/kururu-blog/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/kururu-blog/" title="KURURU Blog">KURURU Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/kururu-blog/posts/" title="">Posts</a><a class="menu-item" href="/kururu-blog/tags/" title="">Tags</a><a class="menu-item" href="/kururu-blog/categories/" title="">Categories</a><a class="menu-item" href="/kururu-blog/about/" title="">About</a><div class="menu-item"><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="featured-image"><img
+        class="lazyload"
+        src="/kururu-blog/svg/loading.min.svg"
+        data-src="linux_start_pack.jpg"
+        data-srcset="/kururu-blog/posts/devops/linux_start_pack/linux_start_pack.jpg, linux_start_pack.jpg 1.5x, /kururu-blog/posts/devops/linux_start_pack/linux_start_pack.jpg 2x"
+        data-sizes="auto"
+        alt="/kururu-blog/posts/devops/linux_start_pack/linux_start_pack.jpg"
+        title="Linux 환경내 초기개발도구 설치" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">[Linux] 초기개발도구 환경설정</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/kururu-blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-category">published in <a href="/kururu-blog/categories/documentation/"><i class="far fa-folder fa-fw"></i>documentation</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-25">2021-08-25</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;840 words</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;2 minutes</span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="">
+                    <div class="details-summary toc-title">
+                        <span>Contents</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#goal">GOAL</a></li>
+    <li><a href="#summary">SUMMARY</a></li>
+    <li><a href="#how-to-set">HOW TO SET?</a>
+      <ul>
+        <li><a href="#1-java">1. Java</a></li>
+        <li><a href="#2-maven">2. Maven</a></li>
+        <li><a href="#3-python">3. Python</a></li>
+        <li><a href="#4-nodejs">4. NodeJS</a></li>
+        <li><a href="#5-yarn">5. Yarn</a></li>
+        <li><a href="#6-docker">6. Docker</a></li>
+        <li><a href="#7-docker-compose">7. Docker-compose</a></li>
+        <li><a href="#8-kubernetes">8. Kubernetes</a></li>
+        <li><a href="#9-etc">9. ETC</a>
+          <ul>
+            <li><a href="#vim-설정">Vim 설정</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><h2 id="goal">GOAL</h2>
+<p>Linux환경내 개발도구 초기설정</p>
+<h2 id="summary">SUMMARY</h2>
+<ul>
+<li>본 Post내 모든 Command는 Ubuntu 20.04.1 LTS (Debian)에서 진행<br>
+✨ Linux계열이 Debian외 OS인 경우, Command가 다른 경우가 있음.</li>
+<li>다음 Tool을 초기설정대상으로 함
+<ul>
+<li>Java</li>
+<li>Maven</li>
+<li>Python</li>
+<li>NodeJS</li>
+<li>Yarn</li>
+<li>Docker</li>
+<li>Docker-compose</li>
+<li>Kubernetes</li>
+<li>ETC</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-set">HOW TO SET?</h2>
+<h3 id="1-java">1. Java</h3>
+<ol>
+<li>
+<p>JDK 다운로드</p>
+<ul>
+<li>
+<dl>
+<dt>아래 공식홈페이지에서 필요한 JDK버젼을 Download</dt>
+<dd><a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreffer">https://www.oracle.com/java/technologies/downloads/</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>본 post에서는 JDK 8u271(64bit Compressed Archive)로 진행</dt>
+<dd>file name: jdk-8u271-linux-x64.tar.gz</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li>
+<p>다운받은 JDK 폴더 압축해제 및 System관리 폴더로 이동</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 다운받은 JDK가 있는 폴더로 이동</span>
+<span class="nb">cd</span> Download/
+
+<span class="c1"># JDK Archive파일을 압축풀기</span>
+<span class="c1"># Expected: 같은 directory내에 jdk1.8.0_271 폴더가 생성됨</span>
+tar -xvzf jdk-8u271-linux-x64.tar.gz
+
+<span class="c1"># 압축해제된 폴더를 아래 시스템 폴더로 이동</span>
+<span class="c1"># 이동 directory: /usr/local</span>
+<span class="c1"># (해당 directory는 시스템 폴더이기때문에, 이동시에는 root권한이 필요)</span>
+sudo mv jdk1.8.0_271 /usr/local
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<dl>
+<dt>환경변수설정 (기타 profile 수정) \</dt>
+<dt>(시스템 전체 사용자 적용)</dt>
+<dd>file path: /etc/profile</dd>
+</dl>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># (해당 파일은 시스템 파일이기때문에, 수정시root권한이 필요)</span>
+sudo vi /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div><p>아래 Linux 실행시 적용할 JDK설정을 File 끝단에 추가</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">JAVA_HOME</span><span class="o">=</span>/usr/local/jdk1.8.0_271
+<span class="nv">CLASSPATH</span><span class="o">=</span><span class="nv">$JAVA_HOME</span>/lib/tools.jar
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$JAVA_HOME</span>/bin
+<span class="nb">export</span> JAVA_HOME CLASSPATH PATH
+</code></pre></td></tr></table>
+</div>
+</div><p>수정된 <code>/etc/profile</code> 적용</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>적용 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Java home directory가 출력되는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$JAVA_HOME</span>
+<span class="c1"># Class path가 출력되는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$CLASSPATH</span>
+<span class="c1"># Path에 JAVA_HOME내 bin이 포함되어있는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$PATH</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>java 버전 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 설치한 Java 버전이 출력되는지 확인</span>
+java -version
+<span class="c1"># 설치한 Java 버전이 출력되는지 확인</span>
+javac -version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="2-maven">2. Maven</h3>
+<ol>
+<li>
+<p>Maven 압축 파일 다운로드 &amp; 압축해제 및 폴더 이동
+본 post에서는 maven 3.6.3로 진행</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 해당 버전 maven 압축파일 다운로드</span>
+curl -O https://ftp.yz.yamagata-u.ac.jp/pub/network/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+
+<span class="c1"># 압축해제</span>
+<span class="c1"># Expected: 같은 directory내에 apache-maven-3.6.3 폴더가 생성됨</span>
+tar -xvzf apache-maven-3.6.3-bin.tar.gz
+
+<span class="c1"># 압축해제된 폴더를 아래 시스템 폴더로 이동</span>
+<span class="c1"># 이동 directory: /opt</span>
+sudo mv apache-maven-3.6.3 /opt/
+
+<span class="c1"># Maven 전용 link 작성</span>
+sudo ln -S /opt/apache-maven-3.6.3 /opt/maven
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<dl>
+<dt>환경변수설정 (기타 profile 수정) \</dt>
+<dt>(시스템 전체 사용자 적용)</dt>
+<dd>file path: /etc/profile</dd>
+</dl>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># (해당 파일은 시스템 파일이기때문에, 수정시root권한이 필요)</span>
+sudo vi /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div><p>아래 Linux 실행시 적용할 JDK설정을 File 끝단에 추가</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">M2_HOME</span><span class="o">=</span>/opt/maven
+<span class="nv">MAVEN_HOME</span><span class="o">=</span>/opt/maven
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$MAVEN_HOME</span>/bin
+<span class="nb">export</span> M2_HOME MAVEN_HOME PATH
+</code></pre></td></tr></table>
+</div>
+</div><p>수정된 <code>/etc/profile</code> 적용</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>적용 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># maven 설정이 출려되는지 확인</span>
+mvn -version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="3-python">3. Python</h3>
+<h3 id="4-nodejs">4. NodeJS</h3>
+<h3 id="5-yarn">5. Yarn</h3>
+<h3 id="6-docker">6. Docker</h3>
+<h3 id="7-docker-compose">7. Docker-compose</h3>
+<h3 id="8-kubernetes">8. Kubernetes</h3>
+<h3 id="9-etc">9. ETC</h3>
+<h4 id="vim-설정">Vim 설정</h4></div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/kururu-blog/tags/devops/">Devops</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>Updated on 2021-08-25</span>
+            </div><div class="post-info-mod"></div>
+        </div></div><div class="post-nav"><a href="/kururu-blog/posts/etc/first_migrate/" class="prev" rel="prev" title="BLOG 이행작업"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/kururu-blog/posts/projects/register_account_book/" class="next" rel="next" title="Slack App과 사내출퇴근서비스를 연동">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+</div></article></div>
+            </main>
+            <footer class="footer"></footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/kururu-blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/kururu-blog/lib/animate/animate.min.css"><script src="/kururu-blog/lib/autocomplete/autocomplete.min.js"></script><script src="/kururu-blog/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/kururu-blog/lib/lazysizes/lazysizes.min.js"></script><script src="/kururu-blog/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"UAL0NNJWXE","algoliaIndex":"index.en","algoliaSearchKey":"7b7fbdfb7ee82ee61901f2c6b09b05be","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/kururu-blog/js/theme.min.js"></script></body></html>
