@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - tag - KURURU Blog</title>
+        <title>Tags - Tag - KURURU Blog</title>
         <link>https://rick00kim.github.io/kururu-blog/tags/</link>
-        <description>Tags - tag - KURURU Blog</description>
+        <description>Tags - Tag - KURURU Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
             <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/tags/" rel="self" type="application/rss+xml" /><item>
     <title>projects</title>
