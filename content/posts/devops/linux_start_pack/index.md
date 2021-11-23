@@ -2,8 +2,8 @@
 title: "[Linux] 초기개발도구 환경설정"
 date: 2021-08-25T10:00:23+09:00
 
-tags: ["Devops"]
-categories: ["documentation"]
+tags: ["Devops", "backend", "frontend"]
+categories: ["installation"]
 featuredImage: "linux_start_pack.jpg"
 featuredImagePreview: "linux_start_pack.webp"
 description: "Linux 환경내 초기개발도구 설치"

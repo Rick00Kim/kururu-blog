@@ -3,8 +3,8 @@ title: "BLOG 이행작업"
 date: 2021-08-18T17:45:33+09:00
 lastmod: 2021-09-14T17:45:33+09:00
 
-tags: ["etc", "TODO"]
-categories: ["documentation"]
+tags: ["TODO", "etc"]
+categories: ["etc"]
 featuredImage: "first_migrate.jpg"
 featuredImagePreview: "first_migrate.webp"
 description: "Hugo를 이용한 static website로 이행 진행"
@@ -48,22 +48,22 @@ toc:
 
 #### Menu details
 
-##### Tags
+##### Tags (Primary)
 
 - Devops
 - Backend
 - Fronend
 - TODO
 - projects
-- etc
 
 ##### Categories
 
-- documentation
-- issues
 - tech
+- installation
+- issues
 - news
 - private_projects
+- etc
 
 ## CONCLUSION
 

@@ -5,8 +5,8 @@ lastmod: 2021-09-14T17:45:33+09:00
 
 draft: true
 
-tags: ["Devops", "Backend", "Fronend", "TODO", "projects", "etc"]
-categories: ["documentation", "issues", "tech", "news", "private_projects"]
+tags: ["Devops", "Backend", "Frontend", "TODO", "projects"]
+categories: ["installation", "etc", "issues", "tech", "news", "private_projects"]
 featuredImage: "template.jpg"
 featuredImagePreview: "template.webp"
 description: "Description"

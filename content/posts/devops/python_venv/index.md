@@ -2,8 +2,8 @@
 title: "Python 가상환경 설정(venv)"
 date: 2021-08-27T10:00:23+09:00
 
-tags: ["Devops"]
-categories: ["documentation"]
+tags: ["Devops", "backend"]
+categories: ["installation", "tech"]
 featuredImage: "python_venv.jpg"
 featuredImagePreview: "python_venv.webp"
 description: "특정 버전으로 Python 프로젝트 진행하기 위한 Solution기술"
