@@ -155,6 +155,7 @@ Linux환경내 개발도구 초기설정
 ### 3. Python (pip)
 
 > Reference: https://pip.pypa.io/en/stable/
+> 개발 중, python에서 제공하는 특정 Library를 설치 할 필요가 있을 때, pip을 이용해 설치가 가능
 
 Ubuntu 20.04.1 LTS에 Python3는 기본 설치 되어 있기때문에 본 post에서는 pip 설치방법만 다룸
 pip: <https://pip.pypa.io/en/stable/>
