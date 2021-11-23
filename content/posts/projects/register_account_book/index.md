@@ -72,25 +72,25 @@ toc:
 
 1. 행정관리시스템의 Login 정보입력 form을 출력
    - 필요 Data: Member ID, User ID, Start Time \
-     ![Register user form](register_account_book_1.png)
+     {{< image src="register_account_book_1.png" width="50%" >}}
 2. 정보입력후 submit
    - Slack user ID와 입력정보를 통해 Module내 json file로 저장 \
      해당 json file은 사전등록된 Slack user인지 판별할때 이용
    - 출퇴근관리 Slack room에 성공 Message를 전송 \
-     ![Success message for registering user information](register_account_book_2.png)
+     {{< image src="register_account_book_2.png" width="50%" >}}
 
 ### Slack command 실행시 (사전등록된 Slack user일경우)
 
 1. 출퇴근관리 등록form을 출력
    - 필요 Data: Target Month(yyyyMM), Password, Add specific data(미지원) \
-     ![Register time card form](register_account_book_3.png)
+     {{< image src="register_account_book_3.png" width="50%" >}}
    - 유효성검사 \
      Date형식이 잘못 입력되었을 경우 에러 Response 반환 \
-     ![Validate error : Target month](register_account_book_4.png)
+     {{< image src="register_account_book_4.png" width="50%" >}}
 2. 입력받은 월에 대한 모든 일자에 출퇴근기록을 실행
    - Selenium을 통한 Web조작 (2-3분 소요)
 3. 모든 일자에 대해 입력완료후 출퇴근관리 Slack room에 성공 Message를 전송 \
-   ![Success message for registering diary all day](register_account_book_5.png)
+   {{< image src="register_account_book_5.png" width="50%" >}}
 
 ## CONCLUSION
 
