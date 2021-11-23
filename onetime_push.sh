@@ -11,7 +11,7 @@ shift $((OPTIND-1))
 
 if [ -z $COMMIT_MESSAGE ]; then
   echo 'Commit message will set default'
-  COMMIT_MESSAGE="Modify kururu-blog [at `date '+%d/%m/%Y %H:%M'`]"
+  COMMIT_MESSAGE="Modify kururu-blog [`date '+%d/%m/%Y %H:%M'`]"
 fi
 
 if [ ! $(git branch --show-current) == "main" ]; then
