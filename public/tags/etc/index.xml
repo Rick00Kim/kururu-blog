@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>etc - Tag - KURURU Blog</title>
+        <title>etc - tag - KURURU Blog</title>
         <link>https://rick00kim.github.io/kururu-blog/tags/etc/</link>
-        <description>etc - Tag - KURURU Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/tags/etc/" rel="self" type="application/rss+xml" /><item>
+        <description>etc - tag - KURURU Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/tags/etc/" rel="self" type="application/rss+xml" /><item>
     <title>BLOG 이행작업</title>
     <link>https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/</link>
     <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/</guid>

@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - KURURU Blog</title>
+        <title> - KURURU Blog</title>
         <link>https://rick00kim.github.io/kururu-blog/posts/</link>
-        <description>All Posts | KURURU Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/posts/" rel="self" type="application/rss+xml" /><item>
+        <description> | KURURU Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Slack App과 사내출퇴근서비스를 연동</title>
     <link>https://rick00kim.github.io/kururu-blog/posts/projects/register_account_book/</link>
     <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/projects/register_account_book/</guid>

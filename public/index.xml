@@ -3,8 +3,8 @@
         <title>KURURU Blog</title>
         <link>https://rick00kim.github.io/kururu-blog/</link>
         <description>About FeelIt Theme</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate>
             <atom:link href="https://rick00kim.github.io/kururu-blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Slack App과 사내출퇴근서비스를 연동</title>
