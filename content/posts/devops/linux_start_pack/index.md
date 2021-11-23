@@ -154,6 +154,8 @@ Linux환경내 개발도구 초기설정
 
 ### 3. Python (pip)
 
+> Reference: https://pip.pypa.io/en/stable/
+
 Ubuntu 20.04.1 LTS에 Python3는 기본 설치 되어 있기때문에 본 post에서는 pip 설치방법만 다룸
 pip: <https://pip.pypa.io/en/stable/>
 
@@ -177,6 +179,8 @@ pip: <https://pip.pypa.io/en/stable/>
 
 ### 4. NodeJS
 
+> Reference: https://github.com/nodesource/distributions
+
 1. NodeJS 최신버젼 확인
    https://nodejs.org/en/
 
@@ -195,6 +199,8 @@ pip: <https://pip.pypa.io/en/stable/>
    ```
 
 ### 5. Yarn
+
+> Reference: https://classic.yarnpkg.com/en/docs/install#debian-stable
 
 [4.NodeJS] 설치가 전제
 
