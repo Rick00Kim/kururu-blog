@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
             <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/en/tags/projects/" rel="self" type="application/rss+xml" /><item>
     <title>Slack App과 사내출퇴근서비스를 연동</title>
-    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register_account_book/</link>
-    <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register_account_book/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</link>
+    <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/make_some_noise.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/register-account-book.jpg" referrerpolicy="no-referrer">
             </div>Slack App을 이용해 사내출퇴근관리시스템내 일부 조작]]></description>
 </item>
 </channel>

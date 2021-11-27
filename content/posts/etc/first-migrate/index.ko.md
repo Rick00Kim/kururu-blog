@@ -5,8 +5,8 @@ lastmod: 2021-09-14T17:45:33+09:00
 
 tags: ["TODO", "etc"]
 categories: ["etc"]
-featuredImage: "first_migrate.jpg"
-featuredImagePreview: "first_migrate.webp"
+featuredImage: "first-migrate.jpg"
+featuredImagePreview: "first-migrate.webp"
 description: "Hugo를 이용한 static website로 이행 진행"
 
 toc:

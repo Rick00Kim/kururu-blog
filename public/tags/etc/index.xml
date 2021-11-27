@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
             <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/tags/etc/" rel="self" type="application/rss+xml" /><item>
     <title>BLOG 이행작업</title>
-    <link>https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/</link>
-    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/etc/first_migrate/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/posts/etc/first-migrate/</link>
+    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/etc/first-migrate/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/first_migrate.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/first-migrate.jpg" referrerpolicy="no-referrer">
             </div>Hugo를 이용한 static website로 이행 진행]]></description>
 </item>
 </channel>

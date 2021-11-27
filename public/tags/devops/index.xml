@@ -6,18 +6,18 @@
         <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
             <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/tags/devops/" rel="self" type="application/rss+xml" /><item>
     <title>Python 가상환경 설정(venv)</title>
-    <link>https://rick00kim.github.io/kururu-blog/posts/devops/python_venv/</link>
-    <pubDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/python_venv/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/posts/devops/python-venv/</link>
+    <pubDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/python-venv/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/python_venv.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/python-venv.jpg" referrerpolicy="no-referrer">
             </div>특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명]]></description>
 </item>
 <item>
     <title>[Linux] 초기개발도구 환경설정</title>
-    <link>https://rick00kim.github.io/kururu-blog/posts/devops/linux_start_pack/</link>
-    <pubDate>Wed, 25 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/linux_start_pack/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/posts/devops/linux-start-pack/</link>
+    <pubDate>Wed, 25 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/linux-start-pack/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/linux_start_pack.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/linux-start-pack.jpg" referrerpolicy="no-referrer">
             </div>Linux 환경내 초기개발도구 설치]]></description>
 </item>
 </channel>

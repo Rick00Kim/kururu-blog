@@ -8,34 +8,34 @@
             <atom:link href="https://rick00kim.github.io/kururu-blog/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Slack App과 사내출퇴근서비스를 연동</title>
-    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register_account_book/</link>
-    <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register_account_book/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</link>
+    <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/make_some_noise.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/register-account-book.jpg" referrerpolicy="no-referrer">
             </div>Slack App을 이용해 사내출퇴근관리시스템내 일부 조작]]></description>
 </item>
 <item>
     <title>Python 가상환경 설정(venv)</title>
-    <link>https://rick00kim.github.io/kururu-blog/en/posts/devops/python_venv/</link>
-    <pubDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/python_venv/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/devops/python-venv/</link>
+    <pubDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/python-venv/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/python_venv.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/python-venv.jpg" referrerpolicy="no-referrer">
             </div>특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명]]></description>
 </item>
 <item>
     <title>[Linux] 초기개발도구 환경설정</title>
-    <link>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux_start_pack/</link>
-    <pubDate>Wed, 25 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux_start_pack/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/</link>
+    <pubDate>Wed, 25 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/linux_start_pack.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/linux-start-pack.jpg" referrerpolicy="no-referrer">
             </div>Linux 환경내 초기개발도구 설치]]></description>
 </item>
 <item>
     <title>BLOG 이행작업</title>
-    <link>https://rick00kim.github.io/kururu-blog/en/posts/etc/first_migrate/</link>
-    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/etc/first_migrate/</guid>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/etc/first-migrate/</link>
+    <pubDate>Wed, 18 Aug 2021 17:45:33 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/etc/first-migrate/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/first_migrate.jpg" referrerpolicy="no-referrer">
+                <img src="/kururu-blog/first-migrate.jpg" referrerpolicy="no-referrer">
             </div>Hugo를 이용한 static website로 이행 진행]]></description>
 </item>
 </channel>

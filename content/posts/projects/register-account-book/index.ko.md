@@ -5,8 +5,8 @@ lastmod: 2021-09-20T17:45:33+09:00
 
 tags: ["projects"]
 categories: ["private_projects"]
-featuredImage: "make_some_noise.jpg"
-featuredImagePreview: "make_some_noise.webp"
+featuredImage: "register-account-book.jpg"
+featuredImagePreview: "register-account-book.webp"
 description: "Slack App을 이용해 사내출퇴근관리시스템내 일부 조작"
 
 toc:

@@ -4,8 +4,8 @@ date: 2021-08-25T10:00:23+09:00
 
 tags: ["Devops", "backend", "frontend"]
 categories: ["installation"]
-featuredImage: "linux_start_pack.jpg"
-featuredImagePreview: "linux_start_pack.webp"
+featuredImage: "linux-start-pack.jpg"
+featuredImagePreview: "linux-start-pack.webp"
 description: "Linux 환경내 초기개발도구 설치"
 
 toc:

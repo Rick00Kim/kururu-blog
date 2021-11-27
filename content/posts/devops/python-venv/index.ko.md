@@ -4,8 +4,8 @@ date: 2021-08-27T10:00:23+09:00
 
 tags: ["Devops", "backend"]
 categories: ["installation", "tech"]
-featuredImage: "python_venv.jpg"
-featuredImagePreview: "python_venv.webp"
+featuredImage: "python-venv.jpg"
+featuredImagePreview: "python-venv.webp"
 description: "특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명"
 
 toc:
