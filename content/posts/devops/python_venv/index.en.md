@@ -6,7 +6,7 @@ tags: ["Devops", "backend"]
 categories: ["installation", "tech"]
 featuredImage: "python_venv.jpg"
 featuredImagePreview: "python_venv.webp"
-description: "특정 버전으로 Python 프로젝트 진행하기 위한 Solution기술"
+description: "특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명"
 
 toc:
   auto: false
