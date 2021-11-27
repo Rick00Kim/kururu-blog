@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[Linux] 초기개발도구 환경설정 - KURURU Blog</title><meta name="description" content="Linux 환경내 초기개발도구 설치"><meta property="og:title" content="[Linux] 초기개발도구 환경설정" />
+<meta property="og:description" content="Linux 환경내 초기개발도구 설치" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-25T10:00:23+09:00" />
+<meta property="article:modified_time" content="2021-08-25T10:00:23+09:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Linux] 초기개발도구 환경설정"/>
+<meta name="twitter:description" content="Linux 환경내 초기개발도구 설치"/>
+<meta name="application-name" content="FeelIt">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/" /><link rel="prev" href="https://rick00kim.github.io/kururu-blog/en/posts/etc/first-migrate/" /><link rel="next" href="https://rick00kim.github.io/kururu-blog/en/posts/devops/python-venv/" /><link rel="stylesheet" href="/kururu-blog/css/page.min.css"><link rel="stylesheet" href="/kururu-blog/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[Linux] 초기개발도구 환경설정",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/linux-start-pack\/"
+        },"genre": "posts","keywords": "Devops, backend, frontend","wordcount":  1107 ,
+        "url": "https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/linux-start-pack\/","datePublished": "2021-08-25T10:00:23+09:00","dateModified": "2021-08-25T10:00:23+09:00","publisher": {
+            "@type": "Organization",
+            "name": "Rick_Kim"},"author": {
+                "@type": "Person",
+                "name": "Rick_Kim"
+            },"description": "Linux 환경내 초기개발도구 설치"
+    }
+    </script></head><body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/kururu-blog/en/" title="KURURU Blog">KURURU Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/kururu-blog/en/posts/"> Posts </a><a class="menu-item" href="/kururu-blog/en/tags/"> Tags </a><a class="menu-item" href="/kururu-blog/en/categories/"> Categories </a><a class="menu-item" href="/kururu-blog/en/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/kururu-blog/en/posts/devops/linux-start-pack/" selected>English</option><option value="/kururu-blog/posts/devops/linux-start-pack/">Korean</option></select>
+                    </span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/kururu-blog/en/" title="KURURU Blog">KURURU Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/kururu-blog/en/posts/" title="">Posts</a><a class="menu-item" href="/kururu-blog/en/tags/" title="">Tags</a><a class="menu-item" href="/kururu-blog/en/categories/" title="">Categories</a><a class="menu-item" href="/kururu-blog/en/about/" title="">About</a><div class="menu-item"><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div><span class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/kururu-blog/en/posts/devops/linux-start-pack/" selected>English</option><option value="/kururu-blog/posts/devops/linux-start-pack/">Korean</option></select>
+                </span></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="featured-image"><img
+        class="lazyload"
+        src="/kururu-blog/svg/loading.min.svg"
+        data-src="linux-start-pack.jpg"
+        data-srcset="/kururu-blog/en/posts/devops/linux-start-pack/linux-start-pack.jpg, linux-start-pack.jpg 1.5x, /kururu-blog/en/posts/devops/linux-start-pack/linux-start-pack.jpg 2x"
+        data-sizes="auto"
+        alt="/kururu-blog/en/posts/devops/linux-start-pack/linux-start-pack.jpg"
+        title="Linux 환경내 초기개발도구 설치" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">[Linux] 초기개발도구 환경설정</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/kururu-blog/en/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-category">published in <a href="/kururu-blog/en/categories/installation/"><i class="far fa-folder fa-fw"></i>installation</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-25">2021-08-25</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1107 words</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;6 minutes</span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="">
+                    <div class="details-summary toc-title">
+                        <span>Contents</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#goal">GOAL</a></li>
+    <li><a href="#summary">SUMMARY</a></li>
+    <li><a href="#how-to-set">HOW TO SET?</a>
+      <ul>
+        <li><a href="#1-java">1. Java</a></li>
+        <li><a href="#2-maven">2. Maven</a></li>
+        <li><a href="#3-python-pip">3. Python (pip)</a></li>
+        <li><a href="#4-nodejs">4. NodeJS</a></li>
+        <li><a href="#5-yarn">5. Yarn</a></li>
+        <li><a href="#6-docker">6. Docker</a></li>
+        <li><a href="#7-docker-compose">7. Docker-compose</a></li>
+        <li><a href="#8-kubernetes">8. Kubernetes</a></li>
+        <li><a href="#9-etc">9. ETC</a>
+          <ul>
+            <li><a href="#vim-설정">Vim 설정</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><h2 id="goal">GOAL</h2>
+<p>Linux환경내 개발도구 초기설정</p>
+<h2 id="summary">SUMMARY</h2>
+<ul>
+<li>본 Post내 모든 Command는 Ubuntu 20.04.1 LTS (Debian)에서 진행<br>
+✨ Linux계열이 Debian외 OS인 경우, Command가 다른 경우가 있음.</li>
+<li>다음 Tool을 초기설정대상으로 함
+<ul>
+<li>Java</li>
+<li>Maven</li>
+<li>Python</li>
+<li>NodeJS</li>
+<li>Yarn</li>
+<li>Docker</li>
+<li>Docker-compose</li>
+<li>Kubernetes</li>
+<li>ETC</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-set">HOW TO SET?</h2>
+<h3 id="1-java">1. Java</h3>
+<ol>
+<li>
+<p>JDK 다운로드</p>
+<ul>
+<li>
+<dl>
+<dt>아래 공식홈페이지에서 필요한 JDK버젼을 Download</dt>
+<dd><a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreffer">https://www.oracle.com/java/technologies/downloads/</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>본 post에서는 JDK 8u271(64bit Compressed Archive)로 진행</dt>
+<dd>file name: jdk-8u271-linux-x64.tar.gz</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li>
+<p>다운받은 JDK 폴더 압축해제 및 System관리 폴더로 이동</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 다운받은 JDK가 있는 폴더로 이동</span>
+<span class="nb">cd</span> Download/
+
+<span class="c1"># JDK Archive파일을 압축풀기</span>
+<span class="c1"># Expected: 같은 directory내에 jdk1.8.0_271 폴더가 생성됨</span>
+tar -xvzf jdk-8u271-linux-x64.tar.gz
+
+<span class="c1"># 압축해제된 폴더를 아래 시스템 폴더로 이동</span>
+<span class="c1"># 이동 directory: /usr/local</span>
+<span class="c1"># (해당 directory는 시스템 폴더이기때문에, 이동시에는 root권한이 필요)</span>
+sudo mv jdk1.8.0_271 /usr/local
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<dl>
+<dt>환경변수설정 (기타 profile 수정)</dt>
+<dt>(시스템 전체 사용자 적용)</dt>
+<dd>file path: /etc/profile</dd>
+</dl>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># (해당 파일은 시스템 파일이기때문에, 수정시root권한이 필요)</span>
+sudo vi /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div><p>아래 Linux 실행시 적용할 JDK설정을 File 끝단에 추가</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">JAVA_HOME</span><span class="o">=</span>/usr/local/jdk1.8.0_271
+<span class="nv">CLASSPATH</span><span class="o">=</span><span class="nv">$JAVA_HOME</span>/lib/tools.jar
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$JAVA_HOME</span>/bin
+<span class="nb">export</span> JAVA_HOME CLASSPATH PATH
+</code></pre></td></tr></table>
+</div>
+</div><p>수정된 <code>/etc/profile</code> 적용</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>적용 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Java home directory가 출력되는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$JAVA_HOME</span>
+<span class="c1"># Class path가 출력되는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$CLASSPATH</span>
+<span class="c1"># Path에 JAVA_HOME내 bin이 포함되어있는지 확인</span>
+<span class="nb">echo</span> <span class="nv">$PATH</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>java 버전 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 설치한 Java 버전이 출력되는지 확인</span>
+java -version
+<span class="c1"># 설치한 Java 버전이 출력되는지 확인</span>
+javac -version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="2-maven">2. Maven</h3>
+<ol>
+<li>
+<p>Maven 압축 파일 다운로드 &amp; 압축해제 및 폴더 이동
+본 post에서는 maven 3.6.3로 진행</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 해당 버전 maven 압축파일 다운로드</span>
+curl -O https://ftp.yz.yamagata-u.ac.jp/pub/network/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+
+<span class="c1"># 압축해제</span>
+<span class="c1"># Expected: 같은 directory내에 apache-maven-3.6.3 폴더가 생성됨</span>
+tar -xvzf apache-maven-3.6.3-bin.tar.gz
+
+<span class="c1"># 압축해제된 폴더를 아래 시스템 폴더로 이동</span>
+<span class="c1"># 이동 directory: /opt</span>
+sudo mv apache-maven-3.6.3 /opt/
+
+<span class="c1"># Maven 전용 link 작성</span>
+sudo ln -S /opt/apache-maven-3.6.3 /opt/maven
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<dl>
+<dt>환경변수설정 (기타 profile 수정)</dt>
+<dt>(시스템 전체 사용자 적용)</dt>
+<dd>file path: /etc/profile</dd>
+</dl>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># (해당 파일은 시스템 파일이기때문에, 수정시root권한이 필요)</span>
+sudo vi /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div><p>아래 Linux 실행시 적용할 JDK설정을 File 끝단에 추가</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">M2_HOME</span><span class="o">=</span>/opt/maven
+<span class="nv">MAVEN_HOME</span><span class="o">=</span>/opt/maven
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$MAVEN_HOME</span>/bin
+<span class="nb">export</span> M2_HOME MAVEN_HOME PATH
+</code></pre></td></tr></table>
+</div>
+</div><p>수정된 <code>/etc/profile</code> 적용</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> /etc/profile
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>적용 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># maven 설정이 출려되는지 확인</span>
+mvn -version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="3-python-pip">3. Python (pip)</h3>
+<blockquote>
+<p>Reference: <a href="https://pip.pypa.io/en/stable/" target="_blank" rel="noopener noreffer">https://pip.pypa.io/en/stable/</a>
+개발 중, python에서 제공하는 특정 Library를 설치 할 필요가 있을 때, pip을 이용해 설치가 가능</p>
+</blockquote>
+<p>Ubuntu 20.04.1 LTS에 Python3는 기본 설치 되어 있기때문에 본 post에서는 pip 설치방법만 다룸
+pip: <a href="https://pip.pypa.io/en/stable/" target="_blank" rel="noopener noreffer">https://pip.pypa.io/en/stable/</a></p>
+<ol>
+<li>
+<p>pip.py 다운로드</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>실행</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">python3 get-pip.py
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>설치 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pip3 --version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="4-nodejs">4. NodeJS</h3>
+<blockquote>
+<p>Reference: <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreffer">https://github.com/nodesource/distributions</a></p>
+</blockquote>
+<ol>
+<li>
+<p>NodeJS 최신버젼 확인
+<a href="https://nodejs.org/en/" target="_blank" rel="noopener noreffer">https://nodejs.org/en/</a></p>
+</li>
+<li>
+<p>PPA repository 갱신</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">curl -sL https://deb.nodesource.com/setup_lts.x <span class="p">|</span> sudo -E bash -
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>nodeJS 설치</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo apt-get install -y nodejs
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>설치 확인</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">node --version
+npm --version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="5-yarn">5. Yarn</h3>
+<blockquote>
+<p>Reference: <a href="https://classic.yarnpkg.com/en/docs/install#debian-stable" target="_blank" rel="noopener noreffer">https://classic.yarnpkg.com/en/docs/install#debian-stable</a></p>
+</blockquote>
+<p>[4.NodeJS] 설치가 전제</p>
+<ol>
+<li>PPA repository 갱신
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg <span class="p">|</span> sudo apt-key add -
+<span class="nb">echo</span> <span class="s2">&#34;deb https://dl.yarnpkg.com/debian/ stable main&#34;</span> <span class="p">|</span> sudo tee /etc/apt/sources.list.d/yarn.list
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>yarn 설치
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo apt update <span class="o">&amp;&amp;</span> sudo apt install yarn
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>설치 확인
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">yarn --version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="6-docker">6. Docker</h3>
+<ol>
+<li>Docker 설치
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">curl -fsSL https://get.docker.com/ <span class="p">|</span> sudo sh
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>현재 User를 <code>docker</code> group에 포함
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo usermod -aG docker <span class="nv">$USER</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>설치 및 권한 확인
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># docker 설치정보 및 docker server정보가 표시되는지 확인</span>
+docker version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="7-docker-compose">7. Docker-compose</h3>
+<ol>
+<li>docker-compose 설치
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo curl -L <span class="s2">&#34;https://github.com/docker/compose/releases/download/1.29.1/docker-compose-</span><span class="k">$(</span>uname -s<span class="k">)</span><span class="s2">-</span><span class="k">$(</span>uname -m<span class="k">)</span><span class="s2">&#34;</span> -o /usr/local/bin/docker-compose
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>설치 파일에 Permission 부여
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo chmod +x /usr/local/bin/docker-compose
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>Linux내 명령어 폴더에 <code>docker-compose</code> Symbolic link 생성
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>설치 확인
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">docker-compose --version
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="8-kubernetes">8. Kubernetes</h3>
+<p>업데이트 예정</p>
+<h3 id="9-etc">9. ETC</h3>
+<h4 id="vim-설정">Vim 설정</h4>
+<blockquote>
+<p>Reference
+<a href="https://sybarits.github.io/2019/12/24/vim-plugin.html" target="_blank" rel="noopener noreffer">https://sybarits.github.io/2019/12/24/vim-plugin.html</a></p>
+</blockquote>
+<p>주로 CUI환경에서 코드작성을 많이 하기때문에 vim에 필요한 plugin을 설치해서 사용중 (선택사항)</p>
+<ol>
+<li>
+<p>vim 환경설정 폴더에 Vundle plugin 설치</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>vim 설정파일에 초기설정</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">vim ~/.vimrc
+</code></pre></td></tr></table>
+</div>
+</div><p>⬇️ 아래 내용을 paste
+사용자 작업에 맞춰 수정가능</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span><span class="lnt">84
+</span><span class="lnt">85
+</span><span class="lnt">86
+</span><span class="lnt">87
+</span><span class="lnt">88
+</span><span class="lnt">89
+</span><span class="lnt">90
+</span><span class="lnt">91
+</span><span class="lnt">92
+</span><span class="lnt">93
+</span><span class="lnt">94
+</span><span class="lnt">95
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">set</span> nocompatible              <span class="s2">&#34; be iMproved, required
+</span><span class="s2">filetype off                  &#34;</span> required
+<span class="s2">&#34; set the runtime path to include Vundle and initialize
+</span><span class="s2">set rtp+=~/.vim/bundle/Vundle.vim
+</span><span class="s2">call vundle#begin()
+</span><span class="s2">&#34;</span> alternatively, pass a path where Vundle should install plugins
+<span class="s2">&#34;call vundle#begin(&#39;~/some/path/here&#39;)
+</span><span class="s2">&#34;</span> <span class="nb">let</span> Vundle manage Vundle, required
+Plugin <span class="s1">&#39;VundleVim/Vundle.vim&#39;</span>
+<span class="s2">&#34; The following are examples of different formats supported.
+</span><span class="s2">&#34;</span> Keep Plugin commands between vundle#begin/end.
+<span class="s2">&#34; plugin on GitHub repo
+</span><span class="s2">Plugin &#39;tpope/vim-fugitive&#39;
+</span><span class="s2">&#34;</span> plugin from http://vim-scripts.org/vim/scripts.html
+<span class="s2">&#34; Plugin &#39;L9&#39;
+</span><span class="s2">&#34;</span> Git plugin not hosted on GitHub
+Plugin <span class="s1">&#39;git://git.wincent.com/command-t.git&#39;</span>
+<span class="s2">&#34; git repos on your local machine (i.e. when working on your own plugin),
+</span><span class="s2">&#34;</span>Plugin <span class="s1">&#39;file:///home/jjeaby/Dev/tools/vim-plugin&#39;</span>
+<span class="s2">&#34; The sparkup vim script is in a subdirectory of this repo called vim.
+</span><span class="s2">&#34;</span> Pass the path to <span class="nb">set</span> the runtimepath properly.
+Plugin <span class="s1">&#39;rstacruz/sparkup&#39;</span>, <span class="o">{</span><span class="s1">&#39;rtp&#39;</span>: <span class="s1">&#39;vim/&#39;</span><span class="o">}</span>
+<span class="s2">&#34; Install L9 and avoid a Naming conflict if you&#39;ve already installed a
+</span><span class="s2">&#34;</span> different version somewhere <span class="k">else</span>.
+<span class="s2">&#34; Plugin &#39;ascenator/L9&#39;, {&#39;name&#39;: &#39;newL9&#39;}
+</span><span class="s2">&#34;</span> All of your Plugins must be added before the following line
+Plugin <span class="s1">&#39;vim-airline/vim-airline&#39;</span>
+Plugin <span class="s1">&#39;scrooloose/nerdtree&#39;</span>
+Plugin <span class="s1">&#39;airblade/vim-gitgutter&#39;</span>
+Plugin <span class="s1">&#39;scrooloose/syntastic&#39;</span>
+Plugin <span class="s1">&#39;ctrlpvim/ctrlp.vim&#39;</span>
+Plugin <span class="s1">&#39;nanotech/jellybeans.vim&#39;</span>
+call vundle#end<span class="o">()</span>            <span class="s2">&#34; required
+</span><span class="s2">&#34;</span>filetype plugin indent on    <span class="s2">&#34; required
+</span><span class="s2">&#34;</span>NERDTree ON shortcut <span class="o">(</span><span class="s2">&#34;\nt&#34;</span><span class="o">)</span>
+map &lt;Leader&gt;nt &lt;ESC&gt;:NERDTree&lt;CR&gt;
+<span class="nb">let</span> <span class="nv">NERDTreeShowHidden</span><span class="o">=</span><span class="m">1</span>
+<span class="s2">&#34; let NERDTreeQuitOnOpen=1
+</span><span class="s2">let g:ctrlp_custom_ignore = {
+</span><span class="s2">\ &#39;dir&#39;:  &#39;\.git</span>$<span class="s2">\|vendor</span>$<span class="s2">&#39;,
+</span><span class="s2"> \ &#39;file&#39;: &#39;\v\.(exe|so|dll)</span>$<span class="s2">&#39;
+</span><span class="s2">\ }
+</span><span class="s2">color jellybeans
+</span><span class="s2">&#34;</span> Settings <span class="o">(</span>Tag List<span class="o">)</span>
+filetype on                                 <span class="s2">&#34;vim filetype on
+</span><span class="s2">&#34;</span> Settings <span class="o">(</span>Source Explorer<span class="o">)</span>
+nmap &lt;F8&gt; :SrcExplToggle&lt;CR&gt;                <span class="s2">&#34;F8 Key = SrcExpl Toggling
+</span><span class="s2">nmap &lt;C-H&gt; &lt;C-W&gt;h                           &#34;</span>Move to left window
+nmap &lt;C-J&gt; &lt;C-W&gt;j                           <span class="s2">&#34;Move to bottom window
+</span><span class="s2">nmap &lt;C-K&gt; &lt;C-W&gt;k                           &#34;</span>Move to upper window
+nmap &lt;C-L&gt; &lt;C-W&gt;l                           <span class="s2">&#34;Move to right window
+</span><span class="s2">&#34;</span> Settings<span class="o">(</span>Detail information<span class="o">)</span>
+<span class="nb">set</span> nu
+<span class="nb">set</span> title
+<span class="nb">set</span> showmatch
+<span class="nb">set</span> ruler
+<span class="s2">&#34; Highlight Syntax
+</span><span class="s2">if has(&#34;</span>syntax<span class="s2">&#34;)
+</span><span class="s2">syntax on
+</span><span class="s2">endif
+</span><span class="s2">&#34;</span> Color
+<span class="nb">set</span> <span class="nv">t_Co</span><span class="o">=</span><span class="m">256</span>
+<span class="s2">&#34; About Indent
+</span><span class="s2">set autoindent
+</span><span class="s2">set smartindent
+</span><span class="s2">set tabstop=4
+</span><span class="s2">set shiftwidth=4
+</span><span class="s2">set softtabstop=4
+</span><span class="s2">set smarttab
+</span><span class="s2">set expandtab
+</span><span class="s2">&#34;</span> About Paste
+<span class="nb">set</span> paste
+<span class="nb">set</span> mouse-<span class="o">=</span>a
+<span class="s2">&#34; UTF-8
+</span><span class="s2">set encoding=utf-8
+</span><span class="s2">set termencoding=utf-8
+</span><span class="s2">&#34;</span> Highlight Cursor
+<span class="nb">set</span> cursorline
+<span class="s2">&#34; Show Status bar
+</span><span class="s2">set laststatus=2
+</span><span class="s2">set statusline=\ %&lt;%l:%v\ [%P]%=%a\ %h%m%r\ %F\
+</span><span class="s2">&#34;</span> About search
+<span class="nb">set</span> ignorecase
+<span class="s2">&#34; Focus Cursor modified
+</span><span class="s2">au BufReadPost *
+</span><span class="s2">\ if line(&#34;</span><span class="s1">&#39;\&#34;&#34;) &gt; 0 &amp;&amp; line(&#34;&#39;</span><span class="se">\&#34;</span><span class="s2">&#34;) &lt;= line(&#34;$&#34;) |
+</span><span class="s2">\ exe &#34;</span>norm g<span class="sb">`</span><span class="se">\&#34;</span><span class="s2">&#34; |
+</span><span class="s2">\ endif
+</span><span class="s2">&#34;</span> Markdown syntax
+augroup markdown
+ <span class="s2">&#34; remove previous autocmds
+</span><span class="s2"> autocmd!
+</span><span class="s2"> &#34;</span> <span class="nb">set</span> every new or <span class="nb">read</span> *.md buffer to use the markdown filetype
+ autocmd BufRead,BufNew *.md setf markdown
+augroup END
+</code></pre></td></tr></table>
+</div>
+</div><p>저장</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">&lt;esc&gt;입력후
+:wq
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Plugin install</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">vim
+:PluginInstall
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol></div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/kururu-blog/en/tags/devops/">Devops</a>
+                </span><span><a href="/kururu-blog/en/tags/backend/">backend</a>
+                </span><span><a href="/kururu-blog/en/tags/frontend/">frontend</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>Updated on 2021-08-25</span>
+            </div><div class="post-info-mod"></div>
+        </div></div><div class="post-nav"><a href="/kururu-blog/en/posts/etc/first-migrate/" class="prev" rel="prev" title="BLOG 이행작업"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/kururu-blog/en/posts/devops/python-venv/" class="next" rel="next" title="Python 가상환경 설정(venv)">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+</div></article></div>
+            </main>
+            <footer class="footer"></footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/kururu-blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/kururu-blog/lib/animate/animate.min.css"><script src="/kururu-blog/lib/autocomplete/autocomplete.min.js"></script><script src="/kururu-blog/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/kururu-blog/lib/lazysizes/lazysizes.min.js"></script><script src="/kururu-blog/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"UAL0NNJWXE","algoliaIndex":"index.en","algoliaSearchKey":"7b7fbdfb7ee82ee61901f2c6b09b05be","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/kururu-blog/js/theme.min.js"></script></body></html>
