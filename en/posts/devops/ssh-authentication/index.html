@@ -8,14 +8,14 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-10-01T10:00:23+09:00">
-<meta property="article:modified_time" content="2021-09-14T17:45:33+09:00">
+<meta property="article:modified_time" content="2021-10-01T10:00:23+09:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="SSH 동작방식과 일부 인증방식 설정">
 <meta name=twitter:description content="SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시">
 <meta name=application-name content="FeelIt">
 <meta name=apple-mobile-web-app-title content="FeelIt"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/><link rel=prev href=https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"SSH 동작방식과 일부 인증방식 설정","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/ssh-authentication\/"},"genre":"posts","keywords":"Devops, server, TODO","wordcount":918,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/ssh-authentication\/","datePublished":"2021-10-01T10:00:23+09:00","dateModified":"2021-09-14T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/><link rel=prev href=https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"SSH 동작방식과 일부 인증방식 설정","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/ssh-authentication\/"},"genre":"posts","keywords":"Devops, server, TODO","wordcount":918,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/en\/posts\/devops\/ssh-authentication\/","datePublished":"2021-10-01T10:00:23+09:00","dateModified":"2021-10-01T10:00:23+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
 <div class=header-title>
@@ -435,7 +435,7 @@ CI/CD에서 특정 Server의 동작 실행 혹은 Monitoring도 보다 간결하
 </span><span><a href=/kururu-blog/en/tags/server/>server</a>
 </span><span><a href=/kururu-blog/en/tags/todo/>TODO</a>
 </span></div><div class=post-info-line><div class=post-info-mod>
-<span>Updated on 2021-09-14</span>
+<span>Updated on 2021-10-01</span>
 </div><div class=post-info-mod></div>
 </div></div><div class=post-nav><a href=/kururu-blog/en/posts/projects/register-account-book/ class=prev rel=prev title="Slack App과 사내출퇴근서비스를 연동"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
 </div></article></div>
