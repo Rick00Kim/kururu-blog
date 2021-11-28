@@ -41,7 +41,7 @@ SSH(`Secure Shell`)란, Server에 접속할때 사용하는 Network 프로토콜
 1. Client로부터 Server에 대한 접속 요청
    ```bash
    # SSH command
-   # SSH 접속 Port는 기본 22이지만, 특정 Port를 지정해 sshd(SSH Demon)을 실행중인 Server인, 경우
+   # SSH 접속 Port는 기본 22이지만, 특정 Port를 지정해 sshd(SSH Daemon)을 실행중인 Server인, 경우
    #    [-p]옵션을 통해 특정 Port를 지정할수 있다
    ssh {User name}@{Server Host} [-p {Port}]
    ```
