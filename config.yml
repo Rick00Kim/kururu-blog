@@ -69,10 +69,11 @@ languages:
         enable: true
         param: true
         paramTitle: SKILLS
+        description: "I have a strong responsibility for my work(**RESPONSIBILITY**), I always think about improving the quality of the project(**QUALITY**). My MBTI (InWork: [ENFJ](https://www.16personalities.com/enfj-personality), InUsual: [INFP](https://www.16personalities.com/infp-personality))"
         status:
           - faIcon: fas fa-building
             title: Company
-            desc: Recurit
+            desc: Recruit group
           - faIcon: fas fa-briefcase fa-fw
             title: Occupation
             desc: System engineer
@@ -170,10 +171,11 @@ languages:
         enable: true
         param: true
         paramTitle: SKILLS
+        description: "I have a strong responsibility for my work(**RESPONSIBILITY**), I always think about improving the quality of the project(**QUALITY**). My MBTI (InWork: [ENFJ](https://www.16personalities.com/enfj-personality), InUsual: [INFP](https://www.16personalities.com/infp-personality))"
         status:
           - faIcon: fas fa-building
             title: Company
-            desc: Recurit
+            desc: Recruit group
           - faIcon: fas fa-briefcase fa-fw
             title: Occupation
             desc: System engineer

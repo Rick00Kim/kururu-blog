@@ -4,7 +4,15 @@
         <link>https://rick00kim.github.io/kururu-blog/categories/installation/</link>
         <description>installation - Category - KURURU Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/installation/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 01 Oct 2021 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/installation/" rel="self" type="application/rss+xml" /><item>
+    <title>SSH 동작방식과 일부 인증방식 설정</title>
+    <link>https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/</link>
+    <pubDate>Fri, 01 Oct 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/ssh-authentication.jpg" referrerpolicy="no-referrer">
+            </div>SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시]]></description>
+</item>
+<item>
     <title>Python 가상환경 설정(venv)</title>
     <link>https://rick00kim.github.io/kururu-blog/posts/devops/python-venv/</link>
     <pubDate>Fri, 27 Aug 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/python-venv/</guid>
