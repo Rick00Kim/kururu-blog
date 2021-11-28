@@ -1,7 +1,6 @@
 ---
 title: "SSH 동작방식과 일부 인증방식 설정"
 date: 2021-10-01T10:00:23+09:00
-lastmod: 2021-09-14T17:45:33+09:00
 
 tags: ["Devops", "server", "TODO"]
 categories: ["installation"]
