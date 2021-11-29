@@ -49,10 +49,13 @@ SSH(`Secure Shell`)란, Server에 접속할때 사용하는 Network 프로토콜
    Server의 공개키를 확인후, 공개키와 Server ID를 `~/.ssh/known_hosts`에 추가 \
    혹은 이미 작성된 Server ID가 `known_hosts`에 있는지 확인
 3. Session 키 생성
+
    Server와 Client가 접속할때 사용할 Session 키를 생성
+
    - 생성 Session키는 대칭키
    - 해당 키는 데이터 전송시 암호화 혹은 복호화에 사용됨
    - Diffie-Hellman Algorithm 방식을 이용
+
 4. Client에 대한 인증
 
    SSH 인증방식 종류
