@@ -109,8 +109,8 @@ SSH(`Secure Shell`)란, Server에 접속할때 사용하는 Network 프로토콜
 
 ### How to generate key pair and setting?
 
-- (본 post는 기본 MacOS에서 진행함.
-- Linux환경에서는 동작가능하지만 Windows에서는 동작하지 않을가능성이 높음)
+(본 post는 기본 MacOS에서 진행함. Linux환경에서는 동작가능하지만 Windows에서는 동작하지 않을가능성이 높음)
+
 - 접속대상 Server가 하나이상인 경우를 전제로 작성되어 있음
 - Private key에 접근시 비밀번호(passphrase)는 설정하지않음 (보안상 설정하는것을 추천)
 - 옵션에 대한 설명은 업데이트 예정
