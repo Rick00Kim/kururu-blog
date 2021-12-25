@@ -4,9 +4,17 @@
         <link>https://rick00kim.github.io/kururu-blog/en/</link>
         <description>About FeelIt Theme</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 01 Oct 2021 10:00:23 &#43;0900</lastBuildDate>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Mon, 15 Nov 2021 10:00:23 &#43;0900</lastBuildDate>
             <atom:link href="https://rick00kim.github.io/kururu-blog/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>사내 Private project(운영지원)</title>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/support-private-dev/</link>
+    <pubDate>Mon, 15 Nov 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/support-private-dev/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/support-private-dev.jpg" referrerpolicy="no-referrer">
+            </div>사내 Private project진행에 따른 Devops 업무지원]]></description>
+</item>
+<item>
     <title>SSH 동작방식과 일부 인증방식 설정</title>
     <link>https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/</link>
     <pubDate>Fri, 01 Oct 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/</guid>

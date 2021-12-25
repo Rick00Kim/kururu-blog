@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://rick00kim.github.io/kururu-blog/categories/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/categories/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/categories/"
@@ -11,7 +11,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/categories/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/devops/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/tags/devops/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/tags/devops/"
@@ -19,6 +19,60 @@
                     rel="alternate"
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/tags/devops/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/posts/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/posts/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/categories/private_projects/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/categories/private_projects/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/categories/private_projects/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/tags/projects/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/tags/projects/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/tags/projects/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/tags/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/tags/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/posts/projects/support-private-dev/</loc><lastmod>2021-12-05T17:45:33&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/posts/projects/support-private-dev/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/posts/projects/support-private-dev/"
                     /></url><url>
             <loc>https://rick00kim.github.io/kururu-blog/categories/installation/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
@@ -28,24 +82,6 @@
                     rel="alternate"
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/categories/installation/"
-                    /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://rick00kim.github.io/kururu-blog/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ko"
-                    href="https://rick00kim.github.io/kururu-blog/"
-                    /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/posts/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://rick00kim.github.io/kururu-blog/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ko"
-                    href="https://rick00kim.github.io/kururu-blog/posts/"
                     /></url><url>
             <loc>https://rick00kim.github.io/kururu-blog/tags/server/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
@@ -65,15 +101,6 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://rick00kim.github.io/kururu-blog/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ko"
-                    href="https://rick00kim.github.io/kururu-blog/tags/"
-                    /></url><url>
             <loc>https://rick00kim.github.io/kururu-blog/tags/todo/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -82,24 +109,6 @@
                     rel="alternate"
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/tags/todo/"
-                    /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/categories/private_projects/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://rick00kim.github.io/kururu-blog/en/categories/private_projects/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ko"
-                    href="https://rick00kim.github.io/kururu-blog/categories/private_projects/"
-                    /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/projects/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://rick00kim.github.io/kururu-blog/en/tags/projects/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ko"
-                    href="https://rick00kim.github.io/kururu-blog/tags/projects/"
                     /></url><url>
             <loc>https://rick00kim.github.io/kururu-blog/posts/projects/register-account-book/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
