@@ -120,8 +120,8 @@ Tutorial개념의 Project를 미리 설계 해놓음으로써, 새로운 Program
 
 ## SOURCES
 
-- Java: ![Github link](https://github.com/Rick00Kim/SkillUp_Coding/tree/master/ModuleProjects/ParkingArea/UsingJAVA)
-- Python: ![Github link](https://github.com/Rick00Kim/SkillUp_Coding/tree/master/ModuleProjects/ParkingArea/UsingPython)
+- Java: [Github link](https://github.com/Rick00Kim/SkillUp_Coding/tree/master/ModuleProjects/ParkingArea/UsingJAVA)
+- Python: [Github link](https://github.com/Rick00Kim/SkillUp_Coding/tree/master/ModuleProjects/ParkingArea/UsingPython)
 
 ## CONCLUSION
 
