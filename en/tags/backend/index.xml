@@ -2,4 +2,6 @@
 &lt;img src="/kururu-blog/python-venv.jpg" referrerpolicy="no-referrer">
 &lt;/div>특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명</description></item><item><title>[Linux] 초기개발도구 환경설정</title><link>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/</link><pubDate>Wed, 25 Aug 2021 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/devops/linux-start-pack/</guid><description>&lt;div class="featured-image">
 &lt;img src="/kururu-blog/linux-start-pack.jpg" referrerpolicy="no-referrer">
-&lt;/div>Linux 환경내 초기개발도구 설치</description></item></channel></rss>
+&lt;/div>Linux 환경내 초기개발도구 설치</description></item><item><title>주차장차량 출입관리 시스템</title><link>https://rick00kim.github.io/kururu-blog/en/posts/projects/parking-area/</link><pubDate>Mon, 04 May 2020 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/parking-area/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/oci-basic.jpg" referrerpolicy="no-referrer">
+&lt;/div>Console application으로 주차장 출입관리 시스템을 작성</description></item></channel></rss>
