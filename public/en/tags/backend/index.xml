@@ -20,5 +20,13 @@
                 <img src="/kururu-blog/linux-start-pack.jpg" referrerpolicy="no-referrer">
             </div>Linux 환경내 초기개발도구 설치]]></description>
 </item>
+<item>
+    <title>주차장차량 출입관리 시스템</title>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/parking-area/</link>
+    <pubDate>Mon, 04 May 2020 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/parking-area/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/oci-basic.jpg" referrerpolicy="no-referrer">
+            </div>Console application으로 주차장 출입관리 시스템을 작성]]></description>
+</item>
 </channel>
 </rss>

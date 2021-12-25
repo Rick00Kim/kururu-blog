@@ -9,7 +9,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-01T10:00:23+09:00" />
-<meta property="article:modified_time" content="2021-09-14T17:45:33+09:00" />
+<meta property="article:modified_time" content="2021-10-01T10:00:23+09:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SSH 동작방식과 일부 인증방식 설정"/>
@@ -27,7 +27,7 @@
             "@type": "WebPage",
             "@id": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/devops\/ssh-authentication\/"
         },"genre": "posts","keywords": "Devops, server, TODO","wordcount":  2167 ,
-        "url": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/devops\/ssh-authentication\/","datePublished": "2021-10-01T10:00:23+09:00","dateModified": "2021-09-14T17:45:33+09:00","publisher": {
+        "url": "https:\/\/rick00kim.github.io\/kururu-blog\/posts\/devops\/ssh-authentication\/","datePublished": "2021-10-01T10:00:23+09:00","dateModified": "2021-10-01T10:00:23+09:00","publisher": {
             "@type": "Organization",
             "name": "Rick_Kim"},"author": {
                 "@type": "Person",
@@ -154,7 +154,7 @@
         <div class="details-content">
             <div class="admonition-content"><ol>
 <li>여기서 <code>Server</code>란 Web서버가 아닌 Linux 혹은 Unix 체제의 OS를 뜻함</li>
-<li>Telnet또한 Network접속 프로토콜이지만 보통 사설Network에서 사용하며 보안성에 취약한 단점이 있다<br>
+<li>Telnet또한 Network접속 프로토콜이지만 보통 사설Network에서 사용하며 보안성에 취약한 단점이 있다 <br>
 ✨ 참조: <a href="https://www.guru99.com/telnet-vs-ssh.html" target="_blank" rel="noopener noreffer">https://www.guru99.com/telnet-vs-ssh.html</a></li>
 </ol>
 </div>
@@ -162,9 +162,9 @@
     </div>
 <h3 id="ssh-인증의-기본동작">SSH 인증의 기본동작</h3>
 <blockquote>
-<p>REFERENCES<br>
-<a href="https://www.golinuxcloud.com/openssh-authentication-methods-sshd-config/" target="_blank" rel="noopener noreffer">https://www.golinuxcloud.com/openssh-authentication-methods-sshd-config/</a><br>
-<a href="https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html" target="_blank" rel="noopener noreffer">https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html</a><br>
+<p>REFERENCES <br>
+<a href="https://www.golinuxcloud.com/openssh-authentication-methods-sshd-config/" target="_blank" rel="noopener noreffer">https://www.golinuxcloud.com/openssh-authentication-methods-sshd-config/</a> <br>
+<a href="https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html" target="_blank" rel="noopener noreffer">https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html</a> <br>
 <a href="https://medium.com/@Magical_Mudit/understanding-ssh-workflow-66a0e8d4bf65" target="_blank" rel="noopener noreffer">https://medium.com/@Magical_Mudit/understanding-ssh-workflow-66a0e8d4bf65</a></p>
 </blockquote>
 <ol>
@@ -179,20 +179,20 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># SSH command</span>
-<span class="c1"># SSH 접속 Port는 기본 22이지만, 특정 Port를 지정해 sshd(SSH Demon)을 실행중인 Server인, 경우</span>
+<span class="c1"># SSH 접속 Port는 기본 22이지만, 특정 Port를 지정해 sshd(SSH Daemon)을 실행중인 Server인 경우</span>
 <span class="c1">#    [-p]옵션을 통해 특정 Port를 지정할수 있다</span>
 ssh <span class="o">{</span>User name<span class="o">}</span>@<span class="o">{</span>Server Host<span class="o">}</span> <span class="o">[</span>-p <span class="o">{</span>Port<span class="o">}]</span>
 </code></pre></td></tr></table>
 </div>
 </div></li>
 <li>
-<p>Server 확인<br>
-Server의 공개키를 확인후, 공개키와 Server ID를 <code>~/.ssh/known_hosts</code>에 추가<br>
+<p>Server 확인 <br>
+Server의 공개키를 확인후, 공개키와 Server ID를 <code>~/.ssh/known_hosts</code>에 추가 <br>
 혹은 이미 작성된 Server ID가 <code>known_hosts</code>에 있는지 확인</p>
 </li>
 <li>
-<p>Session 키 생성
-Server와 Client가 접속할때 사용할 Session 키를 생성</p>
+<p>Session 키 생성</p>
+<p>Server와 Client가 접속할때 사용할 Session 키를 생성</p>
 <ul>
 <li>생성 Session키는 대칭키</li>
 <li>해당 키는 데이터 전송시 암호화 혹은 복호화에 사용됨</li>
@@ -203,18 +203,18 @@ Server와 Client가 접속할때 사용할 Session 키를 생성</p>
 <p>Client에 대한 인증</p>
 <p>SSH 인증방식 종류</p>
 <ol>
-<li>Password Authentication<br>
+<li>Password Authentication <br>
 SSH 기본 인증방식, SSH 접속 User의 비밀번호를 통해 인증</li>
-<li>Public Key Authentication(<code>가장 많이 사용</code>)<br>
+<li>Public Key Authentication(<code>가장 많이 사용</code>) <br>
 Server와 Client간 Key pair(Private, Public)를 통해 보안성을 강화한 인증방식 (비대칭 암호화 알고리즘)</li>
-<li>Host based Authentication<br>
-동일한 User ID에 대한 접속을 전제로 <strong>신뢰할수</strong> 있는 Client의 Host를 Server에 설정, 제어하는 방식<br>
+<li>Host based Authentication <br>
+동일한 User ID에 대한 접속을 전제로 <strong>신뢰할수</strong> 있는 Client의 Host를 Server에 설정, 제어하는 방식 <br>
 Key 등을 설정하지 않아도 인증이 가능하나, [Public key 인증방식]과 같이 사용하는것을 추천(보안성 증가 목적)</li>
-<li>Keyboard Authentication<br>
+<li>Keyboard Authentication <br>
 Update 예정</li>
-<li>Challenge Responce Authentication<br>
+<li>Challenge Responce Authentication <br>
 Update 예정</li>
-<li>GSSAPI Authentication<br>
+<li>GSSAPI Authentication <br>
 Update 예정</li>
 </ol>
 <blockquote>
@@ -241,7 +241,7 @@ Update 예정</li>
 <p>[동작 환경: <code>Server</code>]</p>
 <ul>
 <li>(<code>.ssh/authorized_keys</code>내에 키 ID가 존재할 경우) 난수를 생성</li>
-<li>Client로부터 접속요청받을때 생성한 Session key를 이용하여 생성한 난수를 암호화한 Message를 Client에게 전송<br>
+<li>Client로부터 접속요청받을때 생성한 Session key를 이용하여 생성한 난수를 암호화한 Message를 Client에게 전송 <br>
 ✨ Session key의 생성에 대해서: <a href="#ssh-%ec%9d%b8%ec%a6%9d%ec%9d%98-%ea%b8%b0%eb%b3%b8%eb%8f%99%ec%9e%91" rel="">ssh-인증의-기본동작</a> 내 3번</li>
 </ul>
 </li>
@@ -270,9 +270,8 @@ Update 예정</li>
 </p>
 </blockquote>
 <h3 id="how-to-generate-key-pair-and-setting">How to generate key pair and setting?</h3>
+<p>(본 post는 기본 MacOS에서 진행함. Linux환경에서는 동작가능하지만 Windows에서는 동작하지 않을가능성이 높음)</p>
 <ul>
-<li>(본 post는 기본 MacOS에서 진행함.</li>
-<li>Linux환경에서는 동작가능하지만 Windows에서는 동작하지 않을가능성이 높음)</li>
 <li>접속대상 Server가 하나이상인 경우를 전제로 작성되어 있음</li>
 <li>Private key에 접근시 비밀번호(passphrase)는 설정하지않음 (보안상 설정하는것을 추천)</li>
 <li>옵션에 대한 설명은 업데이트 예정</li>
@@ -325,7 +324,7 @@ cat ~/.ssh/<span class="si">${</span><span class="nv">TARGET_SERVER</span><span 
 <p>[동작 환경: <code>Server</code>]</p>
 <ul>
 <li>
-<p>2번에서 Copy한 Public key를 <code>.ssh/authorized_keys</code>에 추가<br>
+<p>2번에서 Copy한 Public key를 <code>.ssh/authorized_keys</code>에 추가 <br>
 .ssh/authorized_keys가 존재하지 않을 경우에는 생성</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -452,7 +451,7 @@ chmod <span class="m">666</span> ~/.ssh/config<span class="p">;</span> vi ~/.ssh
 <h2 id="conclusion">CONCLUSION</h2>
 <ol>
 <li>SSH의 기본 동작 Flow를 이해</li>
-<li>여러 인증방식중 흔히 사용하는 Public key 인증방식의 Flow이해와 설정방법을 통해<br>
+<li>여러 인증방식중 흔히 사용하는 Public key 인증방식의 Flow이해와 설정방법을 통해 <br>
 CI/CD에서 특정 Server의 동작 실행 혹은 Monitoring도 보다 간결하게 진행가능</li>
 </ol>
 <h2 id="todo">TODO</h2>
@@ -465,7 +464,7 @@ CI/CD에서 특정 Server의 동작 실행 혹은 Monitoring도 보다 간결하
                 </span><span><a href="/kururu-blog/tags/server/">server</a>
                 </span><span><a href="/kururu-blog/tags/todo/">TODO</a>
                 </span></div><div class="post-info-line"><div class="post-info-mod">
-                <span>Updated on 2021-09-14</span>
+                <span>Updated on 2021-10-01</span>
             </div><div class="post-info-mod"></div>
         </div></div><div class="post-nav"><a href="/kururu-blog/posts/projects/register-account-book/" class="prev" rel="prev" title="Slack App과 사내출퇴근서비스를 연동"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
 </div></article></div>

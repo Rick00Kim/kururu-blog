@@ -156,7 +156,7 @@
 <h2 id="background">BACKGROUND</h2>
 <ul>
 <li>사내 출퇴근관리는 외부행정서비스를 이용중</li>
-<li>해당 서비스는 Web 서비스이긴 하나 일부기능이 SP에선 이용불가<br>
+<li>해당 서비스는 Web 서비스이긴 하나 일부기능이 SP에선 이용불가 <br>
 -&gt; 출퇴근기록기능</li>
 <li>Mobile이용이 불가하기때문에 매번 Web에 접속해야하는 불편함 발생</li>
 <li>사원이 이용하는 비업무용 Slack workspace가 존재함</li>
@@ -167,7 +167,7 @@
 <li>할당받은 계정정보로 Login</li>
 <li>사원 출퇴근관리 page로 이동</li>
 <li>등록하고자 하는 일자 선택후, 시간을 입력</li>
-<li>Submit하여 일자별 근무시간을 등록<br>
+<li>Submit하여 일자별 근무시간을 등록 <br>
 -&gt; 기본적으로 System날짜 혹은 System날짜 이전의 근무일만 등록이 가능</li>
 </ol>
 <h2 id="goal">GOAL</h2>
@@ -225,7 +225,7 @@
 <ol>
 <li>행정관리시스템의 Login 정보입력 form을 출력
 <ul>
-<li>필요 Data: Member ID, User ID, Start Time<br>
+<li>필요 Data: Member ID, User ID, Start Time <br>
 <img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"
@@ -238,9 +238,9 @@
 </li>
 <li>정보입력후 submit
 <ul>
-<li>Slack user ID와 입력정보를 통해 Module내 json file로 저장<br>
+<li>Slack user ID와 입력정보를 통해 Module내 json file로 저장 <br>
 해당 json file은 사전등록된 Slack user인지 판별할때 이용</li>
-<li>출퇴근관리 Slack room에 성공 Message를 전송<br>
+<li>출퇴근관리 Slack room에 성공 Message를 전송 <br>
 <img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"
@@ -256,7 +256,7 @@
 <ol>
 <li>출퇴근관리 등록form을 출력
 <ul>
-<li>필요 Data: Target Month(yyyyMM), Password, Add specific data(미지원)<br>
+<li>필요 Data: Target Month(yyyyMM), Password, Add specific data(미지원) <br>
 <img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"
@@ -265,8 +265,8 @@
         data-sizes="auto"
         alt="/kururu-blog/posts/projects/register-account-book/register_account_book_3.png"
         title="Register time card form" /></li>
-<li>유효성검사<br>
-Date형식이 잘못 입력되었을 경우 에러 Response 반환<br>
+<li>유효성검사 <br>
+Date형식이 잘못 입력되었을 경우 에러 Response 반환 <br>
 <img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"
@@ -282,7 +282,7 @@ Date형식이 잘못 입력되었을 경우 에러 Response 반환<br>
 <li>Selenium을 통한 Web조작 (2-3분 소요)</li>
 </ul>
 </li>
-<li>모든 일자에 대해 입력완료후 출퇴근관리 Slack room에 성공 Message를 전송<br>
+<li>모든 일자에 대해 입력완료후 출퇴근관리 Slack room에 성공 Message를 전송 <br>
 <img
         class="lazyload"
         src="/kururu-blog/svg/loading.min.svg"

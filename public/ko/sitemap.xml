@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://rick00kim.github.io/kururu-blog/categories/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/categories/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/categories/"
@@ -11,7 +11,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/categories/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/devops/</loc><lastmod>2021-09-14T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/tags/devops/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/tags/devops/"
@@ -20,7 +20,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/tags/devops/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/categories/installation/</loc><lastmod>2021-09-14T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/categories/installation/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/categories/installation/"
@@ -29,7 +29,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/categories/installation/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/"
@@ -38,7 +38,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/posts/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/posts/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/posts/"
@@ -47,7 +47,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/posts/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/server/</loc><lastmod>2021-09-14T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/tags/server/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/tags/server/"
@@ -56,7 +56,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/tags/server/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/</loc><lastmod>2021-09-14T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/posts/devops/ssh-authentication/"
@@ -65,7 +65,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/posts/devops/ssh-authentication/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/</loc><lastmod>2021-09-20T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/tags/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/tags/"
@@ -74,7 +74,7 @@
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/tags/"
                     /></url><url>
-            <loc>https://rick00kim.github.io/kururu-blog/tags/todo/</loc><lastmod>2021-09-14T17:45:33&#43;09:00</lastmod><xhtml:link
+            <loc>https://rick00kim.github.io/kururu-blog/tags/todo/</loc><lastmod>2021-10-01T10:00:23&#43;09:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://rick00kim.github.io/kururu-blog/en/tags/todo/"
@@ -190,5 +190,14 @@
                     rel="alternate"
                     hreflang="ko"
                     href="https://rick00kim.github.io/kururu-blog/categories/etc/"
+                    /></url><url>
+            <loc>https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/</loc><lastmod>2020-05-04T10:00:23&#43;09:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://rick00kim.github.io/kururu-blog/en/posts/projects/parking-area/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ko"
+                    href="https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/"
                     /></url><url>
             <loc>https://rick00kim.github.io/kururu-blog/offline/</loc></url></urlset>
