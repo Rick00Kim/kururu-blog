@@ -154,11 +154,76 @@ toc:
 
 ### Github actions 생성
 
-Update 예정
+1. 각 feature branch 개발완료 후, develop branch로 pull request \
+   혹은 develop, main branch가 변경된 경우에, npm을 이용한 build 확인을 시행
+2. 본 project에서 unit test는 따로 진행하지 않기때문에 build만 확인
+3. Project repository내 github actions workflow 작성
+
+   ```yaml
+   name: aacs-supporter
+
+   # Controls when the action will run.
+   on:
+   # Triggers the workflow on push or pull request events but only for the main branch
+   push:
+      branches: [ develop, main ]
+   pull_request:
+      branches: [ develop, main ]
+
+   # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+   jobs:
+   frontend_build_test:
+      runs-on: ubuntu-latest
+      strategy:
+         matrix:
+         node-version: [ 12.x, 14.x, 15.x ]
+
+      steps:
+         - uses: actions/checkout@v2
+         - name: Use Node.js ${{ matrix.node-version }}
+         uses: actions/setup-node@v2
+         with:
+            node-version: ${{ matrix.node-version }}
+         - name: npm ci, build and test
+         run: |
+            cd frontend
+            npm ci
+            npm run build --if-present
+   backend_build_test:
+      runs-on: ubuntu-latest
+      strategy:
+         matrix:
+         node-version: [ 12.x, 14.x, 15.x ]
+
+      steps:
+         - uses: actions/checkout@v2
+         - name: Use Node.js ${{ matrix.node-version }}
+         uses: actions/setup-node@v2
+         with:
+            node-version: ${{ matrix.node-version }}
+         - name: npm ci, build and test
+         run: |
+            cd backend
+            npm ci
+            npm run build --if-present
+   ```
 
 ### Live server release용 pipeline생성
 
-Update 예정
+본 project는 사내 원격 server에 docker container 실행 \
+그리고 사내 원격 server에 운용중인 jenkins가 존재함으로 webhook을 이용한 Jenkins pipeline를 생성
+
+- Update된 모듈의 이행까지의 flow
+
+  1. 해당 repository내 main branch가 갱신
+  2. repository내에 설정해놓은 webhook(release pipeline)이 실행
+  3. 사내 Jenkins내 release용 pipeline이 실행
+     1. repository의 main branch checkout
+     2. release용 folder이동 후, docker-compose file을 이용해 build
+     3. build된 image를 container run 실행
+
+  🔆 본 project는 아직 개발단계이기때문에, Release pipeline에 대한 Test는 아직 미실시 \
+  🔆 통합테스트가 완료된후에 pipeline test 실행예정
 
 ## CONCLUSION
 
