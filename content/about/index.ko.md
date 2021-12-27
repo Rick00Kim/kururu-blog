@@ -13,8 +13,8 @@ math:
 
 4년간 일본에서 Backend, Devops enginner로 일하는 김구현입니다. \
 고객관리 및 거래내역관리 Web application를 Java와 Spring framework를 이용해 설계, 신규기능, 기능수정 및 테스트를 진행했습니다. \
-현재는 운영팀에 소속되어 주로 Live server의 에러 발생시 조사 및 긴급대응, \
-CI/CD(Jenkins)을 통한 빌드, 테스트, 배포 자동화 및 업무내 비효율process 개선 등을 하고 있습니다. \
+현재는 운영팀에 소속되어 주로 Live server의 에러 발생시 조사 및 긴급대응, CI/CD(Jenkins)을 통한 빌드, 테스트, 배포 자동화 및 \
+업무내 비효율process 개선 등을 하고 있습니다.
 
 ## WORK HISTORY
 
