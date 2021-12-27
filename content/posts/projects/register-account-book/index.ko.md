@@ -47,7 +47,6 @@ toc:
 
 1. Slack내 command기능을 이용하여 Slack 사용자와 App간의 대화방식으로 진행
 2. 사용자로부터 필요한 정보를 입력받은 후에 입력정보를 이용하여 출퇴근관리 기능을 구현
-
 3. Slack App의 실제 동작 Module은 Python + Flask를 이용해 구축
 4. Selenium library를 이용하여 Web site를 조작
 
