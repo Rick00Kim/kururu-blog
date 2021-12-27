@@ -20,7 +20,7 @@ math:
 
 ### [Recurit lifestyle (Japan)](https://www.recruit.co.jp/)
 
-    일본내 매장관리 지원서비스
+    업무·경영 지원서비스
 
 ##### Devops Engineer
 
