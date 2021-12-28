@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cloud - Category - KURURU Blog</title>
+        <link>https://rick00kim.github.io/kururu-blog/categories/cloud/</link>
+        <description>Cloud - Category - KURURU Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Sat, 26 Dec 2020 11:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/cloud/" rel="self" type="application/rss+xml" /><item>
+    <title>Oracle Cloud Infrastructure 학습하기</title>
+    <link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/</link>
+    <pubDate>Sat, 26 Dec 2020 11:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/oci-basics.jpg" referrerpolicy="no-referrer">
+            </div>Oracle cloud 학습서]]></description>
+</item>
+<item>
+    <title>Oracle Cloud Infrastructure 인스턴스 생성</title>
+    <link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/</link>
+    <pubDate>Sat, 26 Dec 2020 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/oci-create-first-instance.jpg" referrerpolicy="no-referrer">
+            </div>Oracle cloud를 이용한 Cloud instance생성]]></description>
+</item>
+<item>
+    <title>Oracle Cloud Infrastructure를 시작하기전에</title>
+    <link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/</link>
+    <pubDate>Sat, 26 Dec 2020 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/oci-before.jpg" referrerpolicy="no-referrer">
+            </div>Oracle cloud를 시작하기전 기본정보에 대해 기술]]></description>
+</item>
+</channel>
+</rss>

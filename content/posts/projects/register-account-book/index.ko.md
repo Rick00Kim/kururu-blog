@@ -3,7 +3,7 @@ title: "Slack App과 사내출퇴근서비스를 연동"
 date: 2021-09-10T10:00:23+09:00
 lastmod: 2021-09-20T17:45:33+09:00
 
-tags: ["projects"]
+tags: ["backend", "projects"]
 categories: ["private_projects"]
 featuredImage: "register-account-book.jpg"
 featuredImagePreview: "register-account-book.webp"
