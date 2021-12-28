@@ -40,10 +40,10 @@ math:
       Client 요구사항정의, 설계 및 개발
       단위, 통합, 시스템 UAT 테스트 계획 및 진행
 
-##### Stacks
+## Skills & Stacks
 
     Server
-      RedHat, Ubuntu (On-premise)
+      Unix, Ubuntu
     Language
       Bash, Python, Java, Spring framework, Oracle, JavaScript
     Tools
