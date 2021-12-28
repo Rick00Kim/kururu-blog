@@ -6,4 +6,10 @@
 &lt;img src="/kururu-blog/python-venv.jpg" referrerpolicy="no-referrer">
 &lt;/div>특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명</description></item><item><title>[Linux] 초기개발도구 환경설정</title><link>https://rick00kim.github.io/kururu-blog/posts/devops/linux-start-pack/</link><pubDate>Wed, 25 Aug 2021 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/linux-start-pack/</guid><description>&lt;div class="featured-image">
 &lt;img src="/kururu-blog/linux-start-pack.jpg" referrerpolicy="no-referrer">
-&lt;/div>Linux 환경내 초기개발도구 설치</description></item></channel></rss>
+&lt;/div>Linux 환경내 초기개발도구 설치</description></item><item><title>Oracle Cloud Infrastructure 학습하기</title><link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/</link><pubDate>Sat, 26 Dec 2020 11:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/oci-basics.jpg" referrerpolicy="no-referrer">
+&lt;/div>Oracle cloud 학습서</description></item><item><title>Oracle Cloud Infrastructure 인스턴스 생성</title><link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/</link><pubDate>Sat, 26 Dec 2020 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/oci-create-first-instance.jpg" referrerpolicy="no-referrer">
+&lt;/div>Oracle cloud를 이용한 Cloud instance생성</description></item><item><title>Oracle Cloud Infrastructure를 시작하기전에</title><link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/</link><pubDate>Sat, 26 Dec 2020 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/oci-before.jpg" referrerpolicy="no-referrer">
+&lt;/div>Oracle cloud를 시작하기전 기본정보에 대해 기술</description></item></channel></rss>
