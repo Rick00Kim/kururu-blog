@@ -48,33 +48,74 @@ OCI의 기본정보에 대해 학습
 
 #### realm
 
+업데이트 예정
+
 #### Console
+
+OCI 내 Resource확인, 수정, 삭제, 추가등의 조작을 가능케하는 Web UI
 
 #### tenancy
 
+OCI에서 Cloud resources를 조작하는 OCI Account
+
 #### compartments
+
+OCI 내 존재하는 Resources의 집합(논리적 Container)
+
+![OCI_Compartment](https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png)
 
 #### security zones
 
+업데이트 예정
+
 #### virtual cloud network (VCN)
+
+가상 Cloud Network
+
+이하 Network 정보를 포함
+
+- Subnet
+- Routing cable
+- Gateway
+
+![VCN image](https://k21academy.com/wp-content/uploads/2018/03/20.png)
 
 #### instance
 
+OCI내에서 동작중인 Compute 인스턴스
+
 #### image
+
+업데이트 예정
 
 #### shape
 
+업데이트 예정
+
 #### key pair
+
+업데이트 예정
 
 #### block volume
 
+업데이트 예정
+
 #### Object Storage
+
+업데이트 예정
 
 #### bucket
 
+업데이트 예정
+
 #### Oracle Cloud Identifier (OCID)
+
+오라클 클라우드 식별자
+
+OCI 내애 존재하는 모든 Object에 대한 고유 ID
 
 ## REFERENCES
 
 1. [Key Concepts and Terminology](https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts.htm)
 2. http://cloud-docs.taewan.me/010.oci_intro/basic_concept/terminologies/
+3. [Oracle Cloud Infrastructure (OCI) : Region, AD, FD, Tenancy, Compartment, VCN, IAM, Storage Service](https://k21academy.com/oracle-compute-cloud-services-iaas/oracle-cloud-infrastructure-oci-region-ad-tenancy-compartment-vcn-iam-storage-service/)
