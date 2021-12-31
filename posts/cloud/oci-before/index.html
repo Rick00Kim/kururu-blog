@@ -15,7 +15,7 @@
 <meta name=application-name content="FeelIt">
 <meta name=apple-mobile-web-app-title content="FeelIt"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure를 시작하기전에","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":400,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"Oracle cloud를 시작하기전 기본정보에 대해 기술"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure를 시작하기전에","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":462,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"Oracle cloud를 시작하기전 기본정보에 대해 기술"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
 <div class=header-title>
@@ -85,7 +85,7 @@ Cancel
 <div class="toc-content always-active" id=toc-content-auto></div>
 </div><article class="page single" data-toc=enable><div class=featured-image><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=oci-before.jpg data-srcset="/kururu-blog/posts/cloud/oci-before/oci-before.jpg, oci-before.jpg 1.5x, /kururu-blog/posts/cloud/oci-before/oci-before.jpg 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-before/oci-before.jpg title="Oracle cloud를 시작하기전 기본정보에 대해 기술"></div><div class=single-card data-image=true><h2 class="single-title animated flipInX">Oracle Cloud Infrastructure를 시작하기전에</h2><div class=post-meta>
 <div class=post-meta-line><span class=post-author><a href=/kururu-blog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-category>published in <a href=/kururu-blog/categories/cloud/><i class="far fa-folder fa-fw"></i>Cloud</a></span></div>
-<div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;400 words</span>&nbsp;
+<div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;462 words</span>&nbsp;
 <span><i class="far fa-clock fa-fw"></i>&nbsp;1 minutes</span>&nbsp;</div>
 </div>
 <hr><div class="details toc" id=toc-static data-kept>
@@ -168,11 +168,14 @@ Cancel
 <h4 id=instance>instance</h4>
 <p>OCI내에서 동작중인 Compute 인스턴스</p>
 <h4 id=image>image</h4>
-<p>업데이트 예정</p>
+<p>Instance의 OS image</p>
+<p>OCI에서 제공하는 기본 Image가 존재하며, Custom image 이용도 가능</p>
+<p>✨ <a href=https://docs.oracle.com/en-us/iaas/Content/Compute/References/images.htm#OracleProvided_Images target=_blank rel="noopener noreffer">OCI 제공 Image</a></p>
 <h4 id=shape>shape</h4>
-<p>업데이트 예정</p>
+<p>Instance의 CPU와 할당 Memory set</p>
+<p>✨ <a href=https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm#Compute_Shapes target=_blank rel="noopener noreffer">OCI 제공 Shape</a></p>
 <h4 id=key-pair>key pair</h4>
-<p>업데이트 예정</p>
+<p>SSH 인증방식 중 비밀키/공개키</p>
 <h4 id=block-volume>block volume</h4>
 <p>업데이트 예정</p>
 <h4 id=object-storage>Object Storage</h4>
@@ -194,7 +197,7 @@ Cancel
 <span>Updated on 2020-12-27</span>
 </div><div class=post-info-mod></div>
 </div></div><div class=post-nav><a href=/kururu-blog/posts/projects/parking-area/ class=prev rel=prev title="주차장차량 출입관리 시스템"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
-<a href=/kururu-blog/posts/cloud/oci-create-first-instance/ class=next rel=next title="Oracle Cloud Infrastructure 인스턴스 생성">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+<a href=/kururu-blog/posts/cloud/oci-create-first-instance/ class=next rel=next title="Oracle Cloud Infrastructure 인스턴스 생성(Console 이용)">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
 </div></article></div>
 </main>
 <footer class=footer></footer>
