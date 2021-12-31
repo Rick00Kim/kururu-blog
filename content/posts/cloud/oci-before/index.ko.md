@@ -86,15 +86,21 @@ OCI내에서 동작중인 Compute 인스턴스
 
 #### image
 
-업데이트 예정
+Instance의 OS image
+
+OCI에서 제공하는 기본 Image가 존재하며, Custom image 이용도 가능
+
+✨ [OCI 제공 Image](https://docs.oracle.com/en-us/iaas/Content/Compute/References/images.htm#OracleProvided_Images)
 
 #### shape
 
-업데이트 예정
+Instance의 CPU와 할당 Memory set
+
+✨ [OCI 제공 Shape](https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm#Compute_Shapes)
 
 #### key pair
 
-업데이트 예정
+SSH 인증방식 중 비밀키/공개키
 
 #### block volume
 
