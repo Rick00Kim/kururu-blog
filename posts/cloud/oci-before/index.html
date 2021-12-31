@@ -15,7 +15,7 @@
 <meta name=application-name content="FeelIt">
 <meta name=apple-mobile-web-app-title content="FeelIt"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure를 시작하기전에","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":198,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"Oracle cloud를 시작하기전 기본정보에 대해 기술"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/projects/parking-area/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure를 시작하기전에","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":400,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-before\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"Oracle cloud를 시작하기전 기본정보에 대해 기술"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
 <div class=header-title>
@@ -85,7 +85,7 @@ Cancel
 <div class="toc-content always-active" id=toc-content-auto></div>
 </div><article class="page single" data-toc=enable><div class=featured-image><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=oci-before.jpg data-srcset="/kururu-blog/posts/cloud/oci-before/oci-before.jpg, oci-before.jpg 1.5x, /kururu-blog/posts/cloud/oci-before/oci-before.jpg 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-before/oci-before.jpg title="Oracle cloud를 시작하기전 기본정보에 대해 기술"></div><div class=single-card data-image=true><h2 class="single-title animated flipInX">Oracle Cloud Infrastructure를 시작하기전에</h2><div class=post-meta>
 <div class=post-meta-line><span class=post-author><a href=/kururu-blog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-category>published in <a href=/kururu-blog/categories/cloud/><i class="far fa-folder fa-fw"></i>Cloud</a></span></div>
-<div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;198 words</span>&nbsp;
+<div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;400 words</span>&nbsp;
 <span><i class="far fa-clock fa-fw"></i>&nbsp;1 minutes</span>&nbsp;</div>
 </div>
 <hr><div class="details toc" id=toc-static data-kept>
@@ -146,23 +146,47 @@ Cancel
 <p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg data-srcset="https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg, https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg 1.5x, https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg 2x" data-sizes=auto alt=https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg title=https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg></p>
 <p>✨ <a href=https://www.oracle.com/a/ocom/img/cc01-datacenter-regions.jpg target=_blank rel="noopener noreffer">OCI의 Region List</a></p>
 <h4 id=realm>realm</h4>
+<p>업데이트 예정</p>
 <h4 id=console>Console</h4>
+<p>OCI 내 Resource확인, 수정, 삭제, 추가등의 조작을 가능케하는 Web UI</p>
 <h4 id=tenancy>tenancy</h4>
+<p>OCI에서 Cloud resources를 조작하는 OCI Account</p>
 <h4 id=compartments>compartments</h4>
+<p>OCI 내 존재하는 Resources의 집합(논리적 Container)</p>
+<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png data-srcset="https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png, https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png 1.5x, https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png 2x" data-sizes=auto alt=https://k21academy.com/wp-content/uploads/2018/03/OCI_Compartment.png title=OCI_Compartment></p>
 <h4 id=security-zones>security zones</h4>
+<p>업데이트 예정</p>
 <h4 id=virtual-cloud-network-vcn>virtual cloud network (VCN)</h4>
+<p>가상 Cloud Network</p>
+<p>이하 Network 정보를 포함</p>
+<ul>
+<li>Subnet</li>
+<li>Routing cable</li>
+<li>Gateway</li>
+</ul>
+<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=https://k21academy.com/wp-content/uploads/2018/03/20.png data-srcset="https://k21academy.com/wp-content/uploads/2018/03/20.png, https://k21academy.com/wp-content/uploads/2018/03/20.png 1.5x, https://k21academy.com/wp-content/uploads/2018/03/20.png 2x" data-sizes=auto alt=https://k21academy.com/wp-content/uploads/2018/03/20.png title="VCN image"></p>
 <h4 id=instance>instance</h4>
+<p>OCI내에서 동작중인 Compute 인스턴스</p>
 <h4 id=image>image</h4>
+<p>업데이트 예정</p>
 <h4 id=shape>shape</h4>
+<p>업데이트 예정</p>
 <h4 id=key-pair>key pair</h4>
+<p>업데이트 예정</p>
 <h4 id=block-volume>block volume</h4>
+<p>업데이트 예정</p>
 <h4 id=object-storage>Object Storage</h4>
+<p>업데이트 예정</p>
 <h4 id=bucket>bucket</h4>
+<p>업데이트 예정</p>
 <h4 id=oracle-cloud-identifier-ocid>Oracle Cloud Identifier (OCID)</h4>
+<p>오라클 클라우드 식별자</p>
+<p>OCI 내애 존재하는 모든 Object에 대한 고유 ID</p>
 <h2 id=references>REFERENCES</h2>
 <ol>
 <li><a href=https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts.htm target=_blank rel="noopener noreffer">Key Concepts and Terminology</a></li>
 <li><a href=http://cloud-docs.taewan.me/010.oci_intro/basic_concept/terminologies/ target=_blank rel="noopener noreffer">http://cloud-docs.taewan.me/010.oci_intro/basic_concept/terminologies/</a></li>
+<li><a href=https://k21academy.com/oracle-compute-cloud-services-iaas/oracle-cloud-infrastructure-oci-region-ad-tenancy-compartment-vcn-iam-storage-service/ target=_blank rel="noopener noreffer">Oracle Cloud Infrastructure (OCI) : Region, AD, FD, Tenancy, Compartment, VCN, IAM, Storage Service</a></li>
 </ol></div><div class=post-footer id=post-footer>
 <div class=post-info><div class=post-info-tag><span><a href=/kururu-blog/tags/devops/>Devops</a>
 </span><span><a href=/kururu-blog/tags/cloud-system/>cloud-system</a>
