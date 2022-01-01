@@ -119,7 +119,7 @@ Compute instance의 각각 상세정보가 표시
 
 사전작업에서 생성한 비밀키를 이용해 SSH접속
 
-✨ [SSH 동작방식과 일부 인증방식 설정](../../devops/ssh-authentication/) 중 [ABOUT PUBLIC KEY AUTHENTICATION] 섹터 참고
+✨ SSH 접속방법은 [SSH 동작방식과 일부 인증방식 설정](../../devops/ssh-authentication#how-to-generate-key-pair-and-setting) 참고
 
 ## REFERENCES
 

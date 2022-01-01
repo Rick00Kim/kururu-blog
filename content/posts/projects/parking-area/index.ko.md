@@ -33,6 +33,8 @@ Tutorial개념의 Project를 미리 설계 해놓음으로써, 새로운 Program
    - List
    - Map
    - File I/O
+   - Conditional statement
+   - Loop
      ...
 2. Libraries 활용을 최소 한번 이상은 할것. \
    (단, Libraries 활용은 되도록 최소화 하여, 해당 언어의 Native 구문을 최대한 활용)

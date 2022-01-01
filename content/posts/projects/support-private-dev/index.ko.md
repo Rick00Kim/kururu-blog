@@ -79,6 +79,8 @@ toc:
 
    - Initialize Shell script 생성
 
+     `filename`: users_init.sh
+
    ```bash
    #!/bin/bash
     set -e
