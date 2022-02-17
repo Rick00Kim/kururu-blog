@@ -218,7 +218,7 @@ params:
       keepStatic: false
       auto: true
   footer:
-    enable: false
+    enable: true
   social:
     GitHub: Rick00Kim
     Linkedin: kuhyun-kim-160b9a161
@@ -233,4 +233,4 @@ markup:
 author:
   name: Rick_Kim
   email: dreamx119@gmail.com
-  link: ""
+  link: "/kururu-blog/about"
