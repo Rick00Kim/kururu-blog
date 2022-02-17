@@ -41,7 +41,7 @@ languages:
           title: ""
           weight: 5
     params:
-      description: About FeelIt Theme
+      description: "Welcome to Kururu blog"
       keywords:
         - Theme
         - Hugo
@@ -143,7 +143,7 @@ languages:
           title: ""
           weight: 5
     params:
-      description: About FeelIt Theme
+      description: "꾸루루 개발블로그입니다"
       keywords:
         - Theme
         - Hugo

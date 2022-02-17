@@ -2,7 +2,7 @@
     <channel>
         <title>KURURU Blog</title>
         <link>https://rick00kim.github.io/kururu-blog/</link>
-        <description>About FeelIt Theme</description>
+        <description>꾸루루 개발블로그입니다</description>
         <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
             <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Mon, 15 Nov 2021 10:00:23 &#43;0900</lastBuildDate>
             <atom:link href="https://rick00kim.github.io/kururu-blog/index.xml" rel="self" type="application/rss+xml" />
