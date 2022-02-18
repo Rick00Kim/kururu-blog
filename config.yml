@@ -46,7 +46,7 @@ languages:
         - Theme
         - Hugo
       app:
-        title: FeelIt
+        title: KururuTechBlog
         noFavicon: false
         svgFavicon: ""
         themeColor: "#ffffff"
@@ -148,7 +148,7 @@ languages:
         - Theme
         - Hugo
       app:
-        title: FeelIt
+        title: KururuTechBlog
         noFavicon: false
         svgFavicon: ""
         themeColor: "#ffffff"
