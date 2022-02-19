@@ -217,6 +217,10 @@ params:
       enable: true
       keepStatic: false
       auto: true
+    comment:
+      disqus:
+        enable: true
+        shortname: Rick00Kim
   footer:
     enable: true
   social:
