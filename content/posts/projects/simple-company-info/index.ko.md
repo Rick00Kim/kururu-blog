@@ -2,7 +2,7 @@
 title: "회사소개 홈페이지 개발, 배포"
 date: 2022-02-15T17:45:33+09:00
 
-tags: ["Devops", "Backend", "projects"]
+tags: ["Devops", "frontend", "projects"]
 categories: ["private_projects"]
 featuredImage: "simple-company-info.jpg"
 featuredImagePreview: "simple-company-info.webp"
