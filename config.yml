@@ -218,6 +218,7 @@ params:
       keepStatic: false
       auto: true
     comment:
+      enable: true
       disqus:
         enable: true
         shortname: Rick00Kim
