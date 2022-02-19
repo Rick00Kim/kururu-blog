@@ -52,7 +52,7 @@ Client로부터 받은 요구사항은 아래와 같음.
    {{< admonition question "Why?" >}}
 
    1. 여러 호스팅 사이트가 존재하나, 이용시 발생하는 비용을 고려할 필요없음
-   2. 많은 Traffic에 대한 고려가 불필요하기때문에 쉽게 호스팅할 수 있는 `Github pages`가 가장 적합하다고 판단
+   2. 대량 Traffic에 대한 고려가 불필요하기때문에 소량 Trafiic에 대응 가능하며, 쉽게 호스팅할 수 있는 `Github pages`가 가장 적합하다고 판단
 
    {{< /admonition >}}
 
