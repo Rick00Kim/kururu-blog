@@ -21,7 +21,7 @@ if [ ! $(git branch --show-current) == "main" ]; then
 fi
 
 # (Re)create public folder by hugo
-hugo
+# hugo
 
 # Staging all changed file
 git add .
