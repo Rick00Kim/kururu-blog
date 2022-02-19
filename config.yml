@@ -225,7 +225,6 @@ params:
         owner: "Rick00Kim"
         repo: "kururu-blog"
         clientId: "a7d393679b82f55d962f"
-        clientSecret: "2553e24a1c904edd5451859291e21c35a2c2d1ae"
   footer:
     enable: true
   social:
