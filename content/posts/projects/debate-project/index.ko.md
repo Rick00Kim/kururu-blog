@@ -23,7 +23,12 @@ toc:
 
 ## GOAL
 
+자기생각을 자유롭게 공유할 수 있는 웹 서비스를 구축 및 관리
+
 ## PRECONDITION
+
+1. Frontend, Backend 구분해서 모듈을 작성할것
+2. Container 활용하여 서비스
 
 ## CONTENTS
 
