@@ -17,6 +17,8 @@ toc:
 
 <!--more-->
 
+##### Project 진행 시기: 2021/11/10 - 2022/01/25
+
 ## BACKGROUND
 
 하나의 주제를 가지고 여러 사람의 의견을 공유하는 토론의 장이 있으면 어떨까?
@@ -28,7 +30,7 @@ toc:
 ## PRECONDITION
 
 1. Frontend, Backend 구분해서 모듈을 작성할것
-2. Container 활용하여 서비스
+2. Container기술을 적극활용하여 구축할것
 
 ## CONTENTS
 
