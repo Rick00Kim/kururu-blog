@@ -19,6 +19,8 @@ toc:
 
 ## BACKGROUND
 
+하나의 주제를 가지고 여러 사람의 의견을 공유하는 토론의 장이 있으면 어떨까?
+
 ## GOAL
 
 ## PRECONDITION
