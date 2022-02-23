@@ -7,7 +7,7 @@ tags: ["Devops", "Backend", "Frontend", "projects"]
 categories: ["private_projects"]
 featuredImage: "debate-project.jpg"
 featuredImagePreview: "debate-project.webp"
-description: "Description"
+description: "자기생각을 자유롭게 공유할수 있는 웹서비스를 구축"
 
 lightgallery: true
 
