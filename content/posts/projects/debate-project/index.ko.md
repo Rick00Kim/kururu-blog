@@ -42,7 +42,7 @@ toc:
 
    Oracle Cloud Infrastructure 채용
 
-   🪄 구축 및 관리방법은 [Gihub pages 커스텀 도메인 연동](../../cloud/oci-basics) 참조
+   🪄 구축 및 관리방법은 [Oracle Cloud Infrastructure 학습하기](../../cloud/oci-basics) 참조
 
    ⚙️ 서버내 설치 툴
 
