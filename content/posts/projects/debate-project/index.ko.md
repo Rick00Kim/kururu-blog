@@ -11,6 +11,8 @@ featuredImage: "debate-project.jpg"
 featuredImagePreview: "debate-project.webp"
 description: "Description"
 
+lightgallery: true
+
 toc:
   auto: false
 ---
@@ -68,14 +70,144 @@ toc:
    - [Github](https://github.com/): Source 관리
    - [Github actions](https://github.com/features/actions): CI/CD 이용
 
+{{< admonition info "환경구축" >}}
+
+1. [초기개발도구 환경설정](../../devops/linux-start-pack)내 이하 항목을 설치
+
+   - Python
+   - NodeJS
+   - Yarn
+   - Docker
+   - Docker-compose
+
+2. 개발용 MongoDB 설치방법
+
+   1. Dockerfile 작성
+
+      ```dockerfile
+      FROM mongo
+
+      # Environment variables for Initializing DB
+      # Mongodb Global variables
+      ENV MONGO_INITDB_ROOT_USERNAME 'dev_debate_admin'
+      ENV MONGO_INITDB_ROOT_PASSWORD 'debate1234'
+
+      # Environment variables
+      ENV TARGET_DATABASE 'debate_web'
+      ENV TARGET_USERNAME 'debate_manager'
+      ENV TARGET_PASSWORD 'manDEV1234'
+
+      # Copy Initialize file
+      COPY ./init.sh /docker-entrypoint-initdb.d/
+
+      EXPOSE 27017
+      ```
+
+   2. init.sh 작성
+
+      ```bash
+      #!/bin/bash
+      set -e
+
+      echo ">>>>>>> trying to create database and users"
+      if \
+      [ -n "${MONGO_INITDB_ROOT_USERNAME:-}" ] && \
+      [ -n "${MONGO_INITDB_ROOT_PASSWORD:-}" ] && \
+      [ -n "${TARGET_DATABASE:-}" ] && \
+      [ -n "${TARGET_USERNAME:-}" ] && \
+      [ -n "${TARGET_PASSWORD:-}" ]; then
+      mongo -u $MONGO_INITDB_ROOT_USERNAME -p $MONGO_INITDB_ROOT_PASSWORD <<EOF
+      db=db.getSiblingDB('$TARGET_DATABASE');
+      use $TARGET_DATABASE;
+      db.createUser({
+      user: '$TARGET_USERNAME',
+      pwd: '$TARGET_PASSWORD',
+      roles: [{
+         role: 'readWrite',
+         db: '$TARGET_DATABASE'
+      }]
+      });
+      EOF
+      else
+         echo "Not exists environment variables..."
+         exit 403
+      fi
+      ```
+
+   3. Docker image 생성 및 Run
+
+      1. Set environment variables
+
+         ```bash
+         # Image name
+         export mongoImageName=dev_debate_mongo_img
+         # Container name
+         export mongoContainerName=dev_debate_mongo
+         ```
+
+      2. Build
+
+         ```bash
+         docker build -f DockerfileForMongo -t ${mongoImageName} .
+         ```
+
+      3. Run Container
+         ```bash
+         docker run --name ${mongoContainerName} -p 27017:27017 --rm -d ${mongoImageName}
+         ```
+
+{{< /admonition >}}
+
 ### 2. Design
 
-#### 기본설계
+#### 화면 레이아웃(초판)
 
+1.  Index
 
+    초기화면
+
+    {{< image src="layout-index.png" alt="layout-index" width="40%">}}
+
+2.  Login
+
+    로그인화면
+
+    {{< image src="layout-login.png" alt="layout-login" width="40%">}}
+
+3.  Signup
+
+    회원가입화면
+
+    {{< image src="layout-signup.png" alt="layout-signup" width="40%">}}
+
+4.  Main
+
+    토론메인화면
+
+    {{< image src="layout-main.png" alt="layout-main" width="40%">}}
+
+#### API Endpoint
+
+|  No | Category | End point                | Function name       | Method | description                            |
+| --: | -------- | ------------------------ | ------------------- | ------ | -------------------------------------- |
+|   1 | Auth     | /api/auth                | Authorize           | POST   | Login                                  |
+|   2 | Users    | /api/signup              | Sign up             | POST   | Sign up user                           |
+|   3 | Users    | /api/users               | Get all users       | GET    | get all users (Manage)                 |
+|   4 | Topics   | /api/topic               | Get topic           | GET    | Get all topics                         |
+|   5 | Topics   | /api/topic/{topic_num}   | Get specific topic  | GET    | Get specific topic (Use path variable) |
+|   6 | Topics   | /api/topic               | Resister topic      | POST   | Register new topic                     |
+|   7 | Topics   | /api/topic               | Modify topic        | PUT    | Modify topic                           |
+|   8 | Topics   | /api/topic/{topic_num}   | Delete topic        | DELETE | Delete topic                           |
+|   9 | Debates  | /api/debates/{topic_num} | Get Debate List     | GET    | Get Debate list by topic               |
+|  10 | Debates  | /api/debates             | Resister Debate     | POST   | Register debate linked topic           |
+|  11 | Debates  | /api/debates/{debate_id} | Delete Debate       | DELETE | Delete specific debate                 |
+|  12 | Debates  | /api/debates             | Modify Debate       | PUT    | Modify debate                          |
+|  13 | Like     | /api/like/{debate_num}   | Get Like and Unlike | GET    | Get like list and unlike list          |
+|  14 | Like     | /api/like                | Resister like       | POST   | Register like(Include delete)          |
+|  15 | Like     | /api/unlike              | Resister unlike     | POST   | Register unlike (Include delete)       |
+
+### 3. Dockerize
+
+1. Web server, Frontend, Backend, DB 관리용 Dockerfile, docker-compose(yaml)을 작성
 
 ## CONCLUSION
-
-## TODO
-
-## REFERENCES
