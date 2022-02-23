@@ -52,7 +52,7 @@ Client로부터 받은 요구사항은 아래와 같음.
    {{< admonition question "Why?" >}}
 
    1. 여러 호스팅 사이트가 존재하나, 이용시 발생하는 비용을 고려할 필요없음
-   2. 대량 Traffic에 대한 고려가 불필요하기때문에 소량 Trafiic에 대응 가능하며, 쉽게 호스팅할 수 있는 `Github pages`가 가장 적합하다고 판단
+   2. 대량 Traffic에 대한 고려가 불필요하기때문에 소량 Traffic에 대응 가능하며, 쉽게 호스팅할 수 있는 `Github pages`가 가장 적합하다고 판단
 
    {{< /admonition >}}
 
@@ -166,12 +166,12 @@ Hugo및 템플릿 사용법은 아래 링크를 참조
 
 Github pages에 커스텀 도메인 연동을 위해 아래 Post대로 설정 진행
 
-🪄 [Gihub pages 커스텀 도메인 연동](../../etc/github-pages-custom-domain) 참조
+🪄 [Github pages 커스텀 도메인 연동](../../etc/github-pages-custom-domain) 참조
 
 #### Github acitons(workflow) 설정
 
 Hugo Document내 Github pages 연동방법을 채용하여,
-특정 브랜치상태 변경시 Gihub조작 없이 자동적용하도록 설정
+특정 브랜치의 상태 변경시 Gihub조작 없이 자동적용하도록 설정
 : Github workflow 동작 브랜치: `main`
 
 🪄 [Hugo github pages 연동](https://gohugo.io/hosting-and-deployment/hosting-on-github/) 참조
