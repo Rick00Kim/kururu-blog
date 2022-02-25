@@ -129,35 +129,37 @@ Hugo및 템플릿 사용법은 아래 링크를 참조
 아래 항목을 토대로 테스트 진행
 
 {{< admonition note "Test항목" false>}}
-| No | View | Check point | Result |
-| --: | -- | -- | -- |
-| 1 | Index | 접속시, 404에러가 일어나지 않는가? | ✅ Passed |
-| 2 | Index | 회사어필문구에 오타가 없는가? | ✅ Passed |
-| 3 | Index | 인기제품 Section에 오타가 없는가? | ✅ Passed |
-| 4 | Index | 인기제품 Section내의 링크가 올바르게 설정되어 있는가? | ✅ Passed |
-| 5 | Index | 카테고리 Section에 오타가 없는가? | ✅ Passed |
-| 6 | Index | 카테고리 Section내의 링크가 올바르게 설정되어 있는가? | ✅ Passed |
-| 7 | Product list | 접속시, 404에러가 일어나지 않는가? | ✅ Passed |
-| 8 | Product list | 모든 요소가 표시되는가? | ✅ Passed |
-| 9 | Product list | 각 요소(상품)별 이미지가 올바르게 표시되는가? | ✅ Passed |
-| 10 | Product list | 각 요소(상품)별 요약가 올바르게 표시되는가? | ✅ Passed |
-| 11 | Product list | 각 요소(상품)클릭시 해당 상품소개화면으로 이동하는가? | ✅ Passed |
-| 12 | Product information | 접속시, 404에러가 일어나지 않는가? | ✅ Passed |
-| 13 | Product information | 상품상세정보가 올바르게 표시되는가? | ✅ Passed |
-| 14 | Product information | 상품문의 Form가 올바르게 표시되는가? | ✅ Passed |
-| 15 | Product information | 상품문의 Form이 제대로 작동하는가? | ✅ Passed |
-| 16 | Company information | 접속시, 404에러가 일어나지 않는가? | ✅ Passed |
-| 17 | Company information | 회사대표 인사말, 회사경영 Vision이 올바르게 표시되는가? | ✅ Passed |
-| 18 | Company contact | 접속시, 404에러가 일어나지 않는가? | ✅ Passed |
-| 19 | Company contact | 오타가 없는가? | ✅ Passed |
-| 20 | Company contact | 메신져 아이콘 클릭시 제대로 작동하는가? | ✅ Passed |
-| 21 | Company contact | 이메일문의 Form가 올바르게 표시되는가? | ✅ Passed |
-| 22 | Company contact | 이메일문의 Form이 제대로 작동하는가? | ✅ Passed |
-| 23 | Common | 모든 화면내에서 Menu bar가 올바르게 표시되는가? | ✅ Passed |
-| 24 | Common | 모든 화면내에서 Menu bar내 모든기능이 올바르게 작동하는가? | ✅ Passed |
-| 25 | Common | 모든 화면내에서 Header가 올바르게 표시되는가? | ✅ Passed |
-| 26 | Common | 모든 화면내에서 Footer가 올바르게 표시되는가? | ✅ Passed |
-| 27 | Common | HTML Header에 회사와 관계없는 meta데이터등이 없는가? | ✅ Passed |
+
+|  No | View                | Check point                                                | Result    |
+| --: | ------------------- | ---------------------------------------------------------- | --------- |
+|   1 | Index               | 접속시, 404에러가 일어나지 않는가?                         | ✅ Passed |
+|   2 | Index               | 회사어필문구에 오타가 없는가?                              | ✅ Passed |
+|   3 | Index               | 인기제품 Section에 오타가 없는가?                          | ✅ Passed |
+|   4 | Index               | 인기제품 Section내의 링크가 올바르게 설정되어 있는가?      | ✅ Passed |
+|   5 | Index               | 카테고리 Section에 오타가 없는가?                          | ✅ Passed |
+|   6 | Index               | 카테고리 Section내의 링크가 올바르게 설정되어 있는가?      | ✅ Passed |
+|   7 | Product list        | 접속시, 404에러가 일어나지 않는가?                         | ✅ Passed |
+|   8 | Product list        | 모든 요소가 표시되는가?                                    | ✅ Passed |
+|   9 | Product list        | 각 요소(상품)별 이미지가 올바르게 표시되는가?              | ✅ Passed |
+|  10 | Product list        | 각 요소(상품)별 요약이 올바르게 표시되는가?                | ✅ Passed |
+|  11 | Product list        | 각 요소(상품)클릭시 해당 상품소개화면으로 이동하는가?      | ✅ Passed |
+|  12 | Product information | 접속시, 404에러가 일어나지 않는가?                         | ✅ Passed |
+|  13 | Product information | 상품상세정보가 올바르게 표시되는가?                        | ✅ Passed |
+|  14 | Product information | 상품문의 Form이 올바르게 표시되는가?                       | ✅ Passed |
+|  15 | Product information | 상품문의 Form이 제대로 작동하는가?                         | ✅ Passed |
+|  16 | Company information | 접속시, 404에러가 일어나지 않는가?                         | ✅ Passed |
+|  17 | Company information | 회사대표 인사말, 회사경영 Vision이 올바르게 표시되는가?    | ✅ Passed |
+|  18 | Company contact     | 접속시, 404에러가 일어나지 않는가?                         | ✅ Passed |
+|  19 | Company contact     | 오타가 없는가?                                             | ✅ Passed |
+|  20 | Company contact     | 메신져 아이콘 클릭시 제대로 작동하는가?                    | ✅ Passed |
+|  21 | Company contact     | 이메일문의 Form이 올바르게 표시되는가?                     | ✅ Passed |
+|  22 | Company contact     | 이메일문의 Form이 제대로 작동하는가?                       | ✅ Passed |
+|  23 | Common              | 모든 화면내에서 Menu bar가 올바르게 표시되는가?            | ✅ Passed |
+|  24 | Common              | 모든 화면내에서 Menu bar내 모든기능이 올바르게 작동하는가? | ✅ Passed |
+|  25 | Common              | 모든 화면내에서 Header가 올바르게 표시되는가?              | ✅ Passed |
+|  26 | Common              | 모든 화면내에서 Footer가 올바르게 표시되는가?              | ✅ Passed |
+|  27 | Common              | HTML Header에 회사와 관계없는 meta데이터등이 없는가?       | ✅ Passed |
+
 {{< /admonition >}}
 
 ### 5. 이행준비
