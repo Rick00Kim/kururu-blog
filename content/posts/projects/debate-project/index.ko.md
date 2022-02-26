@@ -208,4 +208,10 @@ toc:
 
 1. Web server, Frontend, Backend, DB 관리용 Dockerfile, docker-compose(yaml)을 작성
 
+   - Project docker-compose: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/docker-compose.yml)
+     - NGINX Config file: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/server_config/debate_nginx.conf)
+     - Dockerfile for Frontend : [Link](https://github.com/Rick00Kim/Debate_project/blob/main/frontend/Dockerfile)
+     - Dockerfile for Backend: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/backend/Dockerfile)
+     - Dockerfile for MongoDB: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/db/Dockerfile)
+
 ## CONCLUSION
