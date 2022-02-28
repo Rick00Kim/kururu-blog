@@ -214,4 +214,10 @@ toc:
      - Dockerfile for Backend: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/backend/Dockerfile)
      - Dockerfile for MongoDB: [Link](https://github.com/Rick00Kim/Debate_project/blob/main/db/Dockerfile)
 
+2. Automate Build and Deploy
+
+   - github workflow 작성
+
+   - docker repository 구축
+
 ## CONCLUSION
