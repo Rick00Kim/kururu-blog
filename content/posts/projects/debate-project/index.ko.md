@@ -221,3 +221,6 @@ toc:
    - docker repository 구축
 
 ## CONCLUSION
+
+- Docker내 네트워크 설정에 대해 학습이 가능하였음
+- React 사용에 있어 Proxy관련 설정에 대한 학습이 가능하였음
