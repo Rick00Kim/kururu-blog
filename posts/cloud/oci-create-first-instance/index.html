@@ -16,13 +16,12 @@
 <meta name=apple-mobile-web-app-title content="KururuTechBlog"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><meta name=google-site-verification content="twGvePo9HJ-p7TvsvuVzFVC1fnVGRCkQ-MIxc0X4U90">
 <link rel="shortcut icon" type=image/x-icon href=/kururu-blog/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/kururu-blog/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/kururu-blog/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/kururu-blog/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/kururu-blog/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure 인스턴스 생성(Console 이용)","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-create-first-instance\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":728,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-create-first-instance\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"OCI Console을 이용한 Cloud instance생성"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<link rel=icon type=image/png sizes=16x16 href=/kururu-blog/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/kururu-blog/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/kururu-blog/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-create-first-instance/><link rel=prev href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-before/><link rel=next href=https://rick00kim.github.io/kururu-blog/posts/cloud/oci-basics/><link rel=stylesheet href=/kururu-blog/css/page.min.css><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Oracle Cloud Infrastructure 인스턴스 생성(Console 이용)","inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-create-first-instance\/"},"genre":"posts","keywords":"Devops, cloud-system","wordcount":728,"url":"https:\/\/rick00kim.github.io\/kururu-blog\/posts\/cloud\/oci-create-first-instance\/","datePublished":"2020-12-26T10:00:23+09:00","dateModified":"2020-12-27T17:45:33+09:00","publisher":{"@type":"Organization","name":"Rick_Kim"},"author":{"@type":"Person","name":"Rick_Kim"},"description":"OCI Console을 이용한 Cloud instance생성"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"dark"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"dark"==="dark")&&document.body.setAttribute("theme","dark")</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
 <div class=header-title>
 <a href=/kururu-blog/ title="KURURU Blog">KURURU Blog</a>
-</div>
-<div class=menu>
+</div><div class=menu>
 <div class=menu-inner><a class=menu-item href=/kururu-blog/posts/> Posts </a><a class=menu-item href=/kururu-blog/tags/> Tags </a><a class=menu-item href=/kururu-blog/categories/> Categories </a><a class=menu-item href=/kururu-blog/about/> About </a><span class="menu-item delimiter"></span><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
 <select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/kururu-blog/posts/cloud/oci-create-first-instance/ selected>Korean</option></select>
 </span><span class="menu-item search" id=search-desktop>
@@ -39,20 +38,14 @@
 </span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
 <i class="fas fa-adjust fa-fw"></i>
 </a>
-</div>
-</div>
-</div>
-</header><header class=mobile id=header-mobile>
+</div></div></div></header><header class=mobile id=header-mobile>
 <div class=header-container>
 <div class=header-wrapper>
 <div class=header-title>
 <a href=/kururu-blog/ title="KURURU Blog">KURURU Blog</a>
-</div>
-<div class=menu-toggle id=menu-toggle-mobile>
+</div><div class=menu-toggle id=menu-toggle-mobile>
 <span></span><span></span><span></span>
-</div>
-</div>
-<div class=menu id=menu-mobile><div class=search-wrapper>
+</div></div><div class=menu id=menu-mobile><div class=search-wrapper>
 <div class="search mobile" id=search-mobile>
 <input type=text placeholder="Search titles or contents..." id=search-input-mobile>
 <a href=# class="search-button search-toggle" id=search-toggle-mobile title=Search>
@@ -64,8 +57,7 @@
 <span class="search-button search-loading" id=search-loading-mobile>
 <i class="fas fa-spinner fa-fw fa-spin"></i>
 </span>
-</div>
-<a href=# class=search-cancel id=search-cancel-mobile>
+</div><a href=# class=search-cancel id=search-cancel-mobile>
 Cancel
 </a>
 </div><a class=menu-item href=/kururu-blog/posts/ title>Posts</a><a class=menu-item href=/kururu-blog/tags/ title>Tags</a><a class=menu-item href=/kururu-blog/categories/ title>Categories</a><a class=menu-item href=/kururu-blog/about/ title>About</a><div class=menu-item><a href=javascript:void(0); class=theme-switch title="Switch Theme">
@@ -73,168 +65,66 @@ Cancel
 </a>
 </div><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
 <select class=language-select onchange="location=this.value"><option value=/kururu-blog/posts/cloud/oci-create-first-instance/ selected>Korean</option></select>
-</span></div>
-</div>
-</header><div class="search-dropdown desktop">
-<div id=search-dropdown-desktop></div>
-</div>
-<div class="search-dropdown mobile">
-<div id=search-dropdown-mobile></div>
-</div><main class=main>
+</span></div></div></header><div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div></div><main class=main>
 <div class=container><div class=toc id=toc-auto>
-<h2 class=toc-title>Contents</h2>
-<div class="toc-content always-active" id=toc-content-auto></div>
-</div><article class="page single" data-toc=enable><div class=featured-image><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=oci-create-first-instance.jpg data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg, oci-create-first-instance.jpg 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg title="OCI Console을 이용한 Cloud instance생성"></div><div class=single-card data-image=true><h2 class="single-title animated flipInX">Oracle Cloud Infrastructure 인스턴스 생성(Console 이용)</h2><div class=post-meta>
-<div class=post-meta-line><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-category>published in <a href=/kururu-blog/categories/cloud/><i class="far fa-folder fa-fw"></i>Cloud</a></span></div>
-<div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;728 words</span>&nbsp;
-<span><i class="far fa-clock fa-fw"></i>&nbsp;2 minutes</span>&nbsp;</div>
-</div>
-<hr><div class="details toc" id=toc-static data-kept>
+<h2 class=toc-title>Contents</h2><div class="toc-content always-active" id=toc-content-auto></div></div><article class="page single" data-toc=enable><div class=featured-image><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=oci-create-first-instance.jpg data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg, oci-create-first-instance.jpg 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/oci-create-first-instance.jpg title="OCI Console을 이용한 Cloud instance생성"></div><div class=single-card data-image=true><h2 class="single-title animated flipInX">Oracle Cloud Infrastructure 인스턴스 생성(Console 이용)</h2><div class=post-meta>
+<div class=post-meta-line><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-category>published in <a href=/kururu-blog/categories/cloud/><i class="far fa-folder fa-fw"></i>Cloud</a></span></div><div class=post-meta-line><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;728 words</span>&nbsp;
+<span><i class="far fa-clock fa-fw"></i>&nbsp;2 minutes</span>&nbsp;</div></div><hr><div class="details toc" id=toc-static data-kept>
 <div class="details-summary toc-title">
 <span>Contents</span>
 <span><i class="details-icon fas fa-angle-right"></i></span>
-</div>
-<div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
+</div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
 <ul>
-<li><a href=#goal>GOAL</a></li>
-<li><a href=#precondition>PRECONDITION</a></li>
-<li><a href=#before>BEFORE</a></li>
-<li><a href=#contents>CONTENTS</a>
+<li><a href=#goal>GOAL</a></li><li><a href=#precondition>PRECONDITION</a></li><li><a href=#before>BEFORE</a></li><li><a href=#contents>CONTENTS</a>
 <ul>
-<li><a href=#compute-instance-생성>Compute instance 생성</a></li>
-<li><a href=#compute-instance-완료>Compute instance 완료</a></li>
-<li><a href=#compute-instance-접속확인>Compute instance 접속확인</a></li>
-</ul>
-</li>
-<li><a href=#references>REFERENCES</a></li>
-</ul>
-</nav></div>
-</div><div class=content id=content><h2 id=goal>GOAL</h2>
-<p><code>OCI Console</code>을 이용해 <code>Compute Instance</code> 생성을 위한 정보와 생성방법에 대해 기술</p>
-<h2 id=precondition>PRECONDITION</h2>
-<p>본 Post의 목적과 OCI내 각 용어는 아래를 참조</p>
-<p>🪄 <a href=../oci-basics/ rel>Oracle Cloud Infrastructure에 대해서</a></p>
-<p>🪄 <a href=../oci-before/ rel>Oracle Cloud Infrastructure를 시작하기전에</a></p>
-<h2 id=before>BEFORE</h2>
-<p>본 Post를 진행하기에 앞서 이하 사전작업을 진행</p>
-<ul>
+<li><a href=#compute-instance-생성>Compute instance 생성</a></li><li><a href=#compute-instance-완료>Compute instance 완료</a></li><li><a href=#compute-instance-접속확인>Compute instance 접속확인</a></li></ul></li><li><a href=#references>REFERENCES</a></li></ul></nav></div></div><div class=content id=content><h2 id=goal>GOAL</h2><p><code>OCI Console</code>을 이용해 <code>Compute Instance</code> 생성을 위한 정보와 생성방법에 대해 기술</p><h2 id=precondition>PRECONDITION</h2><p>본 Post의 목적과 OCI내 각 용어는 아래를 참조</p><p>🪄 <a href=../oci-basics/ rel>Oracle Cloud Infrastructure에 대해서</a></p><p>🪄 <a href=../oci-before/ rel>Oracle Cloud Infrastructure를 시작하기전에</a></p><h2 id=before>BEFORE</h2><p>본 Post를 진행하기에 앞서 이하 사전작업을 진행</p><ul>
 <li>
-<p>OCI에서 생성할 Compute instance(원격 host)로의 SSH 접속을 위한 <code>비밀키, 공개키</code>를 생성</p>
-<p>ssh-keygen을 이용한 비밀키 공개키 쌍을 생성</p>
-<div class=highlight><div class=chroma>
+<p>OCI에서 생성할 Compute instance(원격 host)로의 SSH 접속을 위한 <code>비밀키, 공개키</code>를 생성</p><p>ssh-keygen을 이용한 비밀키 공개키 쌍을 생성</p><div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># ssh-keygen 실행</span>
-<span class=c1># &lt;key_name&gt;과 &lt;path&gt;는 실행자 환경에 맞춰 설정</span>
-ssh-keygen -t rsa -N <span class=s2>&#34;&#34;</span> -b <span class=m>2048</span> -C <span class=s2>&#34;&lt;key_name&gt;&#34;</span> -f &lt;path&gt;
-</code></pre></td></tr></table>
-</div>
-</div><p>생성된 비밀/공개키 중 <code>공개키</code>는 compute instance 생성시에 사용 <br>
-<code>비밀키</code>는 후에 compute instance 접속시에 사용</p>
-</li>
-</ul>
-<h2 id=contents>CONTENTS</h2>
-<h3 id=compute-instance-생성>Compute instance 생성</h3>
-<ol>
+</span></code></pre></td><td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># ssh-keygen 실행</span>
+</span></span><span class=line><span class=cl><span class=c1># &lt;key_name&gt;과 &lt;path&gt;는 실행자 환경에 맞춰 설정</span>
+</span></span><span class=line><span class=cl>ssh-keygen -t rsa -N <span class=s2>&#34;&#34;</span> -b <span class=m>2048</span> -C <span class=s2>&#34;&lt;key_name&gt;&#34;</span> -f &lt;path&gt;
+</span></span></code></pre></td></tr></table></div></div><p>생성된 비밀/공개키 중 <code>공개키</code>는 compute instance 생성시에 사용 <br>
+<code>비밀키</code>는 후에 compute instance 접속시에 사용</p></li></ul><h2 id=contents>CONTENTS</h2><h3 id=compute-instance-생성>Compute instance 생성</h3><ol>
 <li>
-<p>Oracle Cloud Infrastructure 로그인</p>
-<p><a href=https://www.oracle.com/cloud/sign-in.html target=_blank rel="noopener noreffer">https://www.oracle.com/cloud/sign-in.html</a></p>
-</li>
+<p>Oracle Cloud Infrastructure 로그인</p><p><a href=https://www.oracle.com/cloud/sign-in.html target=_blank rel="noopener noreffer">https://www.oracle.com/cloud/sign-in.html</a></p></li><li>
+<p>[Create compute instance] 이동</p><p>OCI-Console내 1[Create a VM instance] 선택 혹은 <a href=https://cloud.oracle.com/compute/instances/create target=_blank rel="noopener noreffer">Create compute instance</a>로 접속가능</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=01_oci_dashboard.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png, 01_oci_dashboard.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png title=OCI-Console></p><p>Compute instance 화면</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=02_create_instance_index.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png, 02_create_instance_index.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png title=create-instance-index></p></li><li>
+<p>생성할 Compute instance 속성 선택</p><ol>
 <li>
-<p>[Create compute instance] 이동</p>
-<p>OCI-Console내 1[Create a VM instance] 선택 혹은 <a href=https://cloud.oracle.com/compute/instances/create target=_blank rel="noopener noreffer">Create compute instance</a>로 접속가능</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=01_oci_dashboard.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png, 01_oci_dashboard.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/01_oci_dashboard.png title=OCI-Console></p>
-<p>Compute instance 화면</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=02_create_instance_index.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png, 02_create_instance_index.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/02_create_instance_index.png title=create-instance-index></p>
-</li>
-<li>
-<p>생성할 Compute instance 속성 선택</p>
-<ol>
-<li>
-<p>Placement</p>
-<p>해당 Compute instance가 설치되는 장소(<code>Region</code>) <br>
-기본설정으로 OCI account 생성시 설정한 Region이 선택된다</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=03_select_placement.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png, 03_select_placement.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png title=select-placement></p>
-<div class="details admonition tip open">
+<p>Placement</p><p>해당 Compute instance가 설치되는 장소(<code>Region</code>) <br>
+기본설정으로 OCI account 생성시 설정한 Region이 선택된다</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=03_select_placement.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png, 03_select_placement.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/03_select_placement.png title=select-placement></p><div class="details admonition tip open">
 <div class="details-summary admonition-title">
 <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
-</div>
-<div class=details-content>
+</div><div class=details-content>
 <div class=admonition-content><pre><code>  🔆 Free tier 회원일 경우, Region은 하나이상 선택불가
   🔆 복수선택 희망시, 유료계정 등록이 필요
-</code></pre>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Image and shape</p>
-<p>해당 Compute instance의 OS image와 shape을 선택</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=04_select_image_and_shape.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png, 04_select_image_and_shape.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png title=select-imageAndShape></p>
-<div class="details admonition tip open">
+</code></pre></div></div></div></li><li>
+<p>Image and shape</p><p>해당 Compute instance의 OS image와 shape을 선택</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=04_select_image_and_shape.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png, 04_select_image_and_shape.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/04_select_image_and_shape.png title=select-imageAndShape></p><div class="details admonition tip open">
 <div class="details-summary admonition-title">
 <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
-</div>
-<div class=details-content>
+</div><div class=details-content>
 <div class=admonition-content><pre><code>  🔆 Free tier 회원일 경우, 이용가능한 Image 혹은 Shape의 지정에 제한이 있음
-</code></pre>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Networking</p>
-<p>VCN 및 OCI의 네트워크 관련(subnet, public IP 등) 설정</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=05_select_networking.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png, 05_select_networking.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png title=select-networking></p>
-</li>
-<li>
-<p>Add SSH keys</p>
-<p>생성후의 compute instance에 접속할때 사용할 SSH Key를 설정 혹은 생성</p>
-<p>본 Post에서는 [Paste public keys]옵션을 사용 <br>
-사전작업에서 생성한 public key를 [SSH Keys]에 붙여넣기</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=06_add_ssh_keys.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png, 06_add_ssh_keys.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png title=add-ssh-keys></p>
-</li>
-<li>
-<p>Boot volume</p>
-<p>업데이트 예정</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=07_select_boot_volume.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png, 07_select_boot_volume.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png title=select-boot-volume></p>
-</li>
-</ol>
-<p><code>위 Compute instance 속성 선택을 완료한 경우, 화면 아래 [Create] 버튼 클릭</code></p>
-</li>
-</ol>
-<h3 id=compute-instance-완료>Compute instance 완료</h3>
-<p>Compute instance의 각각 상세정보가 표시</p>
-<p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=08_complete_create_instance.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png, 08_complete_create_instance.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png title=complete-create-instance></p>
-<h3 id=compute-instance-접속확인>Compute instance 접속확인</h3>
-<p>사전작업에서 생성한 비밀키를 이용해 SSH접속</p>
-<p>✨ SSH 접속방법은 <a href=../../devops/ssh-authentication#how-to-generate-key-pair-and-setting rel>SSH 동작방식과 일부 인증방식 설정</a> 참고</p>
-<h2 id=references>REFERENCES</h2>
-<ol>
-<li><a href=https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/baremetalintro.htm target=_blank rel="noopener noreffer">Welcome to Oracle Cloud Infrastructure</a></li>
-<li><a href=https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts.htm target=_blank rel="noopener noreffer">Key Concepts and Terminology</a></li>
-</ol></div><div class=post-footer id=post-footer>
+</code></pre></div></div></div></li><li>
+<p>Networking</p><p>VCN 및 OCI의 네트워크 관련(subnet, public IP 등) 설정</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=05_select_networking.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png, 05_select_networking.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/05_select_networking.png title=select-networking></p></li><li>
+<p>Add SSH keys</p><p>생성후의 compute instance에 접속할때 사용할 SSH Key를 설정 혹은 생성</p><p>본 Post에서는 [Paste public keys]옵션을 사용 <br>
+사전작업에서 생성한 public key를 [SSH Keys]에 붙여넣기</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=06_add_ssh_keys.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png, 06_add_ssh_keys.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/06_add_ssh_keys.png title=add-ssh-keys></p></li><li>
+<p>Boot volume</p><p>업데이트 예정</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=07_select_boot_volume.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png, 07_select_boot_volume.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/07_select_boot_volume.png title=select-boot-volume></p></li></ol><p><code>위 Compute instance 속성 선택을 완료한 경우, 화면 아래 [Create] 버튼 클릭</code></p></li></ol><h3 id=compute-instance-완료>Compute instance 완료</h3><p>Compute instance의 각각 상세정보가 표시</p><p><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=08_complete_create_instance.png data-srcset="/kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png, 08_complete_create_instance.png 1.5x, /kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-create-first-instance/08_complete_create_instance.png title=complete-create-instance></p><h3 id=compute-instance-접속확인>Compute instance 접속확인</h3><p>사전작업에서 생성한 비밀키를 이용해 SSH접속</p><p>✨ SSH 접속방법은 <a href=../../devops/ssh-authentication#how-to-generate-key-pair-and-setting rel>SSH 동작방식과 일부 인증방식 설정</a> 참고</p><h2 id=references>REFERENCES</h2><ol>
+<li><a href=https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/baremetalintro.htm target=_blank rel="noopener noreffer">Welcome to Oracle Cloud Infrastructure</a></li><li><a href=https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts.htm target=_blank rel="noopener noreffer">Key Concepts and Terminology</a></li></ol></div><div class=post-footer id=post-footer>
 <div class=post-info><div class=post-info-tag><span><a href=/kururu-blog/tags/devops/>Devops</a>
 </span><span><a href=/kururu-blog/tags/cloud-system/>cloud-system</a>
 </span></div><div class=post-info-line><div class=post-info-mod>
 <span>Updated on 2020-12-27</span>
-</div><div class=post-info-mod></div>
-</div></div><div class=post-nav><a href=/kururu-blog/posts/cloud/oci-before/ class=prev rel=prev title="Oracle Cloud Infrastructure를 시작하기전에"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
-<a href=/kururu-blog/posts/cloud/oci-basics/ class=next rel=next title="Oracle Cloud Infrastructure 학습하기">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
-</div><div id=comments class=single-card><div id=vssue></div><noscript>
+</div><div class=post-info-mod></div></div></div><div class=post-nav><a href=/kururu-blog/posts/cloud/oci-before/ class=prev rel=prev title="Oracle Cloud Infrastructure를 시작하기전에"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+<a href=/kururu-blog/posts/cloud/oci-basics/ class=next rel=next title="Oracle Cloud Infrastructure 학습하기">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div></div><div id=comments class=single-card><div id=vssue></div><noscript>
 Please enable JavaScript to view the comments powered by <a href=https://github.com/meteorlxy/vssue>Vssue</a>.
-</noscript></div></article></div>
-</main>
-<footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href=https://github.com/khusika/FeelIt target=_blank rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-</div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2022</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/kururu-blog/about>Rick_Kim</a></span></div>
-</div>
-</footer>
-</div>
-<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Theme - <a href=https://github.com/khusika/FeelIt target=_blank rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+</div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2022</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/kururu-blog/about>Rick_Kim</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
 <i class="fas fa-chevron-up fa-fw"></i>
 </a><a href=# id=view-comments class=fixed-button title="View Comments">
 <i class="fas fa-comment-alt fa-fw"></i>
