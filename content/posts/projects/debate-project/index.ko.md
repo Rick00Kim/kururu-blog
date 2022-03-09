@@ -223,4 +223,11 @@ toc:
 ## CONCLUSION
 
 - Docker내 네트워크 설정에 대해 학습이 가능하였음
-- React 사용에 있어 Proxy관련 설정에 대한 학습이 가능하였음
+- React 모듈내 Proxy관련 설정에 대한 학습이 가능하였음
+- CI/CD관련
+  - Github actions를 통한 Oracle Cloud Infrastruct 연계학습
+
+## TODO
+
+- 현재 Docker로 생성되어있는 모듈을 Microservice로의 Architecture 구상
+- Microservice내 변경이 이루어진 모듈만 이행이 가능하도록 학습
