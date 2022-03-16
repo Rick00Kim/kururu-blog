@@ -223,6 +223,7 @@ toc:
 ## CONCLUSION
 
 - Docker내 네트워크 설정에 대해 학습이 가능하였음
+- React 모듈내 Responsive 디자인 학습이 가능하였음
 - React 모듈내 Proxy관련 설정에 대한 학습이 가능하였음
 - CI/CD관련
   - Github actions를 통한 Oracle Cloud Infrastruct 연계학습
