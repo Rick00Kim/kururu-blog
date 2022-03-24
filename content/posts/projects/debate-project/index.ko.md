@@ -230,6 +230,7 @@ toc:
 
 ## TODO
 
-- SP화면 수정(UX/UI관점 개선)
-- 현재 Docker로 생성되어있는 모듈을 Microservice로의 Architecture 구상
-- Microservice내 변경이 이루어진 모듈만 이행이 가능하도록 학습
+- [x] SP화면 수정(UX/UI관점 개선) \
+       Issue URL: [issues-3](https://github.com/Rick00Kim/Debate_project/issues/3)
+- [ ] 현재 Docker로 생성되어있는 모듈을 Microservice로의 Architecture 구상
+- [ ] Microservice내 변경이 이루어진 모듈만 이행이 가능하도록 학습
