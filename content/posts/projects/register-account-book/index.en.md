@@ -17,6 +17,8 @@ toc:
 
 ##### The period of Project: 2021/04/01 - 2021/04/20
 
+##### REPOSITORY: https://github.com/Rick00Kim/Slack_Automator/tree/master/csi_work_diary
+
 ## BACKGROUND
 
 - Use external administrative service to company commuting management.

@@ -17,6 +17,8 @@ toc:
 
 ##### Project 진행 시기: 2021/04/01 - 2021/04/20
 
+##### REPOSITORY: https://github.com/Rick00Kim/Slack_Automator/tree/master/csi_work_diary
+
 ## BACKGROUND
 
 - 사내 출퇴근관리는 외부행정서비스를 이용중

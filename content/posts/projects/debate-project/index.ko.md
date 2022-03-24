@@ -19,6 +19,8 @@ toc:
 
 ##### Project 진행 시기: 2021/11/10 - 2022/01/03
 
+##### REPOSITORY: https://github.com/Rick00Kim/Debate_project
+
 ## BACKGROUND
 
 국적불문하고 하나의 주제를 가지고 여러 사람이 의견을 공유하는 토론의 장이 있으면 어떨까?
