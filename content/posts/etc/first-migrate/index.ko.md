@@ -34,16 +34,20 @@ toc:
 
 #### Menu summary
 
-- Post \
+- Post
+
   전체 post확인
 
-- Tags \
+- Tags
+
   tag별 post확인
 
-- Categories \
+- Categories
+
   category별 post확인
 
-- About me \
+- About me
+
   관리자 소개
 
 #### Menu details
