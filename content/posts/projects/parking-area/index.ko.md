@@ -8,6 +8,8 @@ featuredImage: "oci-basic.jpg"
 featuredImagePreview: "oci-basic.webp"
 description: "Console application으로 주차장 출입관리 시스템을 작성"
 
+lightgallery: true
+
 toc:
   auto: false
 ---
@@ -46,11 +48,11 @@ Tutorial개념의 Project를 미리 설계 해놓음으로써, 새로운 Program
 
 #### System Flow
 
-![System Flow](flow-chart.png)
+{{< image src="flow-chart.png" alt="System Flow" width="90%">}}
 
 #### Database Design
 
-![Datbase objects](table.png)
+{{< image src="table.png" alt="Datbase objects" width="80%">}}
 
 - LOT_INFORMATION: 주차장 정보(Master)
 
