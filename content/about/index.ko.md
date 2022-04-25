@@ -27,7 +27,7 @@ math:
 
 ##### 1. Devops Engineer
 
-    🔆 2020/03 ~ Present
+    🔆 2020/03 ~ 2022/03
     🔆 팀내 서브리더로 활약
       Module 배포 작업
       서비스 모니터링 시스템 구축 및 관리 (APM, Server Resource 감시), 긴급대응
