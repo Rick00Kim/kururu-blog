@@ -49,7 +49,7 @@ Client로부터 받은 요구사항은 아래와 같음.
 1. 서버(호스팅)
 
    `Github pages`를 통한 호스팅 방식을 채용
-   {{< admonition question "Why?" >}}
+   {{< admonition question "Why" >}}
 
    1. 여러 호스팅 사이트가 존재하나, 이용시 발생하는 비용을 고려할 필요없음
    2. 대량 Traffic에 대한 고려가 불필요하기때문에 소량 Traffic에 대응 가능하며, 쉽게 호스팅할 수 있는 `Github pages`가 가장 적합하다고 판단
@@ -59,7 +59,7 @@ Client로부터 받은 요구사항은 아래와 같음.
 2. 데이터베이스
 
    없음
-   {{< admonition question "Why?" >}}
+   {{< admonition question "Why" >}}
 
    정적페이지 구축만으로 홈페이지를 작성하기때문에 데이터베이스 구축, 이용 및 관리가 필요없음
 
