@@ -11,13 +11,13 @@ math:
 
 ## SUMMARY
 
-4년간 일본에서 Backend, Devops enginner로 일하는 김구현입니다.
+4년간 Backend 개발자를 시작으로 DevOps 엔지니어로 활약했습니다.
 
-고객관리 및 거래내역관리 Web application를 Java와 Spring framework를 이용해 설계, 신규기능, 기능수정 및 테스트를 진행했습니다.
+Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및 거래내역관리 Web application 과 Batch appliction 설계, 개발, 테스트 및 성능개선을 주로 담당했습니다.
 
-현재는 운영팀에 소속되어 주로 Live server의 에러 발생시 조사 및 긴급대응, CI/CD(Jenkins)을 통한 빌드, 테스트, 배포 자동화 및
+그리고 운영팀에 소속되어 Live server 의 에러 발생시 조사 및 긴급대응, CI/CD(Jenkins)을 통한 빌드, 테스트, 배포 자동화 및 업무내 비효율 process 개선 등 DevOps 엔지니어 역할도 수행했습니다.
 
-업무내 비효율process 개선 등을 하고 있습니다.
+배움에 대한 열정이 남다르다 자신하며, 최근에는 Cloud 인프라 운영 및 관리와 Kubernetes 를 통한 웹 어플리케이션 구축 및 관리에 대해 학습중입니다.
 
 ## WORK HISTORY
 
