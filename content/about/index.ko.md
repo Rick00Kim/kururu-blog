@@ -50,6 +50,6 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
     OS
       Windows
     Language
-      Bash, Python, Java, Spring framework, Oracle, JavaScript
+      Bash, Python, Java, Spring framework, Oracle, JavaScript, React, NodeJS
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence
