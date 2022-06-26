@@ -1,3 +1,18 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>KURURU Blog</title><link>https://rick00kim.github.io/kururu-blog/en/</link><description>Welcome to Kururu blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor><webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 +0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Auto register account book</title><link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</link><pubDate>Fri, 10 Sep 2021 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</guid><description>&lt;div class="featured-image">
-&lt;img src="/kururu-blog/register-account-book.jpg" referrerpolicy="no-referrer">
-&lt;/div>Intergrating Slack App with in-company commuting service</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>KURURU Blog</title>
+        <link>https://rick00kim.github.io/kururu-blog/en/</link>
+        <description>Welcome to Kururu blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
+            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</lastBuildDate>
+            <atom:link href="https://rick00kim.github.io/kururu-blog/en/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Auto register account book</title>
+    <link>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</link>
+    <pubDate>Fri, 10 Sep 2021 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/en/posts/projects/register-account-book/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/kururu-blog/register-account-book.jpg" referrerpolicy="no-referrer">
+            </div>Intergrating Slack App with in-company commuting service]]></description>
+</item>
+</channel>
+</rss>
