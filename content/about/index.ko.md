@@ -21,6 +21,14 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
 ## WORK HISTORY
 
+### [AFI](https://www.afidev.com/)
+
+    모바일게임 서버 구축 및 기능 제공 Saas 서비스
+
+##### Devops Engineer
+
+    🔆 2022/08 ~ Present
+
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
     업무·경영 지원서비스
