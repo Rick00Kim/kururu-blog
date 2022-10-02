@@ -3,8 +3,6 @@ title: "외부 Instance를 kubernetes worker node로 설정"
 date: 2022-06-24T10:00:23+09:00
 lastmod: 2022-06-14T17:45:33+09:00
 
-draft: true
-
 tags: ["Devops"]
 categories: ["issues"]
 featuredImage: "k8s-init-using-public-ip.jpg"
@@ -49,8 +47,8 @@ Kubernetes(이하 k8s) 구축단계에서 외부 Instance를 워커노드로 설
    --control-plane-endpoint
    ```
 
-대응중
 
 ## REFERENCES
 
 > [Stack overflow](https://stackoverflow.com/questions/61543832/kubeadm-init-join-using-public-ip)
+
