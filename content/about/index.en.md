@@ -25,7 +25,7 @@ So I am studying Cloud systems through some projects in lately.
 
 | Date (From) | Date (To) | Company name       | Role                | Work                                                                                    |
 | ----------- | --------- | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| 2020.03     | Present   | Recruit (in Japan) | ⚙️ Devops engineer  | Release modules                                                                         |
+| 2020.03     | 2022.03   | Recruit (in Japan) | ⚙️ Devops engineer  | Release modules                                                                         |
 |             |           |                    |                     | Monitoring, Troubleshooting                                                             |
 |             |           |                    |                     | Automate Build, Test Release using CI/CD environment (GitHub, SVN, Jenkins)             |
 |             |           |                    |                     | Planning handle a large amount of traffic and test (An average of 3.5 million per year) |
