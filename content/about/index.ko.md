@@ -30,7 +30,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 ##### Devops Engineer
 
     🔆 2022/08 ~ Present
-      Develop Backend module
+      Backend API 서버 구축 및 개발
       Troubleshooting, resolve issues from client's request.
       Test module, Building CI/CD pipelines
       Looking for Toil and resolve it for improving process
