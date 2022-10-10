@@ -25,7 +25,10 @@ So I am studying Cloud systems through some projects in lately.
 
 | Date (From) | Date (To) | Company name       | Role                | Work                                                                                    |
 | ----------- | --------- | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Release modules, Monitoring, Troubleshooting, Develop Backend APIs                       |
+| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Develop Backend module                                                                  |
+|             |           |                    |                     | Troubleshooting, resolve issues from client's request                                   |
+|             |           |                    |                     | Test module, Building CI/CD pipelines                                                   |
+|             |           |                    |                     | Looking for Toil and resolve it for improving process                                   |
 | 2020.03     | 2022.03   | Recruit (in Japan) | ⚙️ Devops engineer  | Release modules                                                                         |
 |             |           |                    |                     | Monitoring, Troubleshooting                                                             |
 |             |           |                    |                     | Automate Build, Test Release using CI/CD environment (GitHub, SVN, Jenkins)             |
