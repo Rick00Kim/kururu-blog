@@ -31,9 +31,9 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
     🔆 2022/08 ~ Present
       Backend API 서버 구축 및 개발
-      Troubleshooting, resolve issues from client's request.
-      Test module, Building CI/CD pipelines
-      Looking for Toil and resolve it for improving process
+      Troubleshooting, 고객 요구사항에 따른 Backend API 설계 및 구축
+      Backend API, Back-office API 테스트
+      Toil 정책 수렴 및 대응, 프로세스 개선
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
