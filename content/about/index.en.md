@@ -25,7 +25,7 @@ So I am studying Cloud systems through some projects in lately.
 
 | Date (From) | Date (To) | Company name       | Role                | Work                                                                                    |
 | ----------- | --------- | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Design and Develop Backend module                                                                  |
+| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Design and Develop Backend module                                                       |
 |             |           |                    |                     | Troubleshooting, resolve issues from client's request                                   |
 |             |           |                    |                     | Test module, Building CI/CD pipelines                                                   |
 |             |           |                    |                     | Looking for Toil and resolve it for improving process                                   |

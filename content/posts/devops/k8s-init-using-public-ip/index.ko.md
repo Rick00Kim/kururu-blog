@@ -47,8 +47,6 @@ Kubernetes(이하 k8s) 구축단계에서 외부 Instance를 워커노드로 설
    --control-plane-endpoint
    ```
 
-
 ## REFERENCES
 
 > [Stack overflow](https://stackoverflow.com/questions/61543832/kubeadm-init-join-using-public-ip)
-
