@@ -12,7 +12,7 @@ math:
 ## SUMMARY
 
 Hello, My name is Kuhyun Kim. \
-I'm system engineer in Japan. \
+I worked for system engineer in Japan. \
 I have been worked 3 years in develop team. \
 I was implement web application; API, view and Batch application. Both using Java and Spring framework. \
 And I'm current working in Operation team. \
