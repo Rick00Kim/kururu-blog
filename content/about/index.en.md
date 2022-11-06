@@ -53,3 +53,17 @@ So I am studying Cloud systems through some projects in lately.
 |             |           |                    |                     | Test (Unit, intergration, system, UAT)                                                  |
 |             |           |                    |                     | 🛠 Stack: Java, Spring framework, Oracle                                                 |
 |             |           |                    |                     | 🛠 Tools: Slack, Github, JIRA, Confluence                                                |
+
+
+## Skills & Stacks
+
+    Server
+      Unix, Ubuntu
+    OS
+      Windows
+    INFRA
+      AWS
+    Language
+      NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React
+    Tools
+      Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terr
