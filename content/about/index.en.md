@@ -15,13 +15,13 @@ Hello, My name is Kuhyun Kim.
 
 I worked for system engineer in Japan.
 
-I have been worked 3 years in develop team.
+I had been worked 3 years in develop team.
 
 I was implement web application; API, view and Batch application. Both using Java and Spring framework.
 
-And I'm current working in Operation team.
+And I was worked in Operation team.
 
-I mainly do support for Develop teams, server monitoring, writing script for automation and Release to production system.
+I mainly did support for Develop teams, server monitoring, writing script for automation and Release to production system.
 
 Because of my current work environment, I am comfortable working on Linux or Unix systems more than Windows system.
 
