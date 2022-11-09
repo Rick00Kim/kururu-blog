@@ -27,7 +27,9 @@ Because of my current work environment, I am comfortable working on Linux or Uni
 
 I'm interested in new IT technology and I am very experimental.
 
-So I am studying Cloud systems through some projects in lately.
+So I am current working for devops in Korea
+
+I mainly use about AWS cloud system.
 
 ## WORK HISTORY
 
