@@ -27,7 +27,7 @@ Because of my current work environment, I am comfortable working on Linux or Uni
 
 I'm interested in new IT technology and I am very experimental.
 
-So I am current working for devops in Korea
+So I am current working for devops in Korea.
 
 I mainly use about AWS cloud system.
 
@@ -35,7 +35,7 @@ I mainly use about AWS cloud system.
 
 | Date (From) | Date (To) | Company name       | Role                | Work                                                                                    |
 | ----------- | --------- | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Design and Develop Backend module                                                       |
+| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Design and Develop Backend modules                                                       |
 |             |           |                    |                     | Troubleshooting, resolve issues from client's request                                   |
 |             |           |                    |                     | Test module, Building CI/CD pipelines                                                   |
 |             |           |                    |                     | Looking for Toil and resolve it for improving process                                   |
