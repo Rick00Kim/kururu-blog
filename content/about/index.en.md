@@ -22,7 +22,7 @@ And I was worked in Operation team.
 
 I mainly did support for Develop teams, server monitoring, writing script for automation and Release to production system.
 
-Because of my current work environment, I am comfortable working on Linux or Unix systems more than Windows system.
+Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system.
 
 I'm interested in new IT technology and I am very experimental.
 
