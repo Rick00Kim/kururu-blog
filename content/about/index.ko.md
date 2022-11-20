@@ -22,7 +22,6 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 배움에 대한 열정이 남다르다 자신하며, 최근에는 Cloud 인프라 운영 및 관리와 Kubernetes 를 통한 웹 어플리케이션 구축 및 관리에 대해 학습하고 실무에 반영하여 서비스를 보다 안전하고 유연하게 관리할 수 있도록 노력합니다.
 
 
-
 ## WORK HISTORY
 
 ### [AFI](https://www.afidev.com/)
@@ -65,9 +64,9 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
     Server
       Unix, Ubuntu
     OS
-      Windows
+      Windows, Linux
     INFRA
-      AWS
+      AWS, OCI, RedHat(On-premise)
     Language
       NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React
     Tools
