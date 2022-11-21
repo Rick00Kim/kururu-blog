@@ -26,7 +26,7 @@ Because of my current work environment, I am comfortable for working on Linux or
 
 I'm interested in new IT technology and I am very experimental.
 
-So I am current working for devops in Korea.
+So I am current working for devops engineer in Korea.
 
 I mainly use about AWS cloud system.
 
