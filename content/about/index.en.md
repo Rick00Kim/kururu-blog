@@ -28,7 +28,7 @@ I'm interested in new IT technology and I am very experimental.
 
 So I am current working for devops engineer in Korea.
 
-I mainly use about AWS cloud system.
+I mainly use AWS cloud system.
 
 ## WORK HISTORY
 
