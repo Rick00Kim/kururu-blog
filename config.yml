@@ -175,13 +175,13 @@ languages:
         status:
           - faIcon: fas fa-building
             title: Company
-            desc: Recruit group
+            desc:AFI
           - faIcon: fas fa-briefcase fa-fw
             title: Occupation
-            desc: System engineer
+            desc: DevOps engineer
           - title: Location
             faIcon: fas fa-map-marker-alt
-            desc: Japan
+            desc: Korea
         parameter:
           - language: JAVA
             level: "90"
