@@ -1,205 +1,144 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-	<meta name="generator" content="Hugo 0.108.0">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>KURURU Blog</title><meta name="description" content="꾸루루 개발블로그입니다"><meta property="og:title" content="KURURU Blog" />
-<meta property="og:description" content="꾸루루 개발블로그입니다" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://rick00kim.github.io/kururu-blog/" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="KURURU Blog"/>
-<meta name="twitter:description" content="꾸루루 개발블로그입니다"/>
-<meta name="application-name" content="KururuTechBlog">
-<meta name="apple-mobile-web-app-title" content="KururuTechBlog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><meta name="google-site-verification" content="twGvePo9HJ-p7TvsvuVzFVC1fnVGRCkQ-MIxc0X4U90" />
-<link rel="shortcut icon" type="image/x-icon" href="/kururu-blog/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/kururu-blog/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/kururu-blog/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/kururu-blog/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/kururu-blog/site.webmanifest"><link rel="canonical" href="https://rick00kim.github.io/kururu-blog/" /><link rel="alternate" href="/kururu-blog/index.xml" type="application/rss+xml" title="KURURU Blog">
-    <link rel="feed" href="/kururu-blog/index.xml" type="application/rss+xml" title="KURURU Blog"><link rel="stylesheet" href="/kururu-blog/css/home.min.css"><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "https:\/\/rick00kim.github.io\/kururu-blog\/","inLanguage": "ko","author": {
-                "@type": "Person",
-                "name": "Rick_Kim"
-            },"description": "꾸루루 개발블로그입니다","name": "KURURU Blog"
-    }
-    </script></head><body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/kururu-blog/" title="KURURU Blog">KURURU Blog</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/kururu-blog/posts/"> Posts </a><a class="menu-item" href="/kururu-blog/tags/"> Tags </a><a class="menu-item" href="/kururu-blog/categories/"> Categories </a><a class="menu-item" href="/kururu-blog/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
-                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/kururu-blog/en/">English</option><option value="/kururu-blog/" selected>Korean</option></select>
-                    </span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/kururu-blog/" title="KURURU Blog">KURURU Blog</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </div>
-                    <a href="#" class="search-cancel" id="search-cancel-mobile">
-                        Cancel
-                    </a>
-                </div><a class="menu-item" href="/kururu-blog/posts/" title="">Posts</a><a class="menu-item" href="/kururu-blog/tags/" title="">Tags</a><a class="menu-item" href="/kururu-blog/categories/" title="">Categories</a><a class="menu-item" href="/kururu-blog/about/" title="">About</a><div class="menu-item"><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw"></i>
-                </a>
-            </div><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/kururu-blog/en/">English</option><option value="/kururu-blog/" selected>Korean</option></select>
-                </span></div>
-    </div>
+<!doctype html><html lang=ko>
+<head>
+<meta name=generator content="Hugo 0.91.2">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<title>KURURU Blog</title><meta name=description content="꾸루루 개발블로그입니다"><meta property="og:title" content="KURURU Blog">
+<meta property="og:description" content="꾸루루 개발블로그입니다">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rick00kim.github.io/kururu-blog/">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="KURURU Blog">
+<meta name=twitter:description content="꾸루루 개발블로그입니다">
+<meta name=application-name content="KururuTechBlog">
+<meta name=apple-mobile-web-app-title content="KururuTechBlog"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><meta name=google-site-verification content="twGvePo9HJ-p7TvsvuVzFVC1fnVGRCkQ-MIxc0X4U90">
+<link rel="shortcut icon" type=image/x-icon href=/kururu-blog/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/kururu-blog/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/kururu-blog/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/kururu-blog/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/kururu-blog/site.webmanifest><link rel=canonical href=https://rick00kim.github.io/kururu-blog/><link rel=alternate href=/kururu-blog/index.xml type=application/rss+xml title="KURURU Blog">
+<link rel=feed href=/kururu-blog/index.xml type=application/rss+xml title="KURURU Blog"><link rel=stylesheet href=/kururu-blog/css/home.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","url":"https:\/\/rick00kim.github.io\/kururu-blog\/","inLanguage":"ko","author":{"@type":"Person","name":"Rick_Kim"},"description":"꾸루루 개발블로그입니다","name":"KURURU Blog"}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/kururu-blog/ title="KURURU Blog">KURURU Blog</a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/kururu-blog/posts/> Posts </a><a class=menu-item href=/kururu-blog/tags/> Tags </a><a class=menu-item href=/kururu-blog/categories/> Categories </a><a class=menu-item href=/kururu-blog/about/> About </a><span class="menu-item delimiter"></span><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/kururu-blog/en/>English</option><option value=/kururu-blog/ selected>Korean</option></select>
+</span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=# class="search-button search-toggle" id=search-toggle-desktop title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# class="search-button search-clear" id=search-clear-desktop title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a>
+</div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/kururu-blog/ title="KURURU Blog">KURURU Blog</a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=# class="search-button search-toggle" id=search-toggle-mobile title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# class="search-button search-clear" id=search-clear-mobile title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=# class=search-cancel id=search-cancel-mobile>
+Cancel
+</a>
+</div><a class=menu-item href=/kururu-blog/posts/ title>Posts</a><a class=menu-item href=/kururu-blog/tags/ title>Tags</a><a class=menu-item href=/kururu-blog/categories/ title>Categories</a><a class=menu-item href=/kururu-blog/about/ title>About</a><div class=menu-item><a href=javascript:void(0); class=theme-switch title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a>
+</div><span class="menu-item language" title="Select Language">Korean<i class="fas fa-chevron-right fa-fw"></i>
+<select class=language-select onchange="location=this.value"><option value=/kururu-blog/en/>English</option><option value=/kururu-blog/ selected>Korean</option></select>
+</span></div>
+</div>
 </header><div class="search-dropdown desktop">
-    <div id="search-dropdown-desktop"></div>
+<div id=search-dropdown-desktop></div>
 </div>
 <div class="search-dropdown mobile">
-    <div id="search-dropdown-mobile"></div>
-</div><main class="main">
-                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/kururu-blog/about/" title="About"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="/images/avatar.webp"
-        data-srcset="/kururu-blog/images/avatar.webp, /images/avatar.webp 1.5x, /kururu-blog/images/avatar.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/images/avatar.webp"
-        title="/kururu-blog/images/avatar.webp" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/Rick00Kim" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="https://linkedin.com/in/kuhyun-kim-160b9a161" title="LinkedIn" target="_blank" rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw"></i></a><a href="mailto:dreamx119@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a></div></div>
-<div class="summary-card"><article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/devops/ssh-authentication/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="ssh-authentication.webp"
-        data-srcset="/kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp, ssh-authentication.webp 1.5x, /kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp"
-        title="SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/devops/ssh-authentication/">SSH 동작방식과 일부 인증방식 설정</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-10-01">2021-10-01</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/installation/"><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class="content" href="/kururu-blog/posts/devops/ssh-authentication/">SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/devops/">Devops</a></li><li><a href="/kururu-blog/tags/server/">server</a></li><li><a href="/kururu-blog/tags/todo/">TODO</a></li></ul></div>
+<div id=search-dropdown-mobile></div>
+</div><main class=main>
+<div class=container><div class="page home" data-home=posts><div class=home-profile><div class=home-avatar><a href=/kururu-blog/about/ title=About><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=/images/avatar.webp data-srcset="/kururu-blog/images/avatar.webp, /images/avatar.webp 1.5x, /kururu-blog/images/avatar.webp 2x" data-sizes=auto alt=/kururu-blog/images/avatar.webp title=/kururu-blog/images/avatar.webp></a></div><div class=home-subtitle><div id=id-1 class=typeit></div></div><div class=links><a href=https://github.com/Rick00Kim title=GitHub target=_blank rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href=https://linkedin.com/in/kuhyun-kim-160b9a161 title=LinkedIn target=_blank rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw"></i></a><a href=mailto:dreamx119@gmail.com title=Email rel=me><i class="far fa-envelope fa-fw"></i></a></div></div>
+<div class=summary-card><article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/devops/ssh-authentication/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=ssh-authentication.webp data-srcset="/kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp, ssh-authentication.webp 1.5x, /kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp 2x" data-sizes=auto alt=/kururu-blog/posts/devops/ssh-authentication/ssh-authentication.webp title="SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/devops/ssh-authentication/>SSH 동작방식과 일부 인증방식 설정</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2021-10-01>2021-10-01</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/installation/><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class=content href=/kururu-blog/posts/devops/ssh-authentication/>SSH 기본동작방식, 인증방식의 종류와 그중 Public Key인증방식에 필요한 기본설정방법을 제시</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/devops/>Devops</a></li><li><a href=/kururu-blog/tags/server/>server</a></li><li><a href=/kururu-blog/tags/todo/>TODO</a></li></ul></div>
 </article>
-<article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/projects/register-account-book/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="register-account-book.webp"
-        data-srcset="/kururu-blog/posts/projects/register-account-book/register-account-book.webp, register-account-book.webp 1.5x, /kururu-blog/posts/projects/register-account-book/register-account-book.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/projects/register-account-book/register-account-book.webp"
-        title="Slack App을 이용해 사내출퇴근관리시스템내 일부 조작" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/projects/register-account-book/">Slack App과 사내출퇴근서비스를 연동</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-09-10">2021-09-10</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/private_projects/"><i class="far fa-folder fa-fw"></i>private_projects</a></span></div><a class="content" href="/kururu-blog/posts/projects/register-account-book/">Slack App을 이용해 사내출퇴근관리시스템내 일부 조작</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/backend/">backend</a></li><li><a href="/kururu-blog/tags/projects/">projects</a></li></ul></div>
+<article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/projects/register-account-book/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=register-account-book.webp data-srcset="/kururu-blog/posts/projects/register-account-book/register-account-book.webp, register-account-book.webp 1.5x, /kururu-blog/posts/projects/register-account-book/register-account-book.webp 2x" data-sizes=auto alt=/kururu-blog/posts/projects/register-account-book/register-account-book.webp title="Slack App을 이용해 사내출퇴근관리시스템내 일부 조작"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/projects/register-account-book/>Slack App과 사내출퇴근서비스를 연동</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2021-09-10>2021-09-10</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/private_projects/><i class="far fa-folder fa-fw"></i>private_projects</a></span></div><a class=content href=/kururu-blog/posts/projects/register-account-book/>Slack App을 이용해 사내출퇴근관리시스템내 일부 조작</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/backend/>backend</a></li><li><a href=/kururu-blog/tags/projects/>projects</a></li></ul></div>
 </article>
-<article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/devops/python-venv/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="python-venv.webp"
-        data-srcset="/kururu-blog/posts/devops/python-venv/python-venv.webp, python-venv.webp 1.5x, /kururu-blog/posts/devops/python-venv/python-venv.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/devops/python-venv/python-venv.webp"
-        title="특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/devops/python-venv/">Python 가상환경 설정(venv)</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-08-27">2021-08-27</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/installation/"><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class="content" href="/kururu-blog/posts/devops/python-venv/">특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/devops/">Devops</a></li><li><a href="/kururu-blog/tags/backend/">backend</a></li></ul></div>
+<article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/devops/python-venv/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=python-venv.webp data-srcset="/kururu-blog/posts/devops/python-venv/python-venv.webp, python-venv.webp 1.5x, /kururu-blog/posts/devops/python-venv/python-venv.webp 2x" data-sizes=auto alt=/kururu-blog/posts/devops/python-venv/python-venv.webp title="특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/devops/python-venv/>Python 가상환경 설정(venv)</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2021-08-27>2021-08-27</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/installation/><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class=content href=/kururu-blog/posts/devops/python-venv/>특정 버전으로 Python 프로젝트 진행하기 위한 Solution 설명</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/devops/>Devops</a></li><li><a href=/kururu-blog/tags/backend/>backend</a></li></ul></div>
 </article>
-<article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/devops/linux-start-pack/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="linux-start-pack.webp"
-        data-srcset="/kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp, linux-start-pack.webp 1.5x, /kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp"
-        title="Linux 환경내 초기개발도구 설치" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/devops/linux-start-pack/">[Linux] 초기개발도구 환경설정</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-08-25">2021-08-25</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/installation/"><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class="content" href="/kururu-blog/posts/devops/linux-start-pack/">Linux 환경내 초기개발도구 설치</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/devops/">Devops</a></li><li><a href="/kururu-blog/tags/backend/">backend</a></li><li><a href="/kururu-blog/tags/frontend/">frontend</a></li></ul></div>
+<article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/devops/linux-start-pack/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=linux-start-pack.webp data-srcset="/kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp, linux-start-pack.webp 1.5x, /kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp 2x" data-sizes=auto alt=/kururu-blog/posts/devops/linux-start-pack/linux-start-pack.webp title="Linux 환경내 초기개발도구 설치"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/devops/linux-start-pack/>[Linux] 초기개발도구 환경설정</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2021-08-25>2021-08-25</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/installation/><i class="far fa-folder fa-fw"></i>installation</a></span></div><a class=content href=/kururu-blog/posts/devops/linux-start-pack/>Linux 환경내 초기개발도구 설치</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/devops/>Devops</a></li><li><a href=/kururu-blog/tags/backend/>backend</a></li><li><a href=/kururu-blog/tags/frontend/>frontend</a></li></ul></div>
 </article>
-<article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/etc/first-migrate/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="first-migrate.webp"
-        data-srcset="/kururu-blog/posts/etc/first-migrate/first-migrate.webp, first-migrate.webp 1.5x, /kururu-blog/posts/etc/first-migrate/first-migrate.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/etc/first-migrate/first-migrate.webp"
-        title="Hugo를 이용한 static website로 이행 진행" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/etc/first-migrate/">BLOG 이행작업</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-08-18">2021-08-18</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/etc/"><i class="far fa-folder fa-fw"></i>etc</a></span></div><a class="content" href="/kururu-blog/posts/etc/first-migrate/">Hugo를 이용한 static website로 이행 진행</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/todo/">TODO</a></li><li><a href="/kururu-blog/tags/etc/">etc</a></li></ul></div>
+<article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/etc/first-migrate/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=first-migrate.webp data-srcset="/kururu-blog/posts/etc/first-migrate/first-migrate.webp, first-migrate.webp 1.5x, /kururu-blog/posts/etc/first-migrate/first-migrate.webp 2x" data-sizes=auto alt=/kururu-blog/posts/etc/first-migrate/first-migrate.webp title="Hugo를 이용한 static website로 이행 진행"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/etc/first-migrate/>BLOG 이행작업</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2021-08-18>2021-08-18</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/etc/><i class="far fa-folder fa-fw"></i>etc</a></span></div><a class=content href=/kururu-blog/posts/etc/first-migrate/>Hugo를 이용한 static website로 이행 진행</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/todo/>TODO</a></li><li><a href=/kururu-blog/tags/etc/>etc</a></li></ul></div>
 </article>
-<article class="summary" itemscope itemtype="http://schema.org/Article" ><div class="featured-image-preview">
-            <a href="/kururu-blog/posts/cloud/oci-basics/"><img
-        class="lazyload"
-        src="/kururu-blog/svg/loading.min.svg"
-        data-src="oci-basics.webp"
-        data-srcset="/kururu-blog/posts/cloud/oci-basics/oci-basics.webp, oci-basics.webp 1.5x, /kururu-blog/posts/cloud/oci-basics/oci-basics.webp 2x"
-        data-sizes="auto"
-        alt="/kururu-blog/posts/cloud/oci-basics/oci-basics.webp"
-        title="Oracle cloud 학습서" /></a>
-        </div><h2 class="single-title" itemprop="name headline">
-        <a href="/kururu-blog/posts/cloud/oci-basics/">Oracle Cloud Infrastructure 학습하기</a>
-    </h2><div class="post-meta"><span class="post-author"><a href="/kururu-blog/about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-12-26">2020-12-26</time></span>&nbsp;<span class="post-category">included in <a href="/kururu-blog/categories/cloud/"><i class="far fa-folder fa-fw"></i>Cloud</a></span></div><a class="content" href="/kururu-blog/posts/cloud/oci-basics/">Oracle cloud 학습서</a><div class="post-footer"><ul class="post-tags"><li><a href="/kururu-blog/tags/devops/">Devops</a></li><li><a href="/kururu-blog/tags/cloud-system/">cloud-system</a></li></ul></div>
+<article class=summary itemscope itemtype=http://schema.org/Article><div class=featured-image-preview>
+<a href=/kururu-blog/posts/cloud/oci-basics/><img class=lazyload src=/kururu-blog/svg/loading.min.svg data-src=oci-basics.webp data-srcset="/kururu-blog/posts/cloud/oci-basics/oci-basics.webp, oci-basics.webp 1.5x, /kururu-blog/posts/cloud/oci-basics/oci-basics.webp 2x" data-sizes=auto alt=/kururu-blog/posts/cloud/oci-basics/oci-basics.webp title="Oracle cloud 학습서"></a>
+</div><h2 class=single-title itemprop="name headline">
+<a href=/kururu-blog/posts/cloud/oci-basics/>Oracle Cloud Infrastructure 학습하기</a>
+</h2><div class=post-meta><span class=post-author><a href=/kururu-blog/about title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>Rick_Kim</a></span>&nbsp;<span class=post-publish>published on <time datetime=2020-12-26>2020-12-26</time></span>&nbsp;<span class=post-category>included in <a href=/kururu-blog/categories/cloud/><i class="far fa-folder fa-fw"></i>Cloud</a></span></div><a class=content href=/kururu-blog/posts/cloud/oci-basics/>Oracle cloud 학습서</a><div class=post-footer><ul class=post-tags><li><a href=/kururu-blog/tags/devops/>Devops</a></li><li><a href=/kururu-blog/tags/cloud-system/>cloud-system</a></li></ul></div>
 </article>
-<ul class="pagination"><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/kururu-blog/">1</a>
-                    </span>
-                </li><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/kururu-blog/page/2/">2</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/kururu-blog/page/3/">3</a>
-                    </span>
-                </li></ul></div></div></div>
-            </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> | Theme - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/kururu-blog/about">Rick_Kim</a></span></div>
+<ul class=pagination><li class=page-item>
+<span class=page-link>
+<a href=/kururu-blog/>1</a>
+</span>
+</li><li class="page-item active">
+<span class=page-link>
+<a href=/kururu-blog/page/2/>2</a>
+</span>
+</li><li class=page-item>
+<span class=page-link>
+<a href=/kururu-blog/page/3/>3</a>
+</span>
+</li></ul></div></div></div>
+</main>
+<footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.91.2">Hugo</a> | Theme - <a href=https://github.com/khusika/FeelIt target=_blank rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+</div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2023</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/kururu-blog/about>Rick_Kim</a></span></div>
 </div>
 </footer>
-        </div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-chevron-up fa-fw"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment-alt fa-fw"></i>
-            </a></div><link rel="stylesheet" href="/kururu-blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/kururu-blog/lib/animate/animate.min.css"><script src="/kururu-blog/lib/autocomplete/autocomplete.min.js"></script><script src="/kururu-blog/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/kururu-blog/lib/lazysizes/lazysizes.min.js"></script><script src="/kururu-blog/lib/typeit/typeit.min.js"></script><script>window.config={"code":{"maxShownLines":10},"data":{"id-1":"Happy programmer"},"search":{"algoliaAppID":"UAL0NNJWXE","algoliaIndex":"index.en","algoliaSearchKey":"7b7fbdfb7ee82ee61901f2c6b09b05be","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"]},"duration":null,"speed":null}};</script><script src="/kururu-blog/js/theme.min.js"></script></body></html>
+</div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+<i class="fas fa-chevron-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments">
+<i class="fas fa-comment-alt fa-fw"></i>
+</a></div><link rel=stylesheet href=/kururu-blog/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/kururu-blog/lib/animate/animate.min.css><script src=/kururu-blog/lib/autocomplete/autocomplete.min.js></script><script src=/kururu-blog/lib/algoliasearch/algoliasearch-lite.umd.min.js></script><script src=/kururu-blog/lib/lazysizes/lazysizes.min.js></script><script src=/kururu-blog/lib/typeit/typeit.min.js></script><script>window.config={code:{maxShownLines:10},data:{"id-1":"Happy programmer"},search:{algoliaAppID:"UAL0NNJWXE",algoliaIndex:"index.en",algoliaSearchKey:"7b7fbdfb7ee82ee61901f2c6b09b05be",highlightTag:"em",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"algolia"},typeit:{cursorChar:null,cursorSpeed:null,data:{"id-1":["id-1"]},duration:null,speed:null}}</script><script src=/kururu-blog/js/theme.min.js></script></body></html>

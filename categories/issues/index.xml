@@ -1,24 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>issues - Category - KURURU Blog</title>
-        <link>https://rick00kim.github.io/kururu-blog/categories/issues/</link>
-        <description>issues - Category - KURURU Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor>
-            <webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 24 Jun 2022 10:00:23 &#43;0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/issues/" rel="self" type="application/rss+xml" /><item>
-    <title>외부 Instance를 kubernetes worker node로 설정</title>
-    <link>https://rick00kim.github.io/kururu-blog/posts/devops/k8s-init-using-public-ip/</link>
-    <pubDate>Fri, 24 Jun 2022 10:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/k8s-init-using-public-ip/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/k8s-init-using-public-ip.jpg" referrerpolicy="no-referrer">
-            </div>kubernetes worker node 설정시 발생 Issue를 정리]]></description>
-</item>
-<item>
-    <title>[Issues] Oracle Cloud Infrastructure의 Compute instance 생성 실패</title>
-    <link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-core-out-of-capacity/</link>
-    <pubDate>Mon, 14 Mar 2022 11:00:23 &#43;0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-core-out-of-capacity/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/kururu-blog/oci-core-out-of-capacity.jpg" referrerpolicy="no-referrer">
-            </div>Oracle Cloud Infrastructure 내 특정 컴포넌트 생성시, [Out of host capacity]에러가 발생]]></description>
-</item>
-</channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>issues - Category - KURURU Blog</title><link>https://rick00kim.github.io/kururu-blog/categories/issues/</link><description>issues - Category - KURURU Blog</description><generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>dreamx119@gmail.com (Rick_Kim)</managingEditor><webMaster>dreamx119@gmail.com (Rick_Kim)</webMaster><lastBuildDate>Fri, 24 Jun 2022 10:00:23 +0900</lastBuildDate><atom:link href="https://rick00kim.github.io/kururu-blog/categories/issues/" rel="self" type="application/rss+xml"/><item><title>외부 Instance를 kubernetes worker node로 설정</title><link>https://rick00kim.github.io/kururu-blog/posts/devops/k8s-init-using-public-ip/</link><pubDate>Fri, 24 Jun 2022 10:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/devops/k8s-init-using-public-ip/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/k8s-init-using-public-ip.jpg" referrerpolicy="no-referrer">
+&lt;/div>kubernetes worker node 설정시 발생 Issue를 정리</description></item><item><title>[Issues] Oracle Cloud Infrastructure의 Compute instance 생성 실패</title><link>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-core-out-of-capacity/</link><pubDate>Mon, 14 Mar 2022 11:00:23 +0900</pubDate><author>dreamx119@gmail.com (Rick_Kim)</author><guid>https://rick00kim.github.io/kururu-blog/posts/cloud/oci-core-out-of-capacity/</guid><description>&lt;div class="featured-image">
+&lt;img src="/kururu-blog/oci-core-out-of-capacity.jpg" referrerpolicy="no-referrer">
+&lt;/div>Oracle Cloud Infrastructure 내 특정 컴포넌트 생성시, [Out of host capacity]에러가 발생</description></item></channel></rss>
