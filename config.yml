@@ -209,7 +209,7 @@ languages:
           paginate: 6
           imagePreview: true
 params:
-  version: 1.0.X
+  version: 1.0.1
   defaultTheme: dark
   gitRepo: "https://github.com/Rick00Kim"
   page:
