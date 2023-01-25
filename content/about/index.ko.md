@@ -26,13 +26,14 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
 ### [AFI](https://www.afidev.com/)
 
-    모바일게임 서버 구축 및 기능 제공 Saas 서비스
+    모바일게임 서버 구축 및 기능 제공 Saas 서비스 (FaaS)
 
-##### Devops Engineer
+##### DevOps Engineer
 
-    🔆 2022/08 ~ Present
+    🔆 2022/09 ~ Present
       Backend API 서버 구축 및 개발
-      AWS 기반 인프라 관리
+      IaC 툴을 통한 AWS 기반 인프라 관리
+      AWS 전체 리소스의 요금최적화
       Troubleshooting, 고객 요구사항에 따른 Backend API 설계 및 구축
       Backend API, Back-office API 테스트
       Toil 정책 수렴 및 대응, 프로세스 개선
@@ -41,7 +42,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
     업무·경영 지원서비스
 
-##### 1. Devops Engineer
+##### 1. DevOps Engineer
 
     🔆 2020/03 ~ 2022/03
     🔆 팀내 서브리더로 활약
