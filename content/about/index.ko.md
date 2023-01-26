@@ -35,7 +35,8 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
       IaC 툴을 통한 AWS 기반 인프라 관리
       AWS 전체 리소스의 요금최적화
       Troubleshooting, 고객 요구사항에 따른 Backend API 설계 및 구축
-      Backend API, Back-office API 테스트
+      Backend API, Back-office API 개발 및 테스트
+      지속적인 코드 리팩토링 및 시스템 및 DB 정규화
       Toil 정책 수렴 및 대응, 프로세스 개선
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
