@@ -18,7 +18,7 @@ I had been worked 3 years in develop team.
 
 I was implement web application; API, view and Batch application. Both using Java and Spring framework.
 
-And I was worked in Operation team.
+And I was worked in Develop team and Operation team.
 
 I mainly did support for Develop teams, server monitoring, writing script for automation and Release to production system.
 
