@@ -12,7 +12,7 @@ math:
 
 Hello, My name is Kuhyun Kim.
 
-I worked for system engineer in Japan.
+I started working for system engineer in Japan.
 
 I had been worked 3 years in develop team.
 
