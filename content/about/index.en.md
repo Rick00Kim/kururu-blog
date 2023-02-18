@@ -63,7 +63,7 @@ I mainly devleop Game Server using cloud systems (AWS, GCP).
     OS
       Windows
     INFRA
-      AWS
+      AWS, GCP
     Language
       NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React
     Tools
