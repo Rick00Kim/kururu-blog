@@ -59,9 +59,7 @@ I mainly devleop Game Server using cloud systems (AWS, GCP).
 ## Skills & Stacks
 
     Server
-      Unix, Ubuntu
-    OS
-      Windows
+      Unix, Ubuntu, Windows, Ubuntu, CentOS
     INFRA
       AWS, GCP
     Language
