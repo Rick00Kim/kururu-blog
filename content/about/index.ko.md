@@ -64,9 +64,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 ## Skills & Stacks
 
     Server
-      Unix, Ubuntu
-    OS
-      Windows, Linux
+      Unix, Ubuntu, Windows, Linux
     INFRA
       AWS, GCP, OCI, RedHat(On-premise)
     Language
