@@ -65,7 +65,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
     Server
       Unix, Ubuntu, Windows, Linux
-    INFRA
+    Cloud or INFRA
       AWS, GCP, OCI, RedHat(On-premise)
     Language
       NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React, BigQuery
