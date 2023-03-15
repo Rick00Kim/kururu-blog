@@ -60,7 +60,7 @@ I mainly devleop Game Server using cloud systems (AWS, GCP).
 
     Server
       Unix, Ubuntu, Windows, Ubuntu, CentOS
-    INFRA
+    Cloud Infra
       AWS, GCP
     Language
       NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React, BigQuery
