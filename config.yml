@@ -81,14 +81,16 @@ languages:
             faIcon: fas fa-map-marker-alt
             desc: Korea
         parameter:
+          - language: Javascript
+            level: "90"
+          - language: NodeJS
+            level: "90"
           - language: JAVA
             level: "90"
           - language: Bash
             level: "90"
           - language: Python
             level: "80"
-          - language: Javascript
-            level: "70"
           - language: ReactJS
             level: "70"
       home:
@@ -183,14 +185,16 @@ languages:
             faIcon: fas fa-map-marker-alt
             desc: Korea
         parameter:
+          - language: Javascript
+            level: "90"
+          - language: NodeJS
+            level: "90"
           - language: JAVA
             level: "90"
           - language: Bash
             level: "90"
           - language: Python
             level: "80"
-          - language: Javascript
-            level: "70"
           - language: ReactJS
             level: "70"
       home:
