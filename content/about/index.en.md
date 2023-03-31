@@ -20,7 +20,7 @@ I was implement web application; API, view and Batch application. Both using Jav
 
 And I was worked in Develop team and Operation team.
 
-I mainly did support for Develop teams, server monitoring, writing script for automation and Release to production system.
+I mainly do support for Develop teams, server monitoring, writing script for automation and Release to production system.
 
 Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system.
 
