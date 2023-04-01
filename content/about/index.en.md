@@ -32,29 +32,38 @@ I mainly devleop Game Server using cloud systems (AWS, GCP).
 
 ## WORK HISTORY
 
-| Date (From) | Date (To) | Company name       | Role                | Work                                                                                    |
-| ----------- | --------- | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| 2022.08     | Present   | AFI (Thebackend)   | ⚙️ Devops engineer  | Design and Develop Backend modules                                                       |
-|             |           |                    |                     | Troubleshooting, resolve issues from client's request                                   |
-|             |           |                    |                     | Test module, Building CI/CD pipelines                                                   |
-|             |           |                    |                     | Looking for Toil and resolve it for improving process                                   |
-| 2020.03     | 2022.03   | Recruit (in Japan) | ⚙️ Devops engineer  | Release modules                                                                         |
-|             |           |                    |                     | Monitoring, Troubleshooting                                                             |
-|             |           |                    |                     | Automate Build, Test Release using CI/CD environment (GitHub, SVN, Jenkins)             |
-|             |           |                    |                     | Planning handle a large amount of traffic and test (An average of 3.5 million per year) |
-|             |           |                    |                     | Monthly analysis traffic (SLO)                                                          |
-|             |           |                    |                     | Development of automation tools for various simple tasks.                               |
-|             |           |                    |                     | Establishing a service monitoring system (APM, Monitoring Server Resource)              |
-|             |           |                    |                     | Establishing and managing Remote(private)-Repository (Artifactory, etc)                 |
-|             |           |                    |                     | Resolving Toil (To relieve unnecessary work due to like repetitive work)                |
-|             |           |                    |                     | 🛠 Stack: Bash, Python, Java, Springframework, Oracle, JavaScript                        |
-|             |           |                    |                     | 🛠 Tools: Slack, Docker, JFrog, JIRA, Confluence                                         |
-| 2018.01     | 2020.02   | Recruit (in Japan) | 📱 Backend engineer | Develop a web and batch application; client management, transaction management          |
-|             |           |                    |                     | Define, design and develop client requirements                                          |
-|             |           |                    |                     | Test (Unit, intergration, system, UAT)                                                  |
-|             |           |                    |                     | 🛠 Stack: Java, Spring framework, Oracle                                                 |
-|             |           |                    |                     | 🛠 Tools: Slack, Github, JIRA, Confluence                                                |
+### [AFI](https://www.afidev.com/)
 
+##### DevOps Engineer
+
+    🔆 2022/09 ~ Present
+      Design and Develop Backend modules
+      Troubleshooting, resolve issues from client's request
+      Test module, Building CI/CD pipelines
+      Looking for Toil and resolve it for improving process
+
+### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
+
+##### 1. DevOps Engineer
+
+    🔆 2020/03 ~ 2022/03
+    🔆 Role: Sub-leader
+      Release modules
+      Monitoring, Troubleshooting
+      Automate Build, Test Release using CI/CD environment (GitHub, SVN, Jenkins)
+      Planning handle a large amount of traffic and test (An average of 3.5 million per year)
+      Monthly analysis traffic (SLO)
+      Development of automation tools for various simple tasks.
+      Establishing a service monitoring system (APM, Monitoring Server Resource)
+      Establishing and managing Remote(private)-Repository (Artifactory, etc)
+      Resolving Toil (To relieve unnecessary work due to like repetitive work)
+
+##### 2. Backend Engineer
+
+    🔆 2018/01 ~ 2020/02
+      Develop a web and batch application; client management, transaction management
+      Define, design and develop client requirements
+      Test (Unit, intergration, system, UAT)
 
 ## Skills & Stacks
 
