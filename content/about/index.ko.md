@@ -49,7 +49,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
     🔆 팀내 서브리더로 활약
       Module 배포 작업
       서비스 모니터링 시스템  구축 및 관리 (APM, Server Resource 감시), 긴급대응
-      CI/CrD 를 통한 빌드, 테스트, 배포 자동화 (GitHub, SVN, Jenkins)
+      CI/CD 를 통한 빌드, 테스트, 배포 자동화 (GitHub, SVN, Jenkins)
       대량 Traffic 분석 및 Access 집중포화기간에 대한 대비계획과 테스트
       불필요 공수 해소에 대한 대응정책 및 개발 (단순업무의 자동화, 업무내 process의 비효율적요소 인지 및 차단)
       개발팀의 원할한 개발진행을 위한 개발환경구축 및 관리

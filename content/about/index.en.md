@@ -39,7 +39,11 @@ I mainly devleop Game Server using cloud systems (AWS, GCP).
     🔆 2022/09 ~ Present
       Design and Develop Backend modules
       Troubleshooting, resolve issues from client's request
+      Establish and manage service monitoring systems (APM, Server Resource Monitoring), emergency response
+      Establish and manage the development environment for the development team to proceed smoothly
+      Automate build, test, and deployment with CI/CD (GitHub, SVN, Jenkins)
       Test module, Building CI/CD pipelines
+      Policy and development of response to eliminating unnecessary air traffic (automation of simple tasks, recognition of and blocking inefficient factors of processes in the work)
       Looking for Toil and resolve it for improving process
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
