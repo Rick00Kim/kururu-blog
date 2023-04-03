@@ -12,23 +12,23 @@ math:
 
 Hello, My name is Kuhyun Kim.
 
-I started working for system engineer in Japan.
+I started working for system engineer in Japan
 
-I had been worked 4 years in develop team.
+I had been worked 4 years in develop team
 
-I was implement web application; API, view and Batch application. Both using Java and Spring framework.
+I was implement web application; API, view and Batch application. Both using Java and Spring framework
 
-And I was worked in Develop team and Operation team.
+And I was worked in Develop team and Operation team
 
-I mainly do support for Develop teams, server monitoring, writing script for automation and Release to production system.
+I mainly do support for Develop teams, server monitoring, writing script for automation and Release to production system
 
-Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system.
+Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system
 
-I'm interested in new IT technology and I am very experimental.
+I'm interested in new IT technology and I am very experimental
 
-So I am current working for devops engineer in Korea.
+Then, I am current working for devops engineer in Korea.
 
-I mainly devleop Game Server using cloud systems (AWS, GCP).
+I mainly devleop Game Server using cloud systems (AWS, GCP)
 
 ## WORK HISTORY
 
