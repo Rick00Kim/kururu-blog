@@ -51,7 +51,7 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
 ##### 1. DevOps Engineer
 
     🔆 2020/03 ~ 2022/03
-    🔆 Role: Sub-leader
+    🔆 Role in team: Sub-leader
       Release modules
       Monitoring, Troubleshooting
       Automate Build, Test Release using CI/CD environment (GitHub, SVN, Jenkins)
