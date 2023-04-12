@@ -67,6 +67,6 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
     Cloud or INFRA
       AWS, GCP, OCI, RedHat(On-premise)
     Language
-      NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React, BigQuery
+      NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React
     Tools
-      Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
+      Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform, BigQuery
