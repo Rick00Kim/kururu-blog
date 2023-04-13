@@ -26,7 +26,7 @@ Because of my current work environment, I am comfortable for working on Linux or
 
 I'm interested in new IT technology and I am very experimental
 
-Then, I am current working for devops engineer in Korea.
+Then, I am current working for devops engineer in Korea
 
 I mainly devleop Game Server using cloud systems (AWS, GCP)
 
