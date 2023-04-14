@@ -2,6 +2,7 @@
 title: "Who is KURURU"
 date: 2021-08-19T11:04:49+08:00
 
+
 lightgallery: true
 
 math:
@@ -10,7 +11,7 @@ math:
 
 ## SUMMARY
 
-4년간 Backend 개발자를 시작으로 현재 DevOps 엔지니어로서 재직중입니다.
+5년간 Backend 개발자를 시작으로 현재 DevOps 엔지니어로서 재직중입니다.
 
 Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및 거래내역관리 Web application 과 Batch appliction 설계, 개발, 테스트 및 성능개선을 주로 담당했습니다.
 
