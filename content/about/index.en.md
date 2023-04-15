@@ -46,6 +46,10 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
       Policy and development of response to eliminating unnecessary air traffic (automation of simple tasks, recognition of and blocking inefficient factors of processes in the work)
       Looking for Toil and resolve it for improving process
 
+### Career break
+
+   for relocation
+
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
 ##### 1. DevOps Engineer
