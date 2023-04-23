@@ -39,6 +39,12 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
       Toil 정책 수렴 및 대응, 프로세스 개선, 업무환경 분석 및 개선
       새로운 운영 프로세스 기획 및 적용
 
+### Career break
+
+   Period: 2022/04 - 2022/08
+
+   for relocation
+   
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
     업무·경영 지원서비스
