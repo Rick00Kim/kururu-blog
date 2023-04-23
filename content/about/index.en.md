@@ -48,6 +48,8 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
 
 ### Career break
 
+   Period: 2022/04 - 2022/08
+
    for relocation
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
