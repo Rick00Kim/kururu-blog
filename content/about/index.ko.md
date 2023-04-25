@@ -41,9 +41,9 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
 ### Career break
 
-   Period: 2022/04 - 2022/08
+   기간: 2022/04 - 2022/08
 
-   for relocation
+   개인정비 및 휴가
    
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
