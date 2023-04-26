@@ -82,6 +82,8 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
     Cloud Infra
       AWS, GCP(BigQuery)
     Language
-      NodeJS(Express.js), Bash, Python, Java, Spring framework, Oracle, JavaScript, React
+      NodeJS(Express.js), Bash, Python, Java, Spring framework, JavaScript, React
+    Databases
+      Oracle, MySQL, MongoDB, AWS DynamoDB, Redis
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
