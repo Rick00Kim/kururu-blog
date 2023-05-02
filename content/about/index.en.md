@@ -85,5 +85,7 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
       NodeJS(Express.js), Bash, Python, Java, Spring framework, JavaScript, React, GoLang
     Database
       Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse)
+    ETC
+      Grpc, socket programmin
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
