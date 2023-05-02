@@ -86,6 +86,6 @@ I mainly devleop Game Server using cloud systems (AWS, GCP)
     Database
       Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse)
     ETC
-      Grpc, socket programmin
+      Grpc, socket programming
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
