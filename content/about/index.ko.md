@@ -1,5 +1,5 @@
 ---
-title: "Who is KURURU"
+title: "My name is KURURU"
 date: 2021-08-19T11:04:49+08:00
 
 lightgallery: true
