@@ -51,7 +51,7 @@ I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP)
 
    Period: 2022/04 - 2022/08
 
-   for relocation
+   for relocation and self improvement
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
