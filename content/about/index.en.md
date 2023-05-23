@@ -68,6 +68,7 @@ I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP)
       Establishing a service monitoring system (APM, Monitoring Server Resource)
       Establishing and managing Remote(private)-Repository (Artifactory, etc)
       Resolving Toil (To relieve unnecessary work due to like repetitive work)
+      Estimate security of Server and resolve the problem.
 
 ##### 2. Backend Engineer
 
