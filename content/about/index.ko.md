@@ -24,7 +24,7 @@ Backend 개발자로서 Java 와 Spring framework 를 이용해 고객관리 및
 
 ### [AFI](https://www.afidev.com/)
 
-    모바일게임 Saasㅎㅕㅇ 서버 구축 및 기능 제공 서비스 (FaaS)
+    모바일게임 Saas형 서버 구축 및 기능 제공 서비스 (FaaS)
 
 ##### DevOps Engineer
 
