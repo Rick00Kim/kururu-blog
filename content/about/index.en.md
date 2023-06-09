@@ -26,7 +26,7 @@ Because of my current work environment, I am comfortable for working on Linux or
 
 I'm interested in new IT technology and I am very experimental
 
-Then, I am current working for devops engineer in Korea
+And I am current working for devops engineer in Korea
 
 I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system
 
@@ -86,7 +86,7 @@ I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate 
     Language
       NodeJS(Express.js), Bash, Python, Java, Spring framework, JavaScript, React, GoLang
     Database
-      Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse)
+      Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse), ElasticSearch(For search engine)
     ETC
       Grpc, socket programming
     Tools
