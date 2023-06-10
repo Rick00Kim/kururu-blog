@@ -30,6 +30,8 @@ And I am current working for devops engineer in Korea
 
 I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system
 
+Build more safe and reliable system
+
 ## WORK HISTORY
 
 ### [AFI](https://www.afidev.com/)
