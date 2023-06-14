@@ -90,6 +90,6 @@ Build more safe and reliable system
     Database
       Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse), ElasticSearch(For search engine)
     ETC
-      Grpc, socket programming
+      GRPC, socket programming
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
