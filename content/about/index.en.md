@@ -44,7 +44,7 @@ Build more safe and reliable system
       Establish and manage service monitoring systems (APM, Server Resource Monitoring), emergency response
       Establish and manage the development environment for the development team to proceed smoothly
       Automate build, test, and deployment with CI/CD (GitHub, SVN, Jenkins)
-      Test module, Building CI/CD pipelines
+      Test module, Building CI/CD pipelines, improvement
       Policy and development of response to eliminating unnecessary air traffic (automation of simple tasks, recognition of and blocking inefficient factors of processes in the work)
       Looking for Toil and resolve it for improving process
       Design and Management MSA applications
