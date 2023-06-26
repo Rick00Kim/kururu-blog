@@ -10,7 +10,7 @@ math:
 
 ## SUMMARY
 
-Hello, My name is Kuhyun Kim.
+Hello, My name is Kuhyun Kim
 
 I started working for system engineer in Japan
 
