@@ -86,4 +86,4 @@ Backend 개발자로서 이하 작업을 주로 담당했습니다.
     Databases
       Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse)
     Tools
-      Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
+      Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform, Prometheus and Gradana, Datadog
