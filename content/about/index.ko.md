@@ -10,13 +10,13 @@ math:
 
 ## SUMMARY
 
-5년간 Backend 개발자를 시작으로 현재 DevOps 엔지니어로서 재직중입니다.
+5년간 Backend 개발자를 시작으로 현재 DevOps 엔지니어로서 재직중입니다
 
-Backend 개발자로서 이하 작업을 주로 담당했습니다. 
+Backend 개발자로서 이하 작업을 주로 담당했습니다
 - Java 와 Spring framework 를 이용해 고객관리 및 거래내역관리 Web application 개발
 - Batch appliction 설계, 개발, 테스트 및 성능개선
 
-그리고 운영팀에 소속되어 DevOps 엔지니어 역할을 주로 수행했습니다.
+그리고 운영팀에 소속되어 DevOps 엔지니어 역할을 주로 수행했습니다
 - Live server 의 에러 발생시 조사 및 긴급대응
 - CI/CD(Jenkins)을 통한 빌드, 테스트, 배포 자동화
 - 업무내 비효율 process 개선
