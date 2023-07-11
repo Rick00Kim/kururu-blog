@@ -48,6 +48,7 @@ Backend 개발자로서 이하 작업을 주로 담당했습니다
       Toil 정책 수렴 및 대응, 프로세스 개선, 업무환경 분석 및 개선
       새로운 운영 프로세스 기획 및 적용
       모니터링 정책 수렴 및 장애 알림 프로세스 구축
+      Legacy infrastructure Kubernete 이행 및 적용
 
 ### Career break
 
