@@ -14,7 +14,7 @@ Hello, My name is Kuhyun Kim
 
 I started working for system engineer in Japan
 
-I had been worked 4 years in develop team
+I had been worked 4 years in platform develop team
 
 I was implement web application; API, view and Batch application. Both using Java and Spring framework
 
