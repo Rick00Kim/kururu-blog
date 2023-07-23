@@ -1,6 +1,7 @@
 ---
 title: "Who is KURURU"
 date: 2021-10-19T11:04:49+08:00
+updateAt: 2023-07-23T11:04:49+08:00
 
 lightgallery: true
 
