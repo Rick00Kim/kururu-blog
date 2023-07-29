@@ -90,7 +90,7 @@ I build own system more safe and reliable.
       NodeJS(Express.js), Bash, Python, Java, Spring framework, JavaScript, React, GoLang
     Database
       Oracle, MySQL, MongoDB, AWS DynamoDB, Redis, BigQuery(for datawarehouse), ElasticSearch(For search engine)
-    ETC
-      GRPC, socket programming
     Tools
       Slack, Github, Docker, JFrog, JIRA, Confluence, Notion, Kubernetes, Terraform
+    ETC
+      GRPC, socket programming
