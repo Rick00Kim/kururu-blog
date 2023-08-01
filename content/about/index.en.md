@@ -50,6 +50,8 @@ I build own system more safe and reliable.
       Looking for Toil and resolve it for improving process
       Design and Management MSA applications
 
+    🎮 [Backnd](https://thebackend.io)
+
 ### Career break
 
    Period: 2022/04 - 2022/08
