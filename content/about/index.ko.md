@@ -60,7 +60,7 @@ Backend 개발자로서 이하 작업을 주로 담당했습니다
 
 ### [Recurit lifestyle](https://www.recruit.co.jp/) (Contract)
 
-    업무·경영 지원서비스
+    업무·경영 지원서비스 지원 플랫폼
 
 ##### 1. DevOps Engineer
 
