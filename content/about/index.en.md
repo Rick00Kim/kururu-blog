@@ -19,17 +19,17 @@ I had been worked 4 years in platform develop team
 
 I was implement web application; API, view and Batch application. Both using Java and Spring framework
 
-And I was worked in Develop team and Operation team
+And I was worked in Develop team and Operation team.
 
 I mainly do support for Develop teams, server monitoring, writing script for automation and Release to production system
 
-Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system
+Because of my current work environment, I am comfortable for working on Linux or Unix systems more than Windows system.
 
-I'm interested in new IT technology and I am very experimental
+I'm interested in new IT technology and I am very experimental.
 
-And I am current working for devops engineer in Korea
+And I am current working for devops engineer in Korea.
 
-I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system
+I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system.
 
 I build own system more safe and reliable.
 
