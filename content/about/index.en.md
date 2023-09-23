@@ -33,6 +33,8 @@ I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate 
 
 I build own system more safe and reliable.
 
+I also work for bridge enginner(JPN-KOR).
+
 ## WORK HISTORY
 
 ### [AFI](https://www.afidev.com/)
