@@ -29,7 +29,7 @@ I'm interested in new IT technology and I am very experimental.
 
 And I am current working for devops engineer in Korea.
 
-I mainly devleop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system.
+I mainly develop Game Server(Realtime) using cloud systems (AWS, GCP), estimate and save cost of cloud system.
 
 I build own system more safe and reliable.
 
