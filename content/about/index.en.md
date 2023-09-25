@@ -11,9 +11,9 @@ math:
 
 # SUMMARY
 
-Hello, My name is Kuhyun Kim
+Hello, My name is Kuhyun Kim.
 
-I started working for system engineer in Japan
+I started working for system engineer in Japan.
 
 I had been worked 4 years in platform develop team
 
