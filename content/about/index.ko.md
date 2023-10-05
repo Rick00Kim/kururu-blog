@@ -50,6 +50,7 @@ Backend 개발자로서 이하 작업을 주로 담당했습니다
       모니터링 정책 수렴 및 장애 알림 프로세스 구축
       Legacy infrastructure Kubernete 이행 및 적용
       도메인관리
+      서비스 매출 및 운영용 데이터를 위한 데이터 파이프라인 유지보수
 
     🎮 [Backnd](https://thebackend.io)
 
